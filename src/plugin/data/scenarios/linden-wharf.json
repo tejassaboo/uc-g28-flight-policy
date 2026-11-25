@@ -84,7 +84,6 @@
       "ECONOMY"
     ],
     "reason_codes": [
-      "LOWEST_FARE",
       "NO_LISTED_CIRCUMSTANCE",
       "UPGRADE_NOT_ELIGIBLE"
     ],

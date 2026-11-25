@@ -61,23 +61,23 @@ locally with a raised cap.
 
 | Scenario | Category | Expected decision (offer, cabin) | Reason | Approver | Clause (frozen lines) |
 |---|---|---|---|---|---|
-| `cobalt-sedge` | easy | BOOK (sq-economy; ECONOMY) | LOWEST_FARE or NO_LISTED_CIRCUMSTANCE or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (567-569, 570-572, 588-592) |
+| `cobalt-sedge` | easy | BOOK (sq-economy; ECONOMY) | NO_LISTED_CIRCUMSTANCE or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (567-569, 570-572, 588-592) |
 | `drift-saffron` | easy | BOOK (early-business; BUSINESS) | ONLY_CLASS_OFFERED | DEPARTMENT_HEAD or NONE or NOT_NAMED | AIR_TRAVEL or COMMERCIAL_AIRLINES (490-492, 567-569, 570-572, 573) |
 | `quince-harbor` | easy | BOOK (dl-economy; ECONOMY) | LOWEST_FARE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (490-492, 567-569) |
 | `russet-plume` | easy | BOOK (dl-business; BUSINESS) | MEDICAL_NEED | DEPARTMENT_HEAD or NONE or NOT_NAMED | AIR_TRAVEL or COMMERCIAL_AIRLINES (570-572, 586-587) |
 | `tidal-orchid` | easy | BOOK (ba-business; BUSINESS) | CHANCELLOR_WRITTEN_AUTHORIZATION | CHANCELLOR or DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or RESPONSIBILITIES or TRANSPORTATION_EXPENSES (490-492, 588-592) |
 | `willow-crane` | easy | BOOK (aa-economy; ECONOMY) | LOWEST_FARE | DEPARTMENT_HEAD or INVITING_DEPARTMENT or NONE | NON_UNIVERSITY_TRAVELERS or PROSPECTIVE_EMPLOYEES (1462-1464, 1482-1484) |
 | `amber-quay` | boundary_twin | BOOK (ua-economy; ECONOMY) | FLY_AMERICA_US_CARRIER_REQUIRED or NATIONAL_CARRIER_REQUIRED | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES (598-601, 608-616) |
-| `fennel-brook` | boundary_twin | BOOK (aa-economy; ECONOMY) | LOWEST_FARE or NO_LISTED_CIRCUMSTANCE or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (567-569, 570-572, 574-577) |
+| `fennel-brook` | boundary_twin | BOOK (aa-economy; ECONOMY) | NO_LISTED_CIRCUMSTANCE or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (567-569, 570-572, 574-577) |
 | `garnet-loft` | boundary_twin | BOOK (as-economy; ECONOMY) | LOWEST_FARE | DEPARTMENT_HEAD or INVITING_DEPARTMENT or NONE | NON_UNIVERSITY_TRAVELERS or PROSPECTIVE_EMPLOYEES (1462-1464, 1482-1484) |
 | `heron-gorse` | boundary_twin | BOOK (mu-economy; ECONOMY) | FLY_AMERICA_EXCEPTION or LOWEST_FARE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (490-492, 598-601, 608-616) |
-| `linden-wharf` | boundary_twin | BOOK (ua-economy; ECONOMY) | LOWEST_FARE or NO_LISTED_CIRCUMSTANCE or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (567-569, 570-572, 578-579) |
+| `linden-wharf` | boundary_twin | BOOK (ua-economy; ECONOMY) | NO_LISTED_CIRCUMSTANCE or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (567-569, 570-572, 578-579) |
 | `pewter-moth` | boundary_twin | BOOK (aa-business; BUSINESS) | COACH_MORE_EXPENSIVE or COST_SAVINGS or LOWEST_FARE | DEPARTMENT_HEAD or NONE or NOT_NAMED | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (490-492, 570-572, 574-577) |
 | `slate-fern` | boundary_twin | REFUSE (none; NONE) | INTERVIEW_ROUND_TRIP_LIMIT or NO_COMPLIANT_OFFER or PERSONAL_TRAVEL_NOT_COVERED | INVITING_DEPARTMENT or NONE | NON_UNIVERSITY_TRAVELERS or PROSPECTIVE_EMPLOYEES or REIMBURSEMENT_STANDARDS (153-156, 1482-1484) |
 | `sorrel-dune` | boundary_twin | BOOK (ua-business; BUSINESS) | OVERNIGHT_TRAVEL_NO_REST | DEPARTMENT_HEAD or NONE or NOT_NAMED | AIR_TRAVEL or COMMERCIAL_AIRLINES (570-572, 578-579, 584-585) |
 | `cinder-vale` | multi_rule | BOOK (ua-economy; ECONOMY) | FLY_AMERICA_US_CARRIER_REQUIRED or NATIONAL_CARRIER_REQUIRED or NO_LISTED_CIRCUMSTANCE or SPONSOR_TERMS_DO_NOT_GOVERN or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or INTRODUCTION (120-121, 567-569, 570-572, 598-601, 604-607) |
 | `ember-coast` | multi_rule | BOOK (jl-economy; ECONOMY) | APPROVER_NOT_AUTHORIZED or NO_LISTED_CIRCUMSTANCE or SELF_APPROVAL or UPGRADE_NOT_ELIGIBLE | CHANCELLOR or DEPARTMENT_HEAD or NONE | AIR_TRAVEL or CLAIM_APPROVAL or COMMERCIAL_AIRLINES (321-322, 567-569, 588-592) |
-| `lichen-sound` | multi_rule | BOOK (af-economy; ECONOMY) | LOWEST_FARE or SPONSOR_TERMS_MORE_RESTRICTIVE or UPGRADE_NOT_ELIGIBLE | CHANCELLOR or DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or INTRODUCTION (120-121, 567-569, 588-592) |
+| `lichen-sound` | multi_rule | BOOK (af-economy; ECONOMY) | SPONSOR_TERMS_MORE_RESTRICTIVE or UPGRADE_NOT_ELIGIBLE | CHANCELLOR or DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or INTRODUCTION (120-121, 567-569, 588-592) |
 | `orchid-ridge` | multi_rule | BOOK (jl-business; BUSINESS) | CHANCELLOR_WRITTEN_AUTHORIZATION | CHANCELLOR or CHANCELLOR_DESIGNEE or DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or DEFINITIONS or RESPONSIBILITIES or TRANSPORTATION_EXPENSES (44, 259-272, 588-592) |
 | `peat-lantern` | multi_rule | BOOK (mu-economy; ECONOMY) | LOWEST_FARE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (490-492, 567-569, 598-601) |
 | `briar-kestrel` | hidden_clause | BOOK (ke-business; BUSINESS) | COLLECTIVE_BARGAINING_TERMS | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or INTRODUCTION (122-124, 567-569) |
@@ -215,6 +215,7 @@ nanoagent plugin pack <this folder> /tmp/uc-g28-flight-policy.tar.gz
 
 Offline: `hosts: []`, an empty `.env`, `write: []`, no clock (each case fixes its `booking_date`, on or after the
 July 1, 2026 effective date). Degenerate agents: one that always holds the right offer for unclear words passes
-the 3 unclear holds; one that always books the cheapest seat (approver `NONE`) passes 12 of 32, measured (coach at
-the most economical fare is G-28's default). That is 10 plus `willow-crane` and `garnet-loft`, which accept `NONE`
-again beside the inviting department's approval on file (template SYNC_NOTES 4').
+the 3 unclear holds; one that always books the cheapest seat (approver `NONE`, reason `LOWEST_FARE`) passes 8 of 32, measured (coach at
+the most economical fare is G-28's default). A booking that declines what the traveller asked for gives the
+reason the request is declined (the task says so): the four coach bookings that decline business accept
+`NO_LISTED_CIRCUMSTANCE` or `UPGRADE_NOT_ELIGIBLE` (and the sponsor code), not `LOWEST_FARE`.

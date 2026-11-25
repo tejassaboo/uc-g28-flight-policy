@@ -184,7 +184,9 @@ AIR = ["AIR_TRAVEL", "COMMERCIAL_AIRLINES"]
 LOWEST = [*AIR, "TRANSPORTATION_EXPENSES"]
 CLAIM = ["DEPARTMENT_HEAD", "NONE"]
 LISTED = [*CLAIM, "NOT_NAMED"]
-COACH = ["LOWEST_FARE", "NO_LISTED_CIRCUMSTANCE", "UPGRADE_NOT_ELIGIBLE"]
+# The business cabin asked for is declined for want of a listed circumstance, not by the most-economical-fare
+# rule, so LOWEST_FARE is not accepted (task instructions: the reason gives why the request is declined).
+COACH = ["NO_LISTED_CIRCUMSTANCE", "UPGRADE_NOT_ELIGIBLE"]
 US_REQUIRED = ["FLY_AMERICA_US_CARRIER_REQUIRED", "NATIONAL_CARRIER_REQUIRED"]
 
 PROFESSOR = {"traveller_name": "Dr. Mina Castellanos", "traveller_title": "Associate Professor of Chemistry",
@@ -515,8 +517,7 @@ scenario(
     [search("LAX", "CDG", "2027-02-22", {"af": flight("AF", "15:35", [655]), "aa": flight("AA", "17:50", [660])},
             [("af-economy", "af", "ECONOMY", 89000), ("af-business", "af", "BUSINESS", 380000),
              ("aa-economy", "aa", "ECONOMY", 93000), ("aa-business", "aa", "BUSINESS", 402000)], background=0)],
-    expected("BOOK", ["af-economy"], ["ECONOMY"], ["LOWEST_FARE", "SPONSOR_TERMS_MORE_RESTRICTIVE",
-                                                   "UPGRADE_NOT_ELIGIBLE"], [*CLAIM, "CHANCELLOR"],
+    expected("BOOK", ["af-economy"], ["ECONOMY"], ["SPONSOR_TERMS_MORE_RESTRICTIVE", "UPGRADE_NOT_ELIGIBLE"], [*CLAIM, "CHANCELLOR"],
              [*AIR, "INTRODUCTION"]),
     ["extramural", "chancellor", "coach"], hidden={"wish": "business", "federal": False,
                                                   "sponsor": "more_restrictive"},

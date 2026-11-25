@@ -51,7 +51,10 @@ ID_CATEGORY_ENUMS = [contract.TravellerKind, contract.SignerRole, contract.Paper
 # inviting department's approval on file, SYNC_NOTES 4'); set to what it passes (see README). The always-flag
 # agent passes exactly the three holds over unclear words (it is given the held offer).
 MAX_PASS_ALWAYS_FLAG = 3
-MAX_PASS_ALWAYS_LOWEST = 12
+# LOWEST_FARE is not accepted on a booking that declines the business cabin asked for (template APPROVER_REVIEW,
+# declined requests), so it passes cobble-wren, garnet-loft, heron-gorse, peat-lantern, pewter-moth, quince-harbor,
+# tansy-mere and willow-crane.
+MAX_PASS_ALWAYS_LOWEST = 8
 
 # G-28 has no flight-length rule (rules.DURATION_RULES is empty; see rules.py), so there are no duration
 # cases. The Fly America travel-time comparison is tested in tests/test_uc_checks.py.

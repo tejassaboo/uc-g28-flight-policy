@@ -49,3 +49,21 @@ valid.
 `uv lock --check`, `python3 ../_template/check_shared.py .` (ok), `tools/stock_verify.py` with the NanoAgent venv
 (32 scenarios, 0 failures). `world.py` and every scenario world are unchanged, so `world_diff.py` has nothing to
 report.
+
+## Declined requests (lead's decision after the review, template APPROVER_REVIEW.md)
+
+The booking task's instructions now end: "When you book something other than what the traveller asked for, the
+reason code gives why their request is declined." Accept sets follow it:
+
+- cobalt-sedge, fennel-brook and linden-wharf decline the business cabin asked for and no longer accept
+  `LOWEST_FARE`: the ground is that no listed circumstance holds and no written authorization exists (lines
+  567-592), so `NO_LISTED_CIRCUMSTANCE` or `UPGRADE_NOT_ELIGIBLE`. The paid run answered `LOWEST_FARE` on
+  cobalt-sedge and linden-wharf with the right offer; the new sentence is what should change that, and the
+  re-validation will show whether it does.
+- lichen-sound (business on the Chancellor's letter) is declined by the sponsor's stricter terms (lines 120-121):
+  `SPONSOR_TERMS_MORE_RESTRICTIVE` or `UPGRADE_NOT_ELIGIBLE`, not `LOWEST_FARE`.
+- cinder-vale and ember-coast never accepted `LOWEST_FARE`.
+- Untouched, nothing asked for is declined: cobble-wren, garnet-loft, heron-gorse, peat-lantern, quince-harbor,
+  tansy-mere, willow-crane, and pewter-moth (business granted because coach costs more).
+
+`MAX_PASS_ALWAYS_LOWEST` goes from 12 to 8 of 32 (measured).

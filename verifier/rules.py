@@ -86,7 +86,10 @@ AIR = (Clause.AIR_TRAVEL, Clause.COMMERCIAL_AIRLINES)
 LOWEST = (*AIR, Clause.TRANSPORTATION_EXPENSES)
 CLAIM = (Approver.NONE, Approver.DEPARTMENT_HEAD)  # lines 186-193: the department head approves the claim
 LISTED = (*CLAIM, Approver.NOT_NAMED)  # lines 570-572: "may be authorized", by nobody named
-COACH_REASONS = (ReasonCode.NO_LISTED_CIRCUMSTANCE, ReasonCode.UPGRADE_NOT_ELIGIBLE, ReasonCode.LOWEST_FARE)
+# A booking that declines the cabin asked for gives the reason the request is declined (task instructions): no
+# listed circumstance and no written authorization (lines 567-592). That is not the most-economical-fare rule, so
+# LOWEST_FARE is not accepted on it (template APPROVER_REVIEW, declined requests).
+COACH_REASONS = (ReasonCode.NO_LISTED_CIRCUMSTANCE, ReasonCode.UPGRADE_NOT_ELIGIBLE)
 
 
 def over(rule, offer):
@@ -326,8 +329,7 @@ def business(trip, offers, bookable, federal, hidden):
     granted, pending, refused, notes = chancellor_authority(trip)
     if sponsor == "more_restrictive":  # lines 120-121: the sponsor's stricter terms govern
         # A business sign-off on file goes unused by the economy booking: its role is accepted beside NONE.
-        return coach(economy, federal, [ReasonCode.SPONSOR_TERMS_MORE_RESTRICTIVE, ReasonCode.UPGRADE_NOT_ELIGIBLE,
-                                        ReasonCode.LOWEST_FARE],
+        return coach(economy, federal, [ReasonCode.SPONSOR_TERMS_MORE_RESTRICTIVE, ReasonCode.UPGRADE_NOT_ELIGIBLE],
                      [*AIR, Clause.INTRODUCTION], (*CLAIM, *granted),
                      "Lines 120-121: the award's terms are more restrictive than G-28, so they govern: economy.")
     bases = []
