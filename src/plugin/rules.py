@@ -64,7 +64,10 @@ CONVENTIONS = ()
 US_CARRIERS = ("American Airlines", "Delta Air Lines", "United Airlines", "Alaska Airlines", "JetBlue",
                "Southwest Airlines")
 US_AIRPORTS = ("ATL", "BOS", "ORD", "DFW", "DEN", "JFK", "EWR", "LGA", "IAD", "DCA", "PHL", "CLT", "MIA", "MCO",
-               "IAH", "AUS", "MSP", "DTW", "PHX", "SLC", "LAS", "LAX", "SFO", "SEA", "SAN", "PDX", "HNL", "ANC")
+               "IAH", "AUS", "MSY", "BTR", "SHV", "AEX", "MSP", "DTW", "PHX", "SLC", "LAS", "LAX", "SFO", "SEA",
+               "SAN", "PDX", "HNL", "ANC")
+# SJU (PR) and GUM (GU) are in the world as their own countries; no scenario flies there, and whether a U.S.
+# territory counts for lines 598-601 is not modelled.
 # Line 614: "Extend travel time by at least 6 hours or more" (inclusive). Line 606-607: "by 24 hours or more".
 EXTENSION_MINUTES = 360
 NONSTOP_DELAY_MINUTES = 1440

@@ -15,7 +15,7 @@ from contract import (
 from .answer import answer_key
 from .guide import requirements
 from .scenarios import currency, scenario, trip_record
-from .world import NOTE, search
+from .world import search, search_note
 
 
 def booking_requirements(value: RequirementsInput) -> RequirementsOutput:
@@ -30,7 +30,7 @@ def get_trip(value: TripInput) -> TripOutput:
 def search_flights(value: SearchInput) -> SearchOutput:
     data = scenario(value.scenario)
     offers = search(data, value.origin, value.destination, value.date, value.return_date)
-    return SearchOutput(note=NOTE, currency=currency(), offers=offers)
+    return SearchOutput(note=search_note(value.return_date, offers), currency=currency(), offers=offers)
 
 
 def solve_booking(value: TaskInput) -> SolveOutput:

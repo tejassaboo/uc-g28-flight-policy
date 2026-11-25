@@ -50,6 +50,7 @@ tasks > dict[contract.Task, nanoagent.plugin.v0001.TaskConfig]:
 
       Call get_trip with the task input's case id to read the trip record, then call search_flights for the trip's origin, destination and depart_date (with its return_date when the record gives one). Then call submit with your single decision:
       - BOOK when the university buys a ticket now, with the offer_id of the offer to buy and its cabin;
-      - REFUSE when the university buys no ticket at all for this trip, with an empty offer_id and cabin NONE;
+      - REFUSE when the organisation buys no ticket at all for this request, with an empty offer_id and cabin NONE;
       - FLAG_FOR_APPROVAL when the ticket must wait, either for someone's sign-off or because the regulations' words leave the answer open, with the offer_id of the offer to hold and its cabin.
       Give a reason_code, the approver role and the regulations' section (clause) from their closed lists; use NONE where nothing applies.
+      The case buys one ticket: the one-way fare out, unless the trip record gives a return date for a round-trip ticket, which is then one round-trip fare; otherwise the trip's return is booked separately and is not part of this decision. Times are shown local at each airport and in UTC (no daylight saving), a flight's date is the local date where it leaves, and days between two dates are calendar days.

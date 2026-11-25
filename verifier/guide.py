@@ -19,6 +19,9 @@ CONVENTIONS = (
     ("Fares are whole prices in cents for one passenger, taxes included: a search without a return date lists "
      "one-way fares, and a search with one lists round-trip fares (trip_type ROUND_TRIP) that cover the flights "
      "out and back."),
+    ("Each case buys one ticket: the one-way fare out on the trip's day to leave, unless the trip record gives a "
+     "return date for a round-trip ticket (as for a weekend trip home or a visit), which is then one round-trip "
+     "fare; otherwise the trip's return is booked separately and is not part of this decision."),
     "An offer whose seats_available is false is sold out: its price is shown but it cannot be bought.",
     "Offers on the same flights in different cabins share flight numbers and times.",
     "The trip record's booking_date is today in this world.",

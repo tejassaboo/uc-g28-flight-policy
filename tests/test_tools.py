@@ -10,7 +10,7 @@ from slimconfig import build_output, plain_output
 from contract import TOOLS, RequirementsInput, Scenario, SearchInput, Tool, Topic, TripInput, TripType
 from helpers import build_task_input, first_search, scenarios
 from plugin import booking_requirements, get_trip, search_flights, solve_booking
-from plugin.world import background_offers
+from plugin.world import NO_OFFERS, NO_ROUND_TRIP, NOTE, background_offers, date_of, day_number
 
 ALL = scenarios()
 
@@ -51,6 +51,7 @@ def test_off_scenario_searches_follow_the_background_setting():
     made = search_flights(SearchInput(scenario=Scenario(data["id"]), origin="BOS", destination="ORD", date=booking,
                                       return_date=""))
     assert bool(made.offers) == (handbook()["background_offers"] > 0)
+    assert made.note == (NOTE if made.offers else f"{NOTE} {NO_OFFERS}")
     assert all(offer.trip_type == TripType.ONE_WAY for offer in made.offers)
 
 
@@ -60,6 +61,22 @@ def test_round_trip_background_offers():
     assert all(offer.return_segments[0].origin == "LHR" and offer.return_segments[-1].destination == "BOS"
                for _, offer in made)
     assert all(offer.return_segments[0].depart_local.startswith("2026-12-14") for _, offer in made)
+
+
+def test_a_round_trip_search_in_a_one_way_case_lists_nothing_and_says_so(tmp_path):
+    import verifier
+
+    for data in ALL:
+        if any(search.get("return_date") for search in data["world"]["searches"]):
+            continue
+        out = first_search(data)
+        back = date_of(day_number(out.date) + 2)
+        asked = SearchInput(scenario=out.scenario, origin=out.origin, destination=out.destination, date=out.date,
+                            return_date=back)
+        made = search_flights(asked)
+        assert made.offers == [] and made.note == f"{NOTE} {NO_ROUND_TRIP}", data["id"]
+        assert verifier.verify_output(Tool.SEARCH_FLIGHTS.value, asked, made, str(tmp_path))["valid"], data["id"]
+        assert search_flights(out).note == NOTE, data["id"]
 
 
 def test_bad_searches_raise():

@@ -11,7 +11,7 @@ import yaml
 from helpers import range_text, scenarios
 from plugin.guide import CONVENTIONS
 from plugin.rules import CONVENTIONS as HANDBOOK_CONVENTIONS
-from plugin.world import NOTE
+from plugin.world import NO_OFFERS, NO_ROUND_TRIP, NOTE
 from plugin_spec import ROOT
 
 # "one" and "two" are left out: the shared template text needs them ("one-way", "for one passenger",
@@ -48,7 +48,7 @@ def contract_text():
 
 
 def visible_texts():
-    return manifest_text() + contract_text() + list(CONVENTIONS) + list(HANDBOOK_CONVENTIONS) + [NOTE]
+    return manifest_text() + contract_text() + list(CONVENTIONS) + list(HANDBOOK_CONVENTIONS) + [NOTE, NO_ROUND_TRIP, NO_OFFERS]
 
 
 def words(text):

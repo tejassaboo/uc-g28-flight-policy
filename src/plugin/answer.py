@@ -35,7 +35,16 @@ def shape_problem(key, slots):
     for name in ("cabins", "reason_codes", "approvers", "clauses"):
         if not key[name]:
             return f"{name} is empty"
-    if (key["decision"] == Decision.FLAG_FOR_APPROVAL) != (key["unclear_phrase"] != "" or
-                                                           key["reason_codes"] == [ReasonCode.APPROVAL_REQUIRED]):
-        return "a hold is either over unclear words or over a missing sign-off"
+    # A hold is over unclear words (the phrase, UNCLEAR_POLICY_TEXT, and possibly APPROVAL_REQUIRED beside it) or
+    # over a missing sign-off (APPROVAL_REQUIRED, possibly beside the reason that calls for the sign-off); a
+    # booking or refusal carries neither code and no phrase.
+    reasons = key["reason_codes"]
+    unclear, approval = ReasonCode.UNCLEAR_POLICY_TEXT in reasons, ReasonCode.APPROVAL_REQUIRED in reasons
+    if key["decision"] != Decision.FLAG_FOR_APPROVAL:
+        if unclear or approval or key["unclear_phrase"]:
+            return "a booking or refusal names no hold reason and no unclear phrase"
+    elif key["unclear_phrase"] and not unclear:
+        return "a hold over unclear words carries UNCLEAR_POLICY_TEXT"
+    elif not key["unclear_phrase"] and (unclear or not approval):
+        return "a hold over a missing sign-off carries APPROVAL_REQUIRED and no unclear phrase"
     return ""

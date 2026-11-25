@@ -84,12 +84,25 @@ def test_one_scenario_per_unclear_phrase_and_holds_are_either_unclear_or_approva
             assert expected["decision"] == Decision.FLAG_FOR_APPROVAL.value
             assert isinstance(note, dict) and note["phrase"] == expected["unclear_phrase"], data["id"]
             assert len(note["readings"]) == 2, data["id"]
-            assert expected["reason_codes"] == [ReasonCode.UNCLEAR_POLICY_TEXT.value]
+            # A hold over unclear words: UNCLEAR_POLICY_TEXT, possibly with APPROVAL_REQUIRED beside it.
+            assert ReasonCode.UNCLEAR_POLICY_TEXT.value in expected["reason_codes"], data["id"]
+            assert set(expected["reason_codes"]) <= {ReasonCode.UNCLEAR_POLICY_TEXT.value,
+                                                     ReasonCode.APPROVAL_REQUIRED.value}, data["id"]
         elif expected["decision"] == Decision.FLAG_FOR_APPROVAL.value:
-            assert expected["reason_codes"] == [ReasonCode.APPROVAL_REQUIRED.value], data["id"]
+            # A hold over a missing sign-off: APPROVAL_REQUIRED, possibly beside the reason that calls for it.
+            assert ReasonCode.APPROVAL_REQUIRED.value in expected["reason_codes"], data["id"]
+            assert ReasonCode.UNCLEAR_POLICY_TEXT.value not in expected["reason_codes"], data["id"]
             assert isinstance(note, str) and note.startswith("none"), data["id"]
         else:
             assert note == "none", data["id"]
+
+
+def test_a_return_date_on_file_means_a_pinned_round_trip():
+    """One ticket per case: a trip record gives a return date (a field named return_date, if the handbook's
+    record has one) only when the case's ticket is a round trip, which a pinned search then prices."""
+    for data in ALL:
+        if data["trip"].get("return_date"):
+            assert any(search.get("return_date") for search in data["world"]["searches"]), data["id"]
 
 
 def test_approval_required_is_never_no_compliant_offer():

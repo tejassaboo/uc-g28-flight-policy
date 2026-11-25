@@ -24,6 +24,8 @@ from functools import cache
 from contract import Airport, Cabin, Offer, Segment, TripType
 
 NOTE = "Simulated schedules and fares: real airports and airline names, synthetic flights and prices."
+NO_ROUND_TRIP = "No round-trip fares are listed for this case."
+NO_OFFERS = "No fares are listed for this route and date in this case."
 STREAM = "handbook-world-v1"
 CABIN_RANK = {Cabin.ECONOMY: 1, Cabin.PREMIUM_ECONOMY: 2, Cabin.BUSINESS: 3, Cabin.FIRST: 4}
 
@@ -45,6 +47,10 @@ AIRPORTS = (
     ("MCO", "Orlando International Airport", "Orlando", "US", 28.4312, -81.3081, -300),
     ("IAH", "George Bush Intercontinental Airport", "Houston", "US", 29.9902, -95.3368, -360),
     ("AUS", "Austin-Bergstrom International Airport", "Austin", "US", 30.1975, -97.6664, -360),
+    ("MSY", "Louis Armstrong New Orleans International Airport", "New Orleans", "US", 29.9934, -90.2580, -360),
+    ("BTR", "Baton Rouge Metropolitan Airport", "Baton Rouge", "US", 30.5332, -91.1496, -360),
+    ("SHV", "Shreveport Regional Airport", "Shreveport", "US", 32.4466, -93.8256, -360),
+    ("AEX", "Alexandria International Airport", "Alexandria", "US", 31.3274, -92.5486, -360),
     ("MSP", "Minneapolis-Saint Paul International Airport", "Minneapolis", "US", 44.8848, -93.2223, -360),
     ("DTW", "Detroit Metropolitan Wayne County Airport", "Detroit", "US", 42.2162, -83.3554, -300),
     ("PHX", "Phoenix Sky Harbor International Airport", "Phoenix", "US", 33.4342, -112.0116, -420),
@@ -57,6 +63,8 @@ AIRPORTS = (
     ("PDX", "Portland International Airport", "Portland", "US", 45.5898, -122.5951, -480),
     ("HNL", "Daniel K. Inouye International Airport", "Honolulu", "US", 21.3187, -157.9225, -600),
     ("ANC", "Ted Stevens Anchorage International Airport", "Anchorage", "US", 61.1743, -149.9963, -540),
+    ("SJU", "Luis Munoz Marin International Airport", "San Juan", "PR", 18.4394, -66.0018, -240),
+    ("GUM", "Antonio B. Won Pat International Airport", "Hagatna", "GU", 13.4834, 144.7960, 600),
     ("YYZ", "Toronto Pearson International Airport", "Toronto", "CA", 43.6777, -79.6248, -300),
     ("YOW", "Ottawa Macdonald-Cartier International Airport", "Ottawa", "CA", 45.3225, -75.6692, -300),
     ("YUL", "Montreal-Trudeau International Airport", "Montreal", "CA", 45.4706, -73.7408, -300),
@@ -556,6 +564,8 @@ def search_slots(scenario, origin, destination, date, return_date=""):
         raise ValueError("the return date must be on or after the departure date")
     key = (origin, destination, date, return_date)
     count = default_background(scenario)
+    if return_date and not any(search_spec.get("return_date", "") for search_spec in scenario["world"]["searches"]):
+        count = 0  # a case whose ticket is one way lists no round-trip fares at all (see search_note)
     pinned = []
     for search_spec in scenario["world"]["searches"]:
         if search_key(search_spec) == key:
@@ -568,6 +578,14 @@ def search_slots(scenario, origin, destination, date, return_date=""):
 def search(scenario, origin, destination, date, return_date=""):
     """Every Offer of a search in the scenario's world, in departure order."""
     return [offer for _, offer in search_slots(scenario, origin, destination, date, return_date)]
+
+
+def search_note(return_date, offers):
+    """search_flights' note: where the offers come from, and, for a search that lists nothing, that this case
+    lists no round-trip fares (a round-trip search) or no fares on that route and date (a one-way search)."""
+    if offers:
+        return NOTE
+    return f"{NOTE} {NO_ROUND_TRIP if return_date else NO_OFFERS}"
 
 
 def trip_offers(scenario):

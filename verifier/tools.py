@@ -6,7 +6,7 @@ from .answer import answer_key
 from .checks import compared, result
 from .guide import requirements
 from .scenarios import currency, scenario, trip_record
-from .world import LONGEST_BOOKING_DAYS, NOTE, days_between, is_airport, search
+from .world import LONGEST_BOOKING_DAYS, days_between, is_airport, search, search_note
 
 
 def verify_input(tool, value):
@@ -50,9 +50,9 @@ def verify_output(tool, input_value, output_value):
             return result(False, "get_trip output names another scenario or request")
         return compared(tool.value, output_value.trip, trip_record(data))
     if tool == Tool.SEARCH_FLIGHTS:
-        if output_value.note != NOTE or output_value.currency != currency():
-            return result(False, "search_flights output has another note or currency")
         wanted = search(data, input_value.origin, input_value.destination, input_value.date, input_value.return_date)
+        if output_value.note != search_note(input_value.return_date, wanted) or output_value.currency != currency():
+            return result(False, "search_flights output has another note or currency")
         return result(True, "offers match the bundled world") if output_value.offers == wanted else result(
             False, "search_flights offers differ from the bundled world")
     trip, offers, _, key = answer_key(data)
