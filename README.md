@@ -1,5 +1,7 @@
 # UC G-28 Travel Regulations Flight Policy
 
+**Source of the handbook:** University of California Office of the President, BFB G-28 Travel Regulations (policy.ucop.edu); pinned copy sha256 76e41572.... The agent reads it verbatim (bundled at `src/plugin/data/policy.txt`); flights, fares and trips are synthetic.
+
 **No affiliation with the University of California.** The handbook is the University of California's public
 *Business and Finance Bulletin G-28, Travel Regulations* (issued 1/14/2026, effective 7/1/2026), bundled
 verbatim for research. As a university policy it may be published once it has passed validation (MASTER_PLAN
