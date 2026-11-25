@@ -20,7 +20,7 @@
     "origin": "SAN",
     "destination": "PVG",
     "depart_date": "2027-01-10",
-    "return_date": "2027-01-16",
+    "return_date": "",
     "booking_date": "2026-12-08",
     "purpose": "present NIH-funded results at a symposium in Shanghai",
     "fund_source": "NIH R01 research grant",

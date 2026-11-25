@@ -17,7 +17,7 @@
     "origin": "SFO",
     "destination": "BOS",
     "depart_date": "2026-12-08",
-    "return_date": "2026-12-12",
+    "return_date": "",
     "booking_date": "2026-12-01",
     "purpose": "present a poster at a chemistry conference",
     "fund_source": "campus general funds",
@@ -94,7 +94,8 @@
             "cabin": "ECONOMY",
             "fare_cents": 44200
           }
-        ]
+        ],
+        "background": 2
       }
     ]
   },

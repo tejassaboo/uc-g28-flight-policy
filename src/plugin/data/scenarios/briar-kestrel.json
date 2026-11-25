@@ -19,7 +19,7 @@
     "origin": "SFO",
     "destination": "ICN",
     "depart_date": "2027-02-08",
-    "return_date": "2027-02-13",
+    "return_date": "",
     "booking_date": "2027-01-18",
     "purpose": "instrument calibration at a partner laboratory",
     "fund_source": "campus general funds",

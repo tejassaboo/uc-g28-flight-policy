@@ -17,7 +17,7 @@
     "origin": "SFO",
     "destination": "LHR",
     "depart_date": "2027-02-04",
-    "return_date": "2027-02-08",
+    "return_date": "",
     "booking_date": "2027-01-12",
     "purpose": "sign a research partnership agreement",
     "fund_source": "campus general funds",

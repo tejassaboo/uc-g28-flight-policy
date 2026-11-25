@@ -26,16 +26,18 @@ adds all of it, and the selection methods add parts of it. These plugins are mea
 tokens. Under `full` the first call carries about 31,800 input tokens (regulations; task instructions about
 220; tool and submit schemas, inputs and outputs, about 4,500 at 4 characters a token; the request), and the
 third call up to about 33,900 as the trip record (up to about 430 tokens) and the offers (360 to 1,630) are
-added. A run makes 3 calls (`get_trip`, `search_flights`, `submit`): about 96,800 input tokens per run (96,400
-to 97,800; output tokens not counted). Each single call fits under the hosted cap of 65,536 tokens, but a run's
+added. A run makes 3 calls (`get_trip`, `search_flights`, `submit`): about 96,700 input tokens per run (96,300
+to 97,700; output tokens not counted). Each single call fits under the hosted cap of 65,536 tokens, but a run's
 total crosses it during the third call in every one of the 32 cases, so `full` cannot finish hosted: run it
 locally with a raised cap.
 
 ## Task
 
 - **Input:** `TaskInput`: `scenario` (one of 32 case ids) and `request`, the traveller's own words.
-- **Steps:** `get_trip`, then `search_flights` on the route and date (with `return_date` for a job
-  candidate's round trip), then `submit`.
+- **Steps:** `get_trip`, then `search_flights` on the trip's route and depart date (with `return_date` for a job
+  candidate's round trip), then `submit`. Each case buys one ticket: the trip record gives a `return_date` only
+  where that ticket is a round-trip fare (the 3 candidate cases); every other case buys the one-way flight out,
+  and its record leaves `return_date` empty ("empty when no return is booked here").
 - **Output:** `BookingOutput`: `decision`, `offer_id` (empty when refusing), `cabin` (`NONE` when refusing; the
   chosen offer's own cabin otherwise), `reason_code`, `approver` and `clause`, each from a closed list. The
   reason list is the template's shared list (codes for rules G-28 lacks) plus G-28 codes such as
@@ -62,7 +64,7 @@ locally with a raised cap.
 | `heron-gorse` | boundary_twin | BOOK (mu-economy; ECONOMY) | FLY_AMERICA_EXCEPTION or LOWEST_FARE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (490-492, 598-601, 608-616) |
 | `linden-wharf` | boundary_twin | BOOK (ua-economy; ECONOMY) | LOWEST_FARE or NO_LISTED_CIRCUMSTANCE or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (567-569, 570-572, 578-579) |
 | `pewter-moth` | boundary_twin | BOOK (aa-business; BUSINESS) | COACH_MORE_EXPENSIVE or COST_SAVINGS or LOWEST_FARE | DEPARTMENT_HEAD or NONE or NOT_NAMED | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (490-492, 570-572, 574-577) |
-| `slate-fern` | boundary_twin | REFUSE (none; NONE) | INTERVIEW_ROUND_TRIP_LIMIT or NO_COMPLIANT_OFFER | INVITING_DEPARTMENT or NONE | PROSPECTIVE_EMPLOYEES (1482-1484) |
+| `slate-fern` | boundary_twin | REFUSE (none; NONE) | INTERVIEW_ROUND_TRIP_LIMIT or NO_COMPLIANT_OFFER | INVITING_DEPARTMENT or NONE | NON_UNIVERSITY_TRAVELERS or PROSPECTIVE_EMPLOYEES (1482-1484) |
 | `sorrel-dune` | boundary_twin | BOOK (ua-business; BUSINESS) | OVERNIGHT_TRAVEL_NO_REST | DEPARTMENT_HEAD or NONE or NOT_NAMED | AIR_TRAVEL or COMMERCIAL_AIRLINES (570-572, 578-579, 584-585) |
 | `cinder-vale` | multi_rule | BOOK (ua-economy; ECONOMY) | FLY_AMERICA_US_CARRIER_REQUIRED or NATIONAL_CARRIER_REQUIRED or NO_LISTED_CIRCUMSTANCE or SPONSOR_TERMS_DO_NOT_GOVERN or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or INTRODUCTION (120-121, 567-569, 570-572, 598-601, 604-607) |
 | `ember-coast` | multi_rule | BOOK (jl-economy; ECONOMY) | APPROVER_NOT_AUTHORIZED or NO_LISTED_CIRCUMSTANCE or SELF_APPROVAL or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or CLAIM_APPROVAL or COMMERCIAL_AIRLINES (321-322, 567-569, 588-592) |
@@ -112,10 +114,12 @@ purpose or fund source" (lines 567-569), and a 1,000-minute nonstop is still coa
 rule and the inclusive six-hour travel-time extension, comparing itineraries that leave at the same time (other
 shapes raise). The other two exceptions (two or more aircraft changes outside the U.S., a 4-hour overseas
 connection) cannot arise in the shared world, where every flight of a U.S. carrier touches a U.S. hub. Background
-offers (two per search, priced far above every pinned fare) appear only in the nine plain coach cases
-(`quince-harbor`, `willow-crane`, `garnet-loft`, `slate-fern`, `ochre-bracken`, `cobble-wren`, `dusk-meadow`,
+offers (two per search, priced far above every pinned fare) appear only on the own search of the nine plain coach
+cases (`quince-harbor`, `willow-crane`, `garnet-loft`, `slate-fern`, `ochre-bracken`, `cobble-wren`, `dusk-meadow`,
 `saffron-glen`, `tallow-brook`); they are off wherever a carrier, a cabin or a flight's timing could change the
-answer.
+answer. The handbook default is none (`handbook.json` `background_offers: 0`), so a search no case pins (another
+date, a return, a round trip) lists no offers: seeded offers there would contradict pinned facts (economy seats
+LAX-HNL in `drift-saffron`, a faster United SAN-PVG itinerary in `heron-gorse`).
 
 ## Tools
 

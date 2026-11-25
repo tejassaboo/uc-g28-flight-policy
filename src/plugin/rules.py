@@ -426,7 +426,7 @@ def candidate(trip, offers, wish):
     clauses = [Clause.PROSPECTIVE_EMPLOYEES, Clause.NON_UNIVERSITY_TRAVELERS]
     if trip.tickets_bought_this_round >= 1:
         return refuse([ReasonCode.INTERVIEW_ROUND_TRIP_LIMIT, ReasonCode.NO_COMPLIANT_OFFER],
-                      [Approver.NONE, Approver.INVITING_DEPARTMENT], [Clause.PROSPECTIVE_EMPLOYEES],
+                      [Approver.NONE, Approver.INVITING_DEPARTMENT], clauses,
                       "Lines 1482-1484: one round-trip coach airfare per round, and this round's is already bought.")
     economy = [offer for offer in offers if offer.seats_available and offer.cabin == Cabin.ECONOMY
                and offer.return_segments]

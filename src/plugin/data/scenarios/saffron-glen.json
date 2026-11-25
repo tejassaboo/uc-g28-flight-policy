@@ -20,7 +20,7 @@
     "origin": "SFO",
     "destination": "DEN",
     "depart_date": "2027-02-15",
-    "return_date": "2027-02-18",
+    "return_date": "",
     "booking_date": "2027-01-25",
     "purpose": "accompany his mother to an NIH-funded conference",
     "fund_source": "NIH R01 grant (no other fund is available for this trip)",
@@ -79,7 +79,8 @@
             "cabin": "ECONOMY",
             "fare_cents": 19900
           }
-        ]
+        ],
+        "background": 2
       }
     ]
   },

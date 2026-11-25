@@ -20,7 +20,7 @@
     "origin": "LAX",
     "destination": "CDG",
     "depart_date": "2027-02-22",
-    "return_date": "2027-03-01",
+    "return_date": "",
     "booking_date": "2027-01-19",
     "purpose": "archive research funded by a private foundation grant",
     "fund_source": "private foundation grant",

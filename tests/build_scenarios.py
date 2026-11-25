@@ -191,14 +191,26 @@ PROFESSOR = {"traveller_name": "Dr. Mina Castellanos", "traveller_title": "Assoc
              "campus": "UC Davis"}
 
 S = []
+BACKGROUND = 2  # background offers on a plain coach case's own search
 
 
 def scenario(id, category, request, trip_, searches, exp, must_keep, *, overlays=(), twin_of="", twin_fact="",
              flag_twins=(), ambiguity="none", distractors=(), notes="", hidden=None):
+    # A case buys one ticket: a round-trip fare where a search pins one, else the one-way flight out. The
+    # trip record gives a return_date only for a round-trip fare ("empty when no return is booked here"), so
+    # the agent is never sent to search for a return the world does not hold.
+    if not any(search_["return_date"] for search_ in searches):
+        trip_ = {**trip_, "return_date": ""}
+    # The handbook's default is no background offers (handbook.json), so a search the scenario does not pin
+    # (another date, a round trip) lists nothing: seeded offers there could contradict the pinned facts
+    # (economy LAX-HNL, a faster United SAN-PVG). The plain coach cases pin two on their own search.
+    searches = [{**search_, "background": BACKGROUND if search_.get("background") is None else search_["background"]}
+                for search_ in searches]
+    world = {"searches": searches}
     S.append({
         "id": id, "category": category, "overlays": list(overlays), "twin_of": twin_of, "twin_fact": twin_fact,
         "flag_twins": list(flag_twins), "ambiguity_note": ambiguity, "request": request, "trip": trip_,
-        "world": {"searches": searches}, "expected": exp, "must_keep": keep(*must_keep),
+        "world": world, "expected": exp, "must_keep": keep(*must_keep),
         "distractors": distract(*distractors), "design_notes": notes, "answer_key_inputs": hidden,
     })
 
@@ -457,7 +469,7 @@ scenario(
         "as": flight("AS", "18:00", back={"depart": "07:00"}), "ua": flight("UA", "19:15", back={"depart": "08:20"})},
         [("as-economy", "as", "ECONOMY", 29900), ("ua-economy", "ua", "ECONOMY", 31200)], return_date="2027-01-27")],
     expected("REFUSE", [], ["NONE"], ["INTERVIEW_ROUND_TRIP_LIMIT", "NO_COMPLIANT_OFFER"], ["INVITING_DEPARTMENT", "NONE"],
-             ["PROSPECTIVE_EMPLOYEES"]),
+             ["NON_UNIVERSITY_TRAVELERS", "PROSPECTIVE_EMPLOYEES"]),
     ["candidate_cap"], hidden=coach_hidden(), overlays=["outside_air_section"],
     twin_of="garnet-loft", twin_fact="round trips already bought for this interview round: 0 or 1",
     notes="The round's one round-trip coach fare is already bought (lines 1482-1484), so the University buys no "

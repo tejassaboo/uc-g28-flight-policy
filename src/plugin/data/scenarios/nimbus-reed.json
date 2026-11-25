@@ -23,7 +23,7 @@
     "origin": "SFO",
     "destination": "ICN",
     "depart_date": "2027-02-02",
-    "return_date": "2027-02-07",
+    "return_date": "",
     "booking_date": "2027-01-13",
     "purpose": "keynote at a materials conference",
     "fund_source": "campus general funds",

@@ -20,7 +20,7 @@
     "origin": "SFO",
     "destination": "HNL",
     "depart_date": "2026-12-27",
-    "return_date": "2027-01-03",
+    "return_date": "",
     "booking_date": "2026-12-07",
     "purpose": "family holiday",
     "fund_source": "campus general funds",
@@ -69,7 +69,8 @@
             "cabin": "ECONOMY",
             "fare_cents": 42100
           }
-        ]
+        ],
+        "background": 2
       }
     ]
   },

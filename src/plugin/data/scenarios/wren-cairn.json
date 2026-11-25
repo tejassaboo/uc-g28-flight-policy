@@ -29,7 +29,7 @@
     "origin": "SFO",
     "destination": "BOS",
     "depart_date": "2027-01-14",
-    "return_date": "2027-01-16",
+    "return_date": "",
     "booking_date": "2026-12-28",
     "purpose": "external review of a partner research center",
     "fund_source": "campus general funds",

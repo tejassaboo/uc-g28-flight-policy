@@ -48,7 +48,7 @@ tasks > dict[contract.Task, nanoagent.plugin.v0001.TaskConfig]:
     instructions: |-
       Handle the traveller's flight booking request in the task input, as the travel regulations of the university allow.
 
-      Call get_trip with the task input's case id to read the trip record, then call search_flights for every route and date your decision needs (give return_date for a round-trip fare). Then call submit with your single decision:
+      Call get_trip with the task input's case id to read the trip record, then call search_flights for the trip's origin, destination and depart_date (with its return_date when the record gives one). Then call submit with your single decision:
       - BOOK when the university buys a ticket now, with the offer_id of the offer to buy and its cabin;
       - REFUSE when the university buys no ticket at all for this trip, with an empty offer_id and cabin NONE;
       - FLAG_FOR_APPROVAL when the ticket must wait, either for someone's sign-off or because the regulations' words leave the answer open, with the offer_id of the offer to hold and its cabin.

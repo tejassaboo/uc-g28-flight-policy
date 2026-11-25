@@ -19,7 +19,7 @@
     "origin": "SFO",
     "destination": "PVG",
     "depart_date": "2026-12-14",
-    "return_date": "2026-12-19",
+    "return_date": "",
     "booking_date": "2026-12-01",
     "purpose": "NIH project meeting with a partner institute",
     "fund_source": "NIH research grant",

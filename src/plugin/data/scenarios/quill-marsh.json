@@ -17,7 +17,7 @@
     "origin": "SFO",
     "destination": "ORD",
     "depart_date": "2026-12-09",
-    "return_date": "2026-12-11",
+    "return_date": "",
     "booking_date": "2026-12-01",
     "purpose": "grants administration training",
     "fund_source": "campus general funds",

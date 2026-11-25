@@ -28,7 +28,7 @@
     "origin": "SFO",
     "destination": "SEA",
     "depart_date": "2026-12-08",
-    "return_date": "2026-12-08",
+    "return_date": "",
     "booking_date": "2026-12-04",
     "purpose": "administrative hearing",
     "fund_source": "campus general funds",

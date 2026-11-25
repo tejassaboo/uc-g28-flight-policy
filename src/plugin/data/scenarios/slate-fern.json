@@ -86,7 +86,8 @@
             "cabin": "ECONOMY",
             "fare_cents": 31200
           }
-        ]
+        ],
+        "background": 2
       }
     ]
   },
@@ -105,6 +106,7 @@
       "NONE"
     ],
     "clauses": [
+      "NON_UNIVERSITY_TRAVELERS",
       "PROSPECTIVE_EMPLOYEES"
     ],
     "unclear_phrase": ""
