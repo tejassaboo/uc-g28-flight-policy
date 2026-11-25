@@ -111,7 +111,9 @@
       "CHANCELLOR_WRITTEN_AUTHORIZATION"
     ],
     "approvers": [
-      "CHANCELLOR"
+      "CHANCELLOR",
+      "DEPARTMENT_HEAD",
+      "NONE"
     ],
     "clauses": [
       "AIR_TRAVEL",

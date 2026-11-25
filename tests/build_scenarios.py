@@ -282,7 +282,7 @@ scenario(
     [search("SFO", "LHR", "2027-02-04", {"ua": flight("UA", "16:10", [630]), "ba": flight("BA", "18:30", [625])},
             [("ua-economy", "ua", "ECONOMY", 98000), ("ua-business", "ua", "BUSINESS", 410000),
              ("ba-economy", "ba", "ECONOMY", 96500), ("ba-business", "ba", "BUSINESS", 395000)], background=0)],
-    expected("BOOK", ["ba-business"], ["BUSINESS"], ["CHANCELLOR_WRITTEN_AUTHORIZATION"], ["CHANCELLOR"],
+    expected("BOOK", ["ba-business"], ["BUSINESS"], ["CHANCELLOR_WRITTEN_AUTHORIZATION"], ["CHANCELLOR", *CLAIM],
              [*LOWEST, "RESPONSIBILITIES"]),
     ["chancellor", "economical"], hidden={"wish": "business", "federal": False},
     notes="The Chancellor's written authorization in advance (lines 588-592; line 492): business, at the lower of the "
@@ -320,7 +320,7 @@ scenario(
         "ua": flight("UA", "08:05", back={"depart": "16:20"}), "aa": flight("AA", "10:40", back={"depart": "13:15"})},
         [("ua-economy", "ua", "ECONOMY", 52000), ("aa-economy", "aa", "ECONOMY", 48400),
          ("aa-business", "aa", "BUSINESS", 160000)], return_date="2027-01-20")],
-    expected("BOOK", ["aa-economy"], ["ECONOMY"], ["LOWEST_FARE"], ["DEPARTMENT_HEAD", "INVITING_DEPARTMENT"],
+    expected("BOOK", ["aa-economy"], ["ECONOMY"], ["LOWEST_FARE"], ["DEPARTMENT_HEAD", "INVITING_DEPARTMENT", "NONE"],
              ["NON_UNIVERSITY_TRAVELERS", "PROSPECTIVE_EMPLOYEES"]),
     ["non_university", "candidate_cap"], hidden=coach_hidden(), overlays=["outside_air_section"],
     notes="A prospective employee approved in advance by the inviting department (lines 1462-1464): one round-trip "
@@ -452,7 +452,7 @@ scenario(
     [search("SEA", "SFO", "2027-01-25", {
         "as": flight("AS", "07:30", back={"depart": "18:10"}), "ua": flight("UA", "09:05", back={"depart": "17:25"})},
         [("as-economy", "as", "ECONOMY", 31800), ("ua-economy", "ua", "ECONOMY", 33400)], return_date="2027-01-29")],
-    expected("BOOK", ["as-economy"], ["ECONOMY"], ["LOWEST_FARE"], ["DEPARTMENT_HEAD", "INVITING_DEPARTMENT"],
+    expected("BOOK", ["as-economy"], ["ECONOMY"], ["LOWEST_FARE"], ["DEPARTMENT_HEAD", "INVITING_DEPARTMENT", "NONE"],
              ["NON_UNIVERSITY_TRAVELERS", "PROSPECTIVE_EMPLOYEES"]),
     ["non_university", "candidate_cap"], hidden=coach_hidden(), overlays=["outside_air_section"],
     twin_of="slate-fern", twin_fact="round trips already bought for this interview round: 0 or 1",
@@ -468,12 +468,14 @@ scenario(
     [search("SFO", "SEA", "2027-01-26", {
         "as": flight("AS", "18:00", back={"depart": "07:00"}), "ua": flight("UA", "19:15", back={"depart": "08:20"})},
         [("as-economy", "as", "ECONOMY", 29900), ("ua-economy", "ua", "ECONOMY", 31200)], return_date="2027-01-27")],
-    expected("REFUSE", [], ["NONE"], ["INTERVIEW_ROUND_TRIP_LIMIT", "NO_COMPLIANT_OFFER"], ["INVITING_DEPARTMENT", "NONE"],
-             ["NON_UNIVERSITY_TRAVELERS", "PROSPECTIVE_EMPLOYEES"]),
-    ["candidate_cap"], hidden=coach_hidden(), overlays=["outside_air_section"],
+    expected("REFUSE", [], ["NONE"], ["INTERVIEW_ROUND_TRIP_LIMIT", "NO_COMPLIANT_OFFER",
+             "PERSONAL_TRAVEL_NOT_COVERED"], ["INVITING_DEPARTMENT", "NONE"],
+             ["NON_UNIVERSITY_TRAVELERS", "PROSPECTIVE_EMPLOYEES", "REIMBURSEMENT_STANDARDS"]),
+    ["candidate_cap", "personal"], hidden=coach_hidden(), overlays=["outside_air_section"],
     twin_of="garnet-loft", twin_fact="round trips already bought for this interview round: 0 or 1",
     notes="The round's one round-trip coach fare is already bought (lines 1482-1484), so the University buys no "
-          "second round trip in the same round.")
+          "second round trip in the same round. The trip is also a visit home mid-round, personal travel that lines "
+          "154-156 keep off University funds, so that reason and section are accepted too.")
 
 # ------------------------------------------------------------------------------------------ multi rule
 
@@ -546,7 +548,7 @@ scenario(
                                            "Business class for Dr. Adeyemi's flight to Tokyo on January 19, 2027")]),
     tokyo(),
     expected("BOOK", ["jl-business"], ["BUSINESS"], ["CHANCELLOR_WRITTEN_AUTHORIZATION"],
-             ["CHANCELLOR", "CHANCELLOR_DESIGNEE"], [*LOWEST, "DEFINITIONS", "RESPONSIBILITIES"]),
+             ["CHANCELLOR", "CHANCELLOR_DESIGNEE", *CLAIM], [*LOWEST, "DEFINITIONS", "RESPONSIBILITIES"]),
     ["chancellor", "delegation", "designee"], hidden={"wish": "business", "federal": False},
     overlays=["outside_air_section"], twin_of="ember-coast",
     twin_fact="the Dean signs for a professor's trip (here) or for her own (ember-coast)",

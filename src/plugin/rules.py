@@ -353,7 +353,9 @@ def business(trip, offers, bookable, federal, hidden):
     if granted:
         clauses = [*LOWEST, Clause.RESPONSIBILITIES] + ([Clause.DEFINITIONS] if Approver.CHANCELLOR_DESIGNEE in granted
                                                          else [])
-        bases.append((ReasonCode.CHANCELLOR_WRITTEN_AUTHORIZATION, granted, clauses, notes))
+        # The booking rests on the written authorization on file: its role, and NONE beside the claim approver,
+        # since readers split on whether a sign-off already given is one the decision "relies on" (SYNC_NOTES 4').
+        bases.append((ReasonCode.CHANCELLOR_WRITTEN_AUTHORIZATION, (*CLAIM, *granted), clauses, notes))
     if len(bases) > 1:
         raise ValueError("more than one basis for business is not modelled")
     if federal and (bases or pending or night is None):
@@ -437,14 +439,19 @@ def candidate(trip, offers, wish):
         raise ValueError("only an approved candidate asking for coach is modelled")
     clauses = [Clause.PROSPECTIVE_EMPLOYEES, Clause.NON_UNIVERSITY_TRAVELERS]
     if trip.tickets_bought_this_round >= 1:
-        return refuse([ReasonCode.INTERVIEW_ROUND_TRIP_LIMIT, ReasonCode.NO_COMPLIANT_OFFER],
-                      [Approver.NONE, Approver.INVITING_DEPARTMENT], clauses,
-                      "Lines 1482-1484: one round-trip coach airfare per round, and this round's is already bought.")
+        return refuse([ReasonCode.INTERVIEW_ROUND_TRIP_LIMIT, ReasonCode.NO_COMPLIANT_OFFER,
+                       ReasonCode.PERSONAL_TRAVEL_NOT_COVERED],
+                      [Approver.NONE, Approver.INVITING_DEPARTMENT], [*clauses, Clause.REIMBURSEMENT_STANDARDS],
+                      "Lines 1482-1484: one round-trip coach airfare per round, and this round's is already bought. "
+                      "The extra round trip modelled (slate-fern) is a trip home in the middle of the round, which "
+                      "lines 154-156 also keep off University funds as personal travel, so that ground is accepted "
+                      "too.")
     economy = [offer for offer in offers if offer.seats_available and offer.cabin == Cabin.ECONOMY
                and offer.return_segments]
     if not economy:
         raise ValueError("a candidate's trip needs round-trip economy offers")
-    # The booking relies on the inviting department's advance approval on file, so not NONE.
+    # The booking relies on the inviting department's advance approval on file; NONE is accepted beside it, as
+    # for any sign-off already given (SYNC_NOTES 4').
     return answer(Decision.BOOK, cheapest(economy), [ReasonCode.LOWEST_FARE],
-                  [Approver.INVITING_DEPARTMENT, Approver.DEPARTMENT_HEAD], clauses,
+                  [Approver.NONE, Approver.INVITING_DEPARTMENT, Approver.DEPARTMENT_HEAD], clauses,
                   "Lines 1462-1464 and 1482-1484: approved in advance; one round-trip coach fare for this round.")

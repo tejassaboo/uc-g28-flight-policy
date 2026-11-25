@@ -65,20 +65,20 @@ locally with a raised cap.
 | `drift-saffron` | easy | BOOK (early-business; BUSINESS) | ONLY_CLASS_OFFERED | DEPARTMENT_HEAD or NONE or NOT_NAMED | AIR_TRAVEL or COMMERCIAL_AIRLINES (490-492, 567-569, 570-572, 573) |
 | `quince-harbor` | easy | BOOK (dl-economy; ECONOMY) | LOWEST_FARE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (490-492, 567-569) |
 | `russet-plume` | easy | BOOK (dl-business; BUSINESS) | MEDICAL_NEED | DEPARTMENT_HEAD or NONE or NOT_NAMED | AIR_TRAVEL or COMMERCIAL_AIRLINES (570-572, 586-587) |
-| `tidal-orchid` | easy | BOOK (ba-business; BUSINESS) | CHANCELLOR_WRITTEN_AUTHORIZATION | CHANCELLOR | AIR_TRAVEL or COMMERCIAL_AIRLINES or RESPONSIBILITIES or TRANSPORTATION_EXPENSES (490-492, 588-592) |
-| `willow-crane` | easy | BOOK (aa-economy; ECONOMY) | LOWEST_FARE | DEPARTMENT_HEAD or INVITING_DEPARTMENT | NON_UNIVERSITY_TRAVELERS or PROSPECTIVE_EMPLOYEES (1462-1464, 1482-1484) |
+| `tidal-orchid` | easy | BOOK (ba-business; BUSINESS) | CHANCELLOR_WRITTEN_AUTHORIZATION | CHANCELLOR or DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or RESPONSIBILITIES or TRANSPORTATION_EXPENSES (490-492, 588-592) |
+| `willow-crane` | easy | BOOK (aa-economy; ECONOMY) | LOWEST_FARE | DEPARTMENT_HEAD or INVITING_DEPARTMENT or NONE | NON_UNIVERSITY_TRAVELERS or PROSPECTIVE_EMPLOYEES (1462-1464, 1482-1484) |
 | `amber-quay` | boundary_twin | BOOK (ua-economy; ECONOMY) | FLY_AMERICA_US_CARRIER_REQUIRED or NATIONAL_CARRIER_REQUIRED | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES (598-601, 608-616) |
 | `fennel-brook` | boundary_twin | BOOK (aa-economy; ECONOMY) | LOWEST_FARE or NO_LISTED_CIRCUMSTANCE or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (567-569, 570-572, 574-577) |
-| `garnet-loft` | boundary_twin | BOOK (as-economy; ECONOMY) | LOWEST_FARE | DEPARTMENT_HEAD or INVITING_DEPARTMENT | NON_UNIVERSITY_TRAVELERS or PROSPECTIVE_EMPLOYEES (1462-1464, 1482-1484) |
+| `garnet-loft` | boundary_twin | BOOK (as-economy; ECONOMY) | LOWEST_FARE | DEPARTMENT_HEAD or INVITING_DEPARTMENT or NONE | NON_UNIVERSITY_TRAVELERS or PROSPECTIVE_EMPLOYEES (1462-1464, 1482-1484) |
 | `heron-gorse` | boundary_twin | BOOK (mu-economy; ECONOMY) | FLY_AMERICA_EXCEPTION or LOWEST_FARE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (490-492, 598-601, 608-616) |
 | `linden-wharf` | boundary_twin | BOOK (ua-economy; ECONOMY) | LOWEST_FARE or NO_LISTED_CIRCUMSTANCE or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (567-569, 570-572, 578-579) |
 | `pewter-moth` | boundary_twin | BOOK (aa-business; BUSINESS) | COACH_MORE_EXPENSIVE or COST_SAVINGS or LOWEST_FARE | DEPARTMENT_HEAD or NONE or NOT_NAMED | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (490-492, 570-572, 574-577) |
-| `slate-fern` | boundary_twin | REFUSE (none; NONE) | INTERVIEW_ROUND_TRIP_LIMIT or NO_COMPLIANT_OFFER | INVITING_DEPARTMENT or NONE | NON_UNIVERSITY_TRAVELERS or PROSPECTIVE_EMPLOYEES (1482-1484) |
+| `slate-fern` | boundary_twin | REFUSE (none; NONE) | INTERVIEW_ROUND_TRIP_LIMIT or NO_COMPLIANT_OFFER or PERSONAL_TRAVEL_NOT_COVERED | INVITING_DEPARTMENT or NONE | NON_UNIVERSITY_TRAVELERS or PROSPECTIVE_EMPLOYEES or REIMBURSEMENT_STANDARDS (153-156, 1482-1484) |
 | `sorrel-dune` | boundary_twin | BOOK (ua-business; BUSINESS) | OVERNIGHT_TRAVEL_NO_REST | DEPARTMENT_HEAD or NONE or NOT_NAMED | AIR_TRAVEL or COMMERCIAL_AIRLINES (570-572, 578-579, 584-585) |
 | `cinder-vale` | multi_rule | BOOK (ua-economy; ECONOMY) | FLY_AMERICA_US_CARRIER_REQUIRED or NATIONAL_CARRIER_REQUIRED or NO_LISTED_CIRCUMSTANCE or SPONSOR_TERMS_DO_NOT_GOVERN or UPGRADE_NOT_ELIGIBLE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or INTRODUCTION (120-121, 567-569, 570-572, 598-601, 604-607) |
 | `ember-coast` | multi_rule | BOOK (jl-economy; ECONOMY) | APPROVER_NOT_AUTHORIZED or NO_LISTED_CIRCUMSTANCE or SELF_APPROVAL or UPGRADE_NOT_ELIGIBLE | CHANCELLOR or DEPARTMENT_HEAD or NONE | AIR_TRAVEL or CLAIM_APPROVAL or COMMERCIAL_AIRLINES (321-322, 567-569, 588-592) |
 | `lichen-sound` | multi_rule | BOOK (af-economy; ECONOMY) | LOWEST_FARE or SPONSOR_TERMS_MORE_RESTRICTIVE or UPGRADE_NOT_ELIGIBLE | CHANCELLOR or DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or INTRODUCTION (120-121, 567-569, 588-592) |
-| `orchid-ridge` | multi_rule | BOOK (jl-business; BUSINESS) | CHANCELLOR_WRITTEN_AUTHORIZATION | CHANCELLOR or CHANCELLOR_DESIGNEE | AIR_TRAVEL or COMMERCIAL_AIRLINES or DEFINITIONS or RESPONSIBILITIES or TRANSPORTATION_EXPENSES (44, 259-272, 588-592) |
+| `orchid-ridge` | multi_rule | BOOK (jl-business; BUSINESS) | CHANCELLOR_WRITTEN_AUTHORIZATION | CHANCELLOR or CHANCELLOR_DESIGNEE or DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or DEFINITIONS or RESPONSIBILITIES or TRANSPORTATION_EXPENSES (44, 259-272, 588-592) |
 | `peat-lantern` | multi_rule | BOOK (mu-economy; ECONOMY) | LOWEST_FARE | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or TRANSPORTATION_EXPENSES (490-492, 567-569, 598-601) |
 | `briar-kestrel` | hidden_clause | BOOK (ke-business; BUSINESS) | COLLECTIVE_BARGAINING_TERMS | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES or INTRODUCTION (122-124, 567-569) |
 | `nectar-isle` | hidden_clause | BOOK (ua-economy; ECONOMY) | FLY_AMERICA_US_CARRIER_REQUIRED or NATIONAL_CARRIER_REQUIRED | DEPARTMENT_HEAD or NONE | AIR_TRAVEL or COMMERCIAL_AIRLINES (598-601, 604-607) |
@@ -115,9 +115,11 @@ awaited; NONE when this decision relies on no one's sign-off, even if a sign-off
 G-28 asks no advance approval of an employee's coach trip; the department head approves the expense claim after
 the trip and checks fund restrictions (lines 186-193). No trip record holds a department head's sign-off, so no
 booking relies on one on file; whether that later claim approval is an "awaited" sign-off the booking relies on
-is left open by the wording, so `DEPARTMENT_HEAD` stays accepted beside `NONE` on employee bookings. A sign-off
-relied on (on file or awaited) is accepted and `NONE` is not; one on file that the decision does not use is
-accepted beside `NONE`; a sign-off whose invalidity a case tests is not accepted for its giver. Per case:
+is left open by the wording, so `DEPARTMENT_HEAD` stays accepted beside `NONE` on employee bookings. A BOOK or
+REFUSE that relies on a sign-off already on file accepts that role and `NONE` (readers split on whether a routine
+sign-off already given is one the decision "relies on"; template SYNC_NOTES 4'); a hold that awaits a sign-off
+accepts only the awaited role, never `NONE`; one on file that the decision does not use is accepted beside
+`NONE`; a sign-off whose invalidity a case tests is not accepted for its giver. Per case:
 
 - `cobalt-sedge`, `quince-harbor`, `amber-quay`, `fennel-brook`, `heron-gorse`, `linden-wharf`, `cinder-vale`,
   `peat-lantern`, `nectar-isle`, `tansy-mere`: coach at the fare the rules pick; nothing on file: `NONE` or
@@ -130,16 +132,17 @@ accepted beside `NONE`; a sign-off whose invalidity a case tests is not accepted
 - `drift-saffron`, `russet-plume`, `pewter-moth`, `sorrel-dune`: a listed circumstance "may be authorized" by
   nobody named (line 570) and is documented on the claim; no sign-off on file (a medical note is not one):
   `NOT_NAMED`, `NONE` or `DEPARTMENT_HEAD`.
-- `tidal-orchid`: business relies on the Chancellor's written authorization on file: `CHANCELLOR` only.
+- `tidal-orchid`: business relies on the Chancellor's written authorization on file: `CHANCELLOR`, `NONE` or
+  `DEPARTMENT_HEAD` (claim approval).
 - `orchid-ridge`: business relies on the Dean's sign-off as the Chancellor's written delegate:
-  `CHANCELLOR_DESIGNEE` or `CHANCELLOR`.
+  `CHANCELLOR_DESIGNEE`, `CHANCELLOR`, `NONE` or `DEPARTMENT_HEAD`.
 - `lichen-sound`: the Chancellor's business authorization on file goes unused (the award's terms force
   economy): `NONE`, `CHANCELLOR` (new) or `DEPARTMENT_HEAD`.
 - `ember-coast`: the Dean's self-approval is the invalid sign-off the case tests, so `CHANCELLOR_DESIGNEE` is not
   accepted; the Chancellor's delegation on file goes unused by the economy booking: `NONE`, `CHANCELLOR` (new) or
   `DEPARTMENT_HEAD`.
 - `willow-crane`, `garnet-loft`: the booking relies on the inviting department's advance approval on file (lines
-  1462-1464): `INVITING_DEPARTMENT` or `DEPARTMENT_HEAD`; `NONE` dropped.
+  1462-1464), already on file: `INVITING_DEPARTMENT`, `DEPARTMENT_HEAD` or `NONE`.
 - `slate-fern`: the refusal does not use the inviting department's approval on file: `NONE` or
   `INVITING_DEPARTMENT`.
 - `saffron-glen`: the refusal relies on no one, and no claim follows it; the Dean's companion pre-approval on file
@@ -212,6 +215,6 @@ nanoagent plugin pack <this folder> /tmp/uc-g28-flight-policy.tar.gz
 
 Offline: `hosts: []`, an empty `.env`, `write: []`, no clock (each case fixes its `booking_date`, on or after the
 July 1, 2026 effective date). Degenerate agents: one that always holds the right offer for unclear words passes
-the 3 unclear holds; one that always books the cheapest seat (approver `NONE`) passes 10 of 32, measured (coach at
-the most economical fare is G-28's default). It passed 12 before the accept-set review: `willow-crane` and
-`garnet-loft` no longer accept `NONE`, since their bookings rely on the inviting department's approval on file.
+the 3 unclear holds; one that always books the cheapest seat (approver `NONE`) passes 12 of 32, measured (coach at
+the most economical fare is G-28's default). That is 10 plus `willow-crane` and `garnet-loft`, which accept `NONE`
+again beside the inviting department's approval on file (template SYNC_NOTES 4').

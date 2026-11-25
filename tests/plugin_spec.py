@@ -47,11 +47,11 @@ ID_CATEGORY_ENUMS = [contract.TravellerKind, contract.SignerRole, contract.Paper
 # How many scenarios a degenerate agent may pass: one that always holds the right offer for approval, and
 # one that always books the cheapest seat (with the right section). Coach at the most economical fare is this
 # handbook's default (lines 490-492, 567-569), so the always-lowest agent passes every case whose right answer
-# is the cheapest seat listed and accepts NONE (the candidates' bookings rely on the inviting department's
-# approval and do not); set to what it passes (see README). The always-flag agent passes exactly the
-# three holds over unclear words (it is given the held offer).
+# is the cheapest seat listed and accepts NONE (the candidates' bookings included: NONE is accepted beside the
+# inviting department's approval on file, SYNC_NOTES 4'); set to what it passes (see README). The always-flag
+# agent passes exactly the three holds over unclear words (it is given the held offer).
 MAX_PASS_ALWAYS_FLAG = 3
-MAX_PASS_ALWAYS_LOWEST = 10
+MAX_PASS_ALWAYS_LOWEST = 12
 
 # G-28 has no flight-length rule (rules.DURATION_RULES is empty; see rules.py), so there are no duration
 # cases. The Fly America travel-time comparison is tested in tests/test_uc_checks.py.

@@ -110,7 +110,8 @@
     ],
     "approvers": [
       "DEPARTMENT_HEAD",
-      "INVITING_DEPARTMENT"
+      "INVITING_DEPARTMENT",
+      "NONE"
     ],
     "clauses": [
       "NON_UNIVERSITY_TRAVELERS",
