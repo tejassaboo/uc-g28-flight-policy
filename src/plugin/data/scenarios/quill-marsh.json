@@ -1,0 +1,134 @@
+{
+  "id": "quill-marsh",
+  "category": "distractor",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please book me on United's 7:30 to Chicago on the 9th, in Economy Plus: it's the extra-legroom economy fare, $79 more than standard economy on that flight.",
+  "trip": {
+    "traveller_name": "Jordan Ellis",
+    "traveller_title": "Program Manager, Office of Research",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Santa Barbara",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "ORD",
+    "depart_date": "2026-12-09",
+    "return_date": "2026-12-11",
+    "booking_date": "2026-12-01",
+    "purpose": "grants administration training",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "Campus local travel policy (on file), seats and extras: extra-legroom seats within economy, such as Economy Plus, are reimbursable.",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "ORD",
+        "date": "2026-12-09",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "07:30",
+            "minutes": [
+              255
+            ]
+          },
+          "aa": {
+            "carrier": "AA",
+            "depart": "09:10",
+            "minutes": [
+              255
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-standard",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 31200
+          },
+          {
+            "slot": "ua-extra",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 39100
+          },
+          {
+            "slot": "aa-economy",
+            "flight": "aa",
+            "cabin": "ECONOMY",
+            "fare_cents": 32400
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "ua-extra"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "CAMPUS_LOCAL_POLICY"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        593,
+        597
+      ],
+      "sha256": "1328e32ef6c7733d027a0058fa4f1354bcc7c79d2db8ebc0d796ae66765bba1b",
+      "quote": "Likewise, reimbursement of higher cost airfare such as Economy Plus, Extra Comfort, etc., within the economy class can be included in the local policy.",
+      "why": "Economy Plus is left to the campus's local policy"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        567,
+        569
+      ],
+      "quote": "Coach class or any discounted class shall be used in the interest of cost-efficiency. This policy applies to all travel (domestic or foreign, or any combination thereof) regardless of the purpose or fund source.",
+      "why": "coach is the rule for every trip, however long"
+    }
+  ],
+  "design_notes": "Higher-cost economy airfare such as Economy Plus can be included in the campus's local policy (lines 593-597), and the local policy on file includes it: the Economy Plus fare. The coach rule (lines 567-569) is met, since Economy Plus is within the economy class.",
+  "answer_key_inputs": {
+    "wish": "economy_plus",
+    "federal": false,
+    "local_policy": "reimburses"
+  }
+}

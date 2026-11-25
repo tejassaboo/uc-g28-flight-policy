@@ -1,0 +1,129 @@
+{
+  "id": "slate-fern",
+  "category": "boundary_twin",
+  "overlays": [
+    "outside_air_section"
+  ],
+  "twin_of": "garnet-loft",
+  "twin_fact": "round trips already bought for this interview round: 0 or 1",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Between the two halves of my second-round visit I need to fly home to Seattle for a day. Please book me San Francisco to Seattle on January 26 and back on the 27th.",
+  "trip": {
+    "traveller_name": "Tomas Lindgren",
+    "traveller_title": "candidate for Director of Research Computing",
+    "traveller_kind": "PROSPECTIVE_EMPLOYEE",
+    "campus": "UC Santa Cruz",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "SEA",
+    "depart_date": "2027-01-26",
+    "return_date": "2027-01-27",
+    "booking_date": "2027-01-04",
+    "purpose": "second-round interviews",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [
+      {
+        "kind": "TRIP_APPROVAL",
+        "signer_name": "Gwen Halvorsen (hiring manager)",
+        "signer_role": "INVITING_DEPARTMENT",
+        "delegate_name": "",
+        "in_writing": true,
+        "signed_on": "2026-12-28",
+        "covers": "Interview travel for Tomas Lindgren, second round"
+      }
+    ],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 2,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 1,
+    "other_notes": [
+      "The candidate lives in Seattle. Second-round interviews run January 25 to 29."
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "SEA",
+        "date": "2027-01-26",
+        "return_date": "2027-01-27",
+        "flights": {
+          "as": {
+            "carrier": "AS",
+            "depart": "18:00",
+            "return": {
+              "depart": "07:00"
+            }
+          },
+          "ua": {
+            "carrier": "UA",
+            "depart": "19:15",
+            "return": {
+              "depart": "08:20"
+            }
+          }
+        },
+        "offers": [
+          {
+            "slot": "as-economy",
+            "flight": "as",
+            "cabin": "ECONOMY",
+            "fare_cents": 29900
+          },
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 31200
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "REFUSE",
+    "offer_slots": [],
+    "cabins": [
+      "NONE"
+    ],
+    "reason_codes": [
+      "INTERVIEW_ROUND_TRIP_LIMIT",
+      "NO_COMPLIANT_OFFER"
+    ],
+    "approvers": [
+      "INVITING_DEPARTMENT",
+      "NONE"
+    ],
+    "clauses": [
+      "PROSPECTIVE_EMPLOYEES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        1482,
+        1484
+      ],
+      "sha256": "ddd329423bb0f7a59e9189d1fe0bf11f023b6e4f136a570e09b752d16b864f04",
+      "quote": "Actual transportation expenses shall not exceed one round-trip coach airfare between the prospective employee's current residence and the interview location for each round of interviews.",
+      "why": "one round-trip coach fare per round"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The round's one round-trip coach fare is already bought (lines 1482-1484), so the University buys no second round trip in the same round.",
+  "answer_key_inputs": {
+    "wish": "coach",
+    "federal": false
+  }
+}

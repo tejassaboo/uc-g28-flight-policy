@@ -1,0 +1,174 @@
+{
+  "id": "cinder-vale",
+  "category": "multi_rule",
+  "overlays": [
+    "dearer_option"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'm off to Shanghai for the NIH project meeting on December 16. Our award budget includes business class for flights over ten hours, so please book business on the 14th.",
+  "trip": {
+    "traveller_name": "Dr. Wei Zhang",
+    "traveller_title": "Professor of Epidemiology",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC San Francisco",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "PVG",
+    "depart_date": "2026-12-14",
+    "return_date": "2026-12-19",
+    "booking_date": "2026-12-01",
+    "purpose": "NIH project meeting with a partner institute",
+    "fund_source": "NIH research grant",
+    "sponsor_travel_terms": "Approved budget: business class may be charged for flights over 10 hours.",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "PVG",
+        "date": "2026-12-14",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "11:30",
+            "minutes": [
+              740
+            ]
+          },
+          "mu": {
+            "carrier": "MU",
+            "depart": "13:00",
+            "minutes": [
+              745
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 141000
+          },
+          {
+            "slot": "ua-business",
+            "flight": "ua",
+            "cabin": "BUSINESS",
+            "fare_cents": 520000
+          },
+          {
+            "slot": "mu-economy",
+            "flight": "mu",
+            "cabin": "ECONOMY",
+            "fare_cents": 102000
+          },
+          {
+            "slot": "mu-business",
+            "flight": "mu",
+            "cabin": "BUSINESS",
+            "fare_cents": 455000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "ua-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "FLY_AMERICA_US_CARRIER_REQUIRED",
+      "NATIONAL_CARRIER_REQUIRED",
+      "NO_LISTED_CIRCUMSTANCE",
+      "SPONSOR_TERMS_DO_NOT_GOVERN",
+      "UPGRADE_NOT_ELIGIBLE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES",
+      "INTRODUCTION"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        567,
+        569
+      ],
+      "sha256": "68e704eec4fb65e5c82ba2a6a0f0231da5518bf20d7baf575569a2fbf34c35df",
+      "quote": "Coach class or any discounted class shall be used in the interest of cost-efficiency. This policy applies to all travel (domestic or foreign, or any combination thereof) regardless of the purpose or fund source.",
+      "why": "coach is the rule for every trip, however long"
+    },
+    {
+      "lines": [
+        570,
+        572
+      ],
+      "sha256": "6f3bd3d0cde5947fdb4e1f893fe49f42e31c00084ce6d81c1f9da619117764b4",
+      "quote": "Use of business or first-class may be authorized under the circumstances listed below.",
+      "why": "business only under a listed circumstance"
+    },
+    {
+      "lines": [
+        120,
+        121
+      ],
+      "sha256": "d093f115d04db19994b2e7d052e5a79b022e7e9f308b6d8e1ad817df3ec9cdc6",
+      "quote": "The terms set forth in an extramural funding agreement govern only when such terms are more restrictive than University travel regulations.",
+      "why": "a sponsor's terms govern only when stricter"
+    },
+    {
+      "lines": [
+        598,
+        601
+      ],
+      "sha256": "f77e727d2d820e12337597b409c29f3fe7d671c84d0f6b79ee0aaf565ed062ab",
+      "quote": "only U.S. air carriers1 shall be used for all travel reimbursed from federal grants and contracts, including NIH grants2.",
+      "why": "Fly America on federal funds"
+    },
+    {
+      "lines": [
+        604,
+        607
+      ],
+      "sha256": "75a1fb5f118e1b3d97748c86170c493cc17d1f5f3263bb2d67d847d546d823de",
+      "quote": "Generally, U.S. air carrier services that provide nonstop or direct service from the origin to the destination must be used, unless such use would extend travel time, including delay at origin, by 24 hours or more;",
+      "why": "a U.S. nonstop must be used"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Three rules: the award's looser terms do not govern (lines 120-121), so coach (no listed circumstance, lines 567-592); and the NIH grant brings Fly America, with a U.S. nonstop that adds no delay (lines 598-607): United's economy fare, dearer than China Eastern's.",
+  "answer_key_inputs": {
+    "wish": "business",
+    "federal": true,
+    "sponsor": "less_restrictive"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "cobalt-sedge",
+  "category": "easy",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'm flying to Singapore for a two-week field campaign. It's nearly seventeen hours nonstop, so please put me in business class.",
+  "trip": {
+    "traveller_name": "Dr. Mina Castellanos",
+    "traveller_title": "Associate Professor of Chemistry",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Davis",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "SIN",
+    "depart_date": "2027-01-06",
+    "return_date": "2027-01-20",
+    "booking_date": "2026-12-15",
+    "purpose": "field campaign with a partner university",
+    "fund_source": "department discretionary fund",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "SIN",
+        "date": "2027-01-06",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "sq": {
+            "carrier": "SQ",
+            "depart": "09:20",
+            "minutes": [
+              1000
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "sq-economy",
+            "flight": "sq",
+            "cabin": "ECONOMY",
+            "fare_cents": 118000
+          },
+          {
+            "slot": "sq-business",
+            "flight": "sq",
+            "cabin": "BUSINESS",
+            "fare_cents": 512000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "sq-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE",
+      "NO_LISTED_CIRCUMSTANCE",
+      "UPGRADE_NOT_ELIGIBLE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES",
+      "TRANSPORTATION_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        567,
+        569
+      ],
+      "sha256": "68e704eec4fb65e5c82ba2a6a0f0231da5518bf20d7baf575569a2fbf34c35df",
+      "quote": "Coach class or any discounted class shall be used in the interest of cost-efficiency. This policy applies to all travel (domestic or foreign, or any combination thereof) regardless of the purpose or fund source.",
+      "why": "coach is the rule for every trip, however long"
+    },
+    {
+      "lines": [
+        570,
+        572
+      ],
+      "sha256": "6f3bd3d0cde5947fdb4e1f893fe49f42e31c00084ce6d81c1f9da619117764b4",
+      "quote": "Use of business or first-class may be authorized under the circumstances listed below.",
+      "why": "business only under a listed circumstance"
+    },
+    {
+      "lines": [
+        588,
+        592
+      ],
+      "sha256": "f4abfef28d800d7d4332e8022f3a083e6ad80f986e6e820a7c1eb76a96869788",
+      "quote": "In cases other than those described above, a written authorization to use business or first-class shall be obtained in advance from the Chancellor.",
+      "why": "outside the list, only the Chancellor's advance written authorization"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        588,
+        590
+      ],
+      "quote": "When a traveler prefers to use a higher class than the one authorized for reimbursement, the traveler must pay the incremental cost of the airfare.",
+      "why": "who pays a self-chosen upgrade; not a way to book one"
+    }
+  ],
+  "design_notes": "G-28 has no flight-length threshold: coach for all travel (lines 567-569); none of the four listed circumstances holds and no written Chancellor authorization is on file (lines 588-592). The fund is not federal, so Fly America does not arise.",
+  "answer_key_inputs": {
+    "wish": "business",
+    "federal": false
+  }
+}

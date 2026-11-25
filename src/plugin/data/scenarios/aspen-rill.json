@@ -1,0 +1,155 @@
+{
+  "id": "aspen-rill",
+  "category": "flag",
+  "overlays": [
+    "unclear_phrase"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [
+    "drift-saffron",
+    "quince-harbor"
+  ],
+  "ambiguity_note": {
+    "phrase": "Business or first-class is the only service offered between two points",
+    "readings": [
+      "coach is offered on the route, only sold out that morning, so business needs the Chancellor's written authorization (lines 588-592)",
+      "business is the only service that can be bought for the trip, so the first listed circumstance (line 573) permits it"
+    ]
+  },
+  "request": "I have to be in Seattle for the 1 p.m. hearing on December 8. Please book me from San Francisco that morning.",
+  "trip": {
+    "traveller_name": "Samira Qureshi",
+    "traveller_title": "Associate Campus Counsel",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC San Francisco",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "SEA",
+    "depart_date": "2026-12-08",
+    "return_date": "2026-12-08",
+    "booking_date": "2026-12-04",
+    "purpose": "administrative hearing",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "2026-12-08 13:00",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "SEA",
+        "date": "2026-12-08",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "as": {
+            "carrier": "AS",
+            "depart": "07:00",
+            "minutes": [
+              130
+            ]
+          },
+          "ua": {
+            "carrier": "UA",
+            "depart": "09:30",
+            "minutes": [
+              130
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "as-economy",
+            "flight": "as",
+            "cabin": "ECONOMY",
+            "fare_cents": 22000,
+            "seats": false
+          },
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 24500,
+            "seats": false
+          },
+          {
+            "slot": "ua-business",
+            "flight": "ua",
+            "cabin": "BUSINESS",
+            "fare_cents": 61000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "FLAG_FOR_APPROVAL",
+    "offer_slots": [
+      "ua-business"
+    ],
+    "cabins": [
+      "BUSINESS"
+    ],
+    "reason_codes": [
+      "UNCLEAR_POLICY_TEXT"
+    ],
+    "approvers": [
+      "CHANCELLOR",
+      "NOT_NAMED"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES"
+    ],
+    "unclear_phrase": "Business or first-class is the only service offered between two points"
+  },
+  "must_keep": [
+    {
+      "lines": [
+        567,
+        569
+      ],
+      "sha256": "68e704eec4fb65e5c82ba2a6a0f0231da5518bf20d7baf575569a2fbf34c35df",
+      "quote": "Coach class or any discounted class shall be used in the interest of cost-efficiency. This policy applies to all travel (domestic or foreign, or any combination thereof) regardless of the purpose or fund source.",
+      "why": "coach is the rule for every trip, however long"
+    },
+    {
+      "lines": [
+        570,
+        572
+      ],
+      "sha256": "6f3bd3d0cde5947fdb4e1f893fe49f42e31c00084ce6d81c1f9da619117764b4",
+      "quote": "Use of business or first-class may be authorized under the circumstances listed below.",
+      "why": "business only under a listed circumstance"
+    },
+    {
+      "lines": [
+        573,
+        573
+      ],
+      "sha256": "8fab448147201398b1d48d457ad00834297eadc22008ee55b05b1a4c37f27d60",
+      "quote": "Business or first-class is the only service offered between two points;",
+      "why": "first listed circumstance"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Every coach seat that morning is sold out and business has seats. Twins: drift-saffron (no coach service on the route at all: book business) and quince-harbor (coach seats available: the lowest economy fare).",
+  "answer_key_inputs": {
+    "wish": "coach",
+    "federal": false
+  }
+}

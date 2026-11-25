@@ -1,0 +1,173 @@
+{
+  "id": "ember-coast",
+  "category": "multi_rule",
+  "overlays": [
+    "outside_air_section"
+  ],
+  "twin_of": "orchid-ridge",
+  "twin_fact": "the Dean signs for a professor's trip (orchid-ridge) or for her own (here)",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I've signed off on business class for my own flight to Tokyo on January 19 under the Chancellor's delegation to me. If that doesn't hold up, coach is fine.",
+  "trip": {
+    "traveller_name": "Dean Rosa Lindqvist",
+    "traveller_title": "Dean, College of Engineering",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Davis",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "NRT",
+    "depart_date": "2027-01-19",
+    "return_date": "2027-01-26",
+    "booking_date": "2026-12-21",
+    "purpose": "robotics consortium meeting",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [
+      {
+        "kind": "DELEGATION",
+        "signer_name": "Chancellor Miriam Okafor",
+        "signer_role": "CHANCELLOR",
+        "delegate_name": "Dean Rosa Lindqvist",
+        "in_writing": true,
+        "signed_on": "2026-08-03",
+        "covers": "Dean Rosa Lindqvist may approve exceptions to the travel policy, including flights above coach, for the College of Engineering"
+      },
+      {
+        "kind": "CABIN_ABOVE_COACH",
+        "signer_name": "Dean Rosa Lindqvist",
+        "signer_role": "DEAN",
+        "delegate_name": "",
+        "in_writing": true,
+        "signed_on": "2026-12-18",
+        "covers": "Business class for Dean Lindqvist's flight to Tokyo on January 19, 2027"
+      }
+    ],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "NRT",
+        "date": "2027-01-19",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "11:00",
+            "minutes": [
+              655
+            ]
+          },
+          "jl": {
+            "carrier": "JL",
+            "depart": "12:30",
+            "minutes": [
+              650
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 104000
+          },
+          {
+            "slot": "ua-business",
+            "flight": "ua",
+            "cabin": "BUSINESS",
+            "fare_cents": 430000
+          },
+          {
+            "slot": "jl-economy",
+            "flight": "jl",
+            "cabin": "ECONOMY",
+            "fare_cents": 99000
+          },
+          {
+            "slot": "jl-business",
+            "flight": "jl",
+            "cabin": "BUSINESS",
+            "fare_cents": 415000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "jl-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "APPROVER_NOT_AUTHORIZED",
+      "NO_LISTED_CIRCUMSTANCE",
+      "SELF_APPROVAL",
+      "UPGRADE_NOT_ELIGIBLE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "CLAIM_APPROVAL",
+      "COMMERCIAL_AIRLINES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        321,
+        322
+      ],
+      "sha256": "902e3e1dc4e31b7489fe8e94497b1089645deddc580b25ac2e9184a6da62ed93",
+      "quote": "Persons delegated the authority to approve travel shall not approve their own travel.",
+      "why": "no one approves their own travel"
+    },
+    {
+      "lines": [
+        588,
+        592
+      ],
+      "sha256": "f4abfef28d800d7d4332e8022f3a083e6ad80f986e6e820a7c1eb76a96869788",
+      "quote": "In cases other than those described above, a written authorization to use business or first-class shall be obtained in advance from the Chancellor.",
+      "why": "outside the list, only the Chancellor's advance written authorization"
+    },
+    {
+      "lines": [
+        567,
+        569
+      ],
+      "sha256": "68e704eec4fb65e5c82ba2a6a0f0231da5518bf20d7baf575569a2fbf34c35df",
+      "quote": "Coach class or any discounted class shall be used in the interest of cost-efficiency. This policy applies to all travel (domestic or foreign, or any combination thereof) regardless of the purpose or fund source.",
+      "why": "coach is the rule for every trip, however long"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "A person delegated authority to approve travel may not approve their own (lines 321-322), so there is no valid written authorization and no listed circumstance; the traveller accepts coach: the lowest economy fare.",
+  "answer_key_inputs": {
+    "wish": "business",
+    "federal": false
+  }
+}

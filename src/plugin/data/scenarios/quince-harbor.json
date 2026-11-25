@@ -1,0 +1,149 @@
+{
+  "id": "quince-harbor",
+  "category": "easy",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'm presenting a poster at a chemistry conference in Boston that opens on December 10. Please book me a flight out of San Francisco on the 8th.",
+  "trip": {
+    "traveller_name": "Dr. Mina Castellanos",
+    "traveller_title": "Associate Professor of Chemistry",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Davis",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "BOS",
+    "depart_date": "2026-12-08",
+    "return_date": "2026-12-12",
+    "booking_date": "2026-12-01",
+    "purpose": "present a poster at a chemistry conference",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "BOS",
+        "date": "2026-12-08",
+        "return_date": "",
+        "flights": {
+          "dl": {
+            "carrier": "DL",
+            "depart": "07:10",
+            "minutes": [
+              330
+            ]
+          },
+          "ua": {
+            "carrier": "UA",
+            "depart": "09:45",
+            "minutes": [
+              330
+            ]
+          },
+          "aa": {
+            "carrier": "AA",
+            "depart": "06:30",
+            "via": [
+              "ORD"
+            ],
+            "layovers": [
+              75
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "dl-economy",
+            "flight": "dl",
+            "cabin": "ECONOMY",
+            "fare_cents": 36900
+          },
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 41800
+          },
+          {
+            "slot": "ua-business",
+            "flight": "ua",
+            "cabin": "BUSINESS",
+            "fare_cents": 129000
+          },
+          {
+            "slot": "aa-economy",
+            "flight": "aa",
+            "cabin": "ECONOMY",
+            "fare_cents": 44200
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "dl-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES",
+      "TRANSPORTATION_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        567,
+        569
+      ],
+      "sha256": "68e704eec4fb65e5c82ba2a6a0f0231da5518bf20d7baf575569a2fbf34c35df",
+      "quote": "Coach class or any discounted class shall be used in the interest of cost-efficiency. This policy applies to all travel (domestic or foreign, or any combination thereof) regardless of the purpose or fund source.",
+      "why": "coach is the rule for every trip, however long"
+    },
+    {
+      "lines": [
+        490,
+        492
+      ],
+      "sha256": "a3388e744052a14c2bfd068bb36d68275bc3cdb2b8754d9f098a1d21c33d0bdb",
+      "quote": "Transportation expenses shall be reimbursed based on the most economical mode of transportation and the most commonly traveled route consistent with the authorized purpose of the trip. Any exception must be approved by the Chancellor.",
+      "why": "the most economical fare; exceptions are the Chancellor's"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Coach at the most economical fare (lines 490-492, 567-569); the cheapest economy fare is a nonstop, so the routing question never arises. Two background itineraries are priced far above it.",
+  "answer_key_inputs": {
+    "wish": "coach",
+    "federal": false
+  }
+}

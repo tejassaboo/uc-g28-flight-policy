@@ -1,0 +1,140 @@
+{
+  "id": "nectar-isle",
+  "category": "hidden_clause",
+  "overlays": [
+    "synonym",
+    "dearer_option"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "My National Science Foundation award is paying for my trip to Beijing for the January 13 workshop. Please book me on the 11th; Air China is the cheapest.",
+  "trip": {
+    "traveller_name": "Dr. Priya Raman",
+    "traveller_title": "Assistant Professor of Civil Engineering",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Berkeley",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "PEK",
+    "depart_date": "2027-01-11",
+    "return_date": "2027-01-17",
+    "booking_date": "2026-12-10",
+    "purpose": "research workshop",
+    "fund_source": "National Science Foundation award",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "PEK",
+        "date": "2027-01-11",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "10:50",
+            "minutes": [
+              735
+            ]
+          },
+          "ca": {
+            "carrier": "CA",
+            "depart": "13:20",
+            "minutes": [
+              740
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 136000
+          },
+          {
+            "slot": "ca-economy",
+            "flight": "ca",
+            "cabin": "ECONOMY",
+            "fare_cents": 97000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "ua-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "FLY_AMERICA_US_CARRIER_REQUIRED",
+      "NATIONAL_CARRIER_REQUIRED"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        598,
+        601
+      ],
+      "sha256": "f77e727d2d820e12337597b409c29f3fe7d671c84d0f6b79ee0aaf565ed062ab",
+      "quote": "only U.S. air carriers1 shall be used for all travel reimbursed from federal grants and contracts, including NIH grants2.",
+      "why": "Fly America on federal funds"
+    },
+    {
+      "lines": [
+        604,
+        607
+      ],
+      "sha256": "75a1fb5f118e1b3d97748c86170c493cc17d1f5f3263bb2d67d847d546d823de",
+      "quote": "Generally, U.S. air carrier services that provide nonstop or direct service from the origin to the destination must be used, unless such use would extend travel time, including delay at origin, by 24 hours or more;",
+      "why": "a U.S. nonstop must be used"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        648,
+        649
+      ],
+      "quote": "Reimbursement of travel on a foreign air carrier may be denied in the absence of such justification.",
+      "why": "applies only where Fly America applies"
+    }
+  ],
+  "design_notes": "'National Science Foundation' never appears in G-28; it is a federal grant, so Fly America applies (lines 598-601) and United's nonstop, which adds no delay, must be used (lines 604-607). Open Skies does not cover China (trip record).",
+  "answer_key_inputs": {
+    "wish": "coach",
+    "federal": true
+  }
+}

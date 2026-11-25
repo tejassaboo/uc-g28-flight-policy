@@ -1,0 +1,147 @@
+{
+  "id": "willow-crane",
+  "category": "easy",
+  "overlays": [
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please book my round trip from Chicago for my faculty interview at UC San Diego: out on January 18 and back on the 20th.",
+  "trip": {
+    "traveller_name": "Dr. Lucia Ferreira",
+    "traveller_title": "faculty candidate, Department of Bioengineering",
+    "traveller_kind": "PROSPECTIVE_EMPLOYEE",
+    "campus": "UC San Diego",
+    "accompanying": "",
+    "companions": [],
+    "origin": "ORD",
+    "destination": "SAN",
+    "depart_date": "2027-01-18",
+    "return_date": "2027-01-20",
+    "booking_date": "2026-12-16",
+    "purpose": "first-round faculty interview",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [
+      {
+        "kind": "TRIP_APPROVAL",
+        "signer_name": "Prof. Daniel Osei (search committee chair)",
+        "signer_role": "INVITING_DEPARTMENT",
+        "delegate_name": "",
+        "in_writing": true,
+        "signed_on": "2026-12-10",
+        "covers": "Interview travel for Dr. Ferreira, first round"
+      }
+    ],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 1,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": [
+      "The candidate lives in Chicago."
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "ORD",
+        "destination": "SAN",
+        "date": "2027-01-18",
+        "return_date": "2027-01-20",
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "08:05",
+            "return": {
+              "depart": "16:20"
+            }
+          },
+          "aa": {
+            "carrier": "AA",
+            "depart": "10:40",
+            "return": {
+              "depart": "13:15"
+            }
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 52000
+          },
+          {
+            "slot": "aa-economy",
+            "flight": "aa",
+            "cabin": "ECONOMY",
+            "fare_cents": 48400
+          },
+          {
+            "slot": "aa-business",
+            "flight": "aa",
+            "cabin": "BUSINESS",
+            "fare_cents": 160000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "aa-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "INVITING_DEPARTMENT",
+      "NONE"
+    ],
+    "clauses": [
+      "NON_UNIVERSITY_TRAVELERS",
+      "PROSPECTIVE_EMPLOYEES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        1462,
+        1464
+      ],
+      "sha256": "83e831e34bdaf967749beb40362f2b759ac38cfea6af7f825c6e460964019fe6",
+      "quote": "Travel expenses incurred by non-University travelers shall not be reimbursed from a University fund source unless the travel has been approved in advance by the inviting department.",
+      "why": "the inviting department's advance approval"
+    },
+    {
+      "lines": [
+        1482,
+        1484
+      ],
+      "sha256": "ddd329423bb0f7a59e9189d1fe0bf11f023b6e4f136a570e09b752d16b864f04",
+      "quote": "Actual transportation expenses shall not exceed one round-trip coach airfare between the prospective employee's current residence and the interview location for each round of interviews.",
+      "why": "one round-trip coach fare per round"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "A prospective employee approved in advance by the inviting department (lines 1462-1464): one round-trip coach fare between home and the interview (lines 1482-1484); the cheaper round trip.",
+  "answer_key_inputs": {
+    "wish": "coach",
+    "federal": false
+  }
+}

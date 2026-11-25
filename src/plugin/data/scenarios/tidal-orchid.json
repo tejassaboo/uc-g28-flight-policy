@@ -1,0 +1,150 @@
+{
+  "id": "tidal-orchid",
+  "category": "easy",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "The Chancellor has approved business class for my trip to London to sign the research partnership; the letter is in my file. Please book me on the 4th.",
+  "trip": {
+    "traveller_name": "Dr. Imani Brooks",
+    "traveller_title": "Vice Provost for Global Affairs",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Davis",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "LHR",
+    "depart_date": "2027-02-04",
+    "return_date": "2027-02-08",
+    "booking_date": "2027-01-12",
+    "purpose": "sign a research partnership agreement",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [
+      {
+        "kind": "CABIN_ABOVE_COACH",
+        "signer_name": "Chancellor Miriam Okafor",
+        "signer_role": "CHANCELLOR",
+        "delegate_name": "",
+        "in_writing": true,
+        "signed_on": "2027-01-08",
+        "covers": "Business class for Dr. Brooks's flight to London on February 4, 2027"
+      }
+    ],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "LHR",
+        "date": "2027-02-04",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "16:10",
+            "minutes": [
+              630
+            ]
+          },
+          "ba": {
+            "carrier": "BA",
+            "depart": "18:30",
+            "minutes": [
+              625
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 98000
+          },
+          {
+            "slot": "ua-business",
+            "flight": "ua",
+            "cabin": "BUSINESS",
+            "fare_cents": 410000
+          },
+          {
+            "slot": "ba-economy",
+            "flight": "ba",
+            "cabin": "ECONOMY",
+            "fare_cents": 96500
+          },
+          {
+            "slot": "ba-business",
+            "flight": "ba",
+            "cabin": "BUSINESS",
+            "fare_cents": 395000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "ba-business"
+    ],
+    "cabins": [
+      "BUSINESS"
+    ],
+    "reason_codes": [
+      "CHANCELLOR_WRITTEN_AUTHORIZATION"
+    ],
+    "approvers": [
+      "CHANCELLOR"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES",
+      "RESPONSIBILITIES",
+      "TRANSPORTATION_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        588,
+        592
+      ],
+      "sha256": "f4abfef28d800d7d4332e8022f3a083e6ad80f986e6e820a7c1eb76a96869788",
+      "quote": "In cases other than those described above, a written authorization to use business or first-class shall be obtained in advance from the Chancellor.",
+      "why": "outside the list, only the Chancellor's advance written authorization"
+    },
+    {
+      "lines": [
+        490,
+        492
+      ],
+      "sha256": "a3388e744052a14c2bfd068bb36d68275bc3cdb2b8754d9f098a1d21c33d0bdb",
+      "quote": "Transportation expenses shall be reimbursed based on the most economical mode of transportation and the most commonly traveled route consistent with the authorized purpose of the trip. Any exception must be approved by the Chancellor.",
+      "why": "the most economical fare; exceptions are the Chancellor's"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The Chancellor's written authorization in advance (lines 588-592; line 492): business, at the lower of the two business fares.",
+  "answer_key_inputs": {
+    "wish": "business",
+    "federal": false
+  }
+}

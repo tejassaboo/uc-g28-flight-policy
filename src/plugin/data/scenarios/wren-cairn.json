@@ -1,0 +1,143 @@
+{
+  "id": "wren-cairn",
+  "category": "flag",
+  "overlays": [
+    "unclear_phrase",
+    "date_arithmetic"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [
+    "sorrel-dune",
+    "linden-wharf"
+  ],
+  "ambiguity_note": {
+    "phrase": "overnight travel without an opportunity for normal rest",
+    "readings": [
+      "an evening flight landing at 01:30 before an 08:30 talk is overnight travel with no chance of normal rest, so business is permitted",
+      "the flight leaves at 16:55 and the traveller has hours on the ground before the talk, so it is not overnight travel and coach applies"
+    ]
+  },
+  "request": "I land in Boston at about 1:30 in the morning on the 15th and I'm presenting at 8:30. Please book business on the 4:55 p.m. United flight on the 14th so I can rest on board.",
+  "trip": {
+    "traveller_name": "Dr. Hana Sato",
+    "traveller_title": "Professor of Economics",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Berkeley",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "BOS",
+    "depart_date": "2027-01-14",
+    "return_date": "2027-01-16",
+    "booking_date": "2026-12-28",
+    "purpose": "external review of a partner research center",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "2027-01-15 08:30",
+    "meeting_timing_documented": true,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": [
+      "Campus file: workshop agenda (talk at 2027-01-15 08:30) and the host's note that no other slot is open."
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "BOS",
+        "date": "2027-01-14",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "16:55",
+            "minutes": [
+              335
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 44600
+          },
+          {
+            "slot": "ua-business",
+            "flight": "ua",
+            "cabin": "BUSINESS",
+            "fare_cents": 136000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "FLAG_FOR_APPROVAL",
+    "offer_slots": [
+      "ua-business"
+    ],
+    "cabins": [
+      "BUSINESS"
+    ],
+    "reason_codes": [
+      "UNCLEAR_POLICY_TEXT"
+    ],
+    "approvers": [
+      "CHANCELLOR",
+      "NOT_NAMED"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES"
+    ],
+    "unclear_phrase": "overnight travel without an opportunity for normal rest"
+  },
+  "must_keep": [
+    {
+      "lines": [
+        570,
+        572
+      ],
+      "sha256": "6f3bd3d0cde5947fdb4e1f893fe49f42e31c00084ce6d81c1f9da619117764b4",
+      "quote": "Use of business or first-class may be authorized under the circumstances listed below.",
+      "why": "business only under a listed circumstance"
+    },
+    {
+      "lines": [
+        578,
+        579
+      ],
+      "sha256": "3eb346fca71453e129bdc49c1524df801ffae492c90404fc0f644f3f116ebc90",
+      "quote": "An itinerary involves overnight travel without an opportunity for normal rest before the commencement of working hours.",
+      "why": "third listed circumstance"
+    },
+    {
+      "lines": [
+        584,
+        585
+      ],
+      "sha256": "dff18749b8563aeb30fb33c5f3958cb569afdfb1f9112a3797eb010e6cf0489d",
+      "quote": "must include required documentation to support the early meeting start time and/or that alternative start dates or times are unavailable",
+      "why": "the campus documentation of the start time"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Twins: sorrel-dune (a true red-eye into a same-morning start: business) and linden-wharf (a full night before the start: coach).",
+  "answer_key_inputs": {
+    "wish": "business",
+    "federal": false
+  }
+}

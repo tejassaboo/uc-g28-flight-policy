@@ -1,0 +1,147 @@
+{
+  "id": "heron-gorse",
+  "category": "boundary_twin",
+  "overlays": [
+    "multi_leg"
+  ],
+  "twin_of": "amber-quay",
+  "twin_fact": "United's connection lands 359 or 360 minutes after China Eastern's nonstop (same departure)",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'm presenting my NIH-funded results at a symposium in Shanghai on January 12. Please book me out of San Diego on the 10th.",
+  "trip": {
+    "traveller_name": "Dr. Arjun Mehta",
+    "traveller_title": "Professor of Medicine",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC San Diego",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SAN",
+    "destination": "PVG",
+    "depart_date": "2027-01-10",
+    "return_date": "2027-01-16",
+    "booking_date": "2026-12-08",
+    "purpose": "present NIH-funded results at a symposium in Shanghai",
+    "fund_source": "NIH R01 research grant",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SAN",
+        "destination": "PVG",
+        "date": "2027-01-10",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "mu": {
+            "carrier": "MU",
+            "depart": "11:00",
+            "minutes": [
+              760
+            ]
+          },
+          "ua": {
+            "carrier": "UA",
+            "depart": "11:00",
+            "via": [
+              "SFO"
+            ],
+            "minutes": [
+              100,
+              770
+            ],
+            "layovers": [
+              250
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "mu-economy",
+            "flight": "mu",
+            "cabin": "ECONOMY",
+            "fare_cents": 121000
+          },
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 168000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "mu-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "FLY_AMERICA_EXCEPTION",
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES",
+      "TRANSPORTATION_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        598,
+        601
+      ],
+      "sha256": "f77e727d2d820e12337597b409c29f3fe7d671c84d0f6b79ee0aaf565ed062ab",
+      "quote": "only U.S. air carriers1 shall be used for all travel reimbursed from federal grants and contracts, including NIH grants2.",
+      "why": "Fly America on federal funds"
+    },
+    {
+      "lines": [
+        608,
+        616
+      ],
+      "sha256": "8042fcc096071f2dd0c3a85ec459311f2b9b90cbe74d6d9e56a807b6cbd1830a",
+      "quote": "Extend travel time by at least 6 hours or more; or",
+      "why": "a connecting U.S. carrier must be used unless it adds at least 6 hours"
+    },
+    {
+      "lines": [
+        490,
+        492
+      ],
+      "sha256": "a3388e744052a14c2bfd068bb36d68275bc3cdb2b8754d9f098a1d21c33d0bdb",
+      "quote": "Transportation expenses shall be reimbursed based on the most economical mode of transportation and the most commonly traveled route consistent with the authorized purpose of the trip. Any exception must be approved by the Chancellor.",
+      "why": "the most economical fare; exceptions are the Chancellor's"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "As amber-quay, but United lands exactly 360 minutes later: 'at least 6 hours or more' is met (line 614), the foreign carrier may be used, and it is the most economical fare (lines 490-492).",
+  "answer_key_inputs": {
+    "wish": "coach",
+    "federal": true
+  }
+}

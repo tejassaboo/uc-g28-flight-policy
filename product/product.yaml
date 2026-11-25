@@ -1,0 +1,13 @@
+_ > nanoagent.plugin.v0001.ProductConfig:
+tagline: "One flight request, the real university travel regulations: book it, refuse it, or hold it for approval"
+summary: "An agent handles one flight request under the University of California's Business and Finance Bulletin G-28, Travel Regulations (issued January 14, 2026, effective July 1, 2026), read verbatim (about 20,000 words). It reads the trip record, searches a simulated flight world (real airports and airlines, synthetic schedules and fares in US dollars) and submits a decision with the offer, cabin, reason, approver and section. A deterministic verifier rebuilds the offers and the regulations' answer itself and checks every field. Thirty-two cases cover coach on a seventeen-hour flight, the four listed circumstances for business class, the Chancellor's written authority and its delegation, Fly America on federal grants at its inclusive six-hour boundary, sponsor and union terms, an unused ticket from a canceled trip, job candidates' round trips, out-of-scope and personal travel, and the regulations' own unclear words."
+highlights:
+  - "The verbatim regulations: no paraphrase, no rules restated in the task"
+  - "No flight-length threshold: coach on any flight unless a listed circumstance or the Chancellor says otherwise"
+  - "Exact boundaries: a U.S. carrier 359 against 360 minutes slower, business a dollar either side of coach"
+  - "Unclear words become holds for approval, each once, with clear twins on both sides"
+steps:
+  - "Name a case, for example heron-gorse, with the traveller's request"
+  - "The agent reads the trip record and searches the routes and dates the decision needs"
+  - "It submits BOOK, REFUSE or FLAG_FOR_APPROVAL with the offer, cabin, reason, approver and section"
+  - "The verifier recomputes the regulations' answer and checks every field"

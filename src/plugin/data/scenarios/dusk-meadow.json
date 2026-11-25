@@ -1,0 +1,111 @@
+{
+  "id": "dusk-meadow",
+  "category": "refusal",
+  "overlays": [
+    "personal_travel",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Could the University buy my ticket to Honolulu for our family holiday over New Year's? I'll pay it back out of my next paycheck.",
+  "trip": {
+    "traveller_name": "Leah Morgan",
+    "traveller_title": "Budget Analyst",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Davis",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "HNL",
+    "depart_date": "2026-12-27",
+    "return_date": "2027-01-03",
+    "booking_date": "2026-12-07",
+    "purpose": "family holiday",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "HNL",
+        "date": "2026-12-27",
+        "return_date": "",
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "08:40"
+          },
+          "as": {
+            "carrier": "AS",
+            "depart": "10:05"
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 44800
+          },
+          {
+            "slot": "as-economy",
+            "flight": "as",
+            "cabin": "ECONOMY",
+            "fare_cents": 42100
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "REFUSE",
+    "offer_slots": [],
+    "cabins": [
+      "NONE"
+    ],
+    "reason_codes": [
+      "PERSONAL_TRAVEL_NOT_COVERED"
+    ],
+    "approvers": [
+      "NONE"
+    ],
+    "clauses": [
+      "REIMBURSEMENT_STANDARDS"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        153,
+        156
+      ],
+      "sha256": "8f74a23db42f16a47c1d0db3df92b4c2d6ab153dd3cc01a297c923ffe382919b",
+      "quote": "Under no circumstances shall expenses for personal travel be charged to or be temporarily funded by, the University, unless otherwise noted in this Bulletin.",
+      "why": "personal travel is never funded, even temporarily"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Personal travel may not be charged to or temporarily funded by the University (lines 154-156); the offer to repay is exactly the temporary funding the rule forbids.",
+  "answer_key_inputs": {
+    "wish": "coach",
+    "federal": false,
+    "personal": true
+  }
+}

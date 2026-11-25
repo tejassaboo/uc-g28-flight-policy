@@ -1,0 +1,172 @@
+{
+  "id": "orchid-ridge",
+  "category": "multi_rule",
+  "overlays": [
+    "outside_air_section"
+  ],
+  "twin_of": "ember-coast",
+  "twin_fact": "the Dean signs for a professor's trip (here) or for her own (ember-coast)",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Dean Lindqvist has signed off on business class for my flight to Tokyo on January 19 for the robotics consortium. Please book it.",
+  "trip": {
+    "traveller_name": "Dr. Felix Adeyemi",
+    "traveller_title": "Professor of Mechanical Engineering",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Davis",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "NRT",
+    "depart_date": "2027-01-19",
+    "return_date": "2027-01-26",
+    "booking_date": "2026-12-21",
+    "purpose": "robotics consortium meeting",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [
+      {
+        "kind": "DELEGATION",
+        "signer_name": "Chancellor Miriam Okafor",
+        "signer_role": "CHANCELLOR",
+        "delegate_name": "Dean Rosa Lindqvist",
+        "in_writing": true,
+        "signed_on": "2026-08-03",
+        "covers": "Dean Rosa Lindqvist may approve exceptions to the travel policy, including flights above coach, for the College of Engineering"
+      },
+      {
+        "kind": "CABIN_ABOVE_COACH",
+        "signer_name": "Dean Rosa Lindqvist",
+        "signer_role": "DEAN",
+        "delegate_name": "",
+        "in_writing": true,
+        "signed_on": "2026-12-18",
+        "covers": "Business class for Dr. Adeyemi's flight to Tokyo on January 19, 2027"
+      }
+    ],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "NRT",
+        "date": "2027-01-19",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "11:00",
+            "minutes": [
+              655
+            ]
+          },
+          "jl": {
+            "carrier": "JL",
+            "depart": "12:30",
+            "minutes": [
+              650
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 104000
+          },
+          {
+            "slot": "ua-business",
+            "flight": "ua",
+            "cabin": "BUSINESS",
+            "fare_cents": 430000
+          },
+          {
+            "slot": "jl-economy",
+            "flight": "jl",
+            "cabin": "ECONOMY",
+            "fare_cents": 99000
+          },
+          {
+            "slot": "jl-business",
+            "flight": "jl",
+            "cabin": "BUSINESS",
+            "fare_cents": 415000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "jl-business"
+    ],
+    "cabins": [
+      "BUSINESS"
+    ],
+    "reason_codes": [
+      "CHANCELLOR_WRITTEN_AUTHORIZATION"
+    ],
+    "approvers": [
+      "CHANCELLOR",
+      "CHANCELLOR_DESIGNEE"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES",
+      "DEFINITIONS",
+      "RESPONSIBILITIES",
+      "TRANSPORTATION_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        588,
+        592
+      ],
+      "sha256": "f4abfef28d800d7d4332e8022f3a083e6ad80f986e6e820a7c1eb76a96869788",
+      "quote": "In cases other than those described above, a written authorization to use business or first-class shall be obtained in advance from the Chancellor.",
+      "why": "outside the list, only the Chancellor's advance written authorization"
+    },
+    {
+      "lines": [
+        44,
+        44
+      ],
+      "sha256": "d1e4cb66188bc8220adec8cc013a7ed5e60708539d0998813d870b3e7f9f1a02",
+      "quote": "Authority delegated to the Chancellor also may be delegated to other individuals.",
+      "why": "the Chancellor's authority may be delegated"
+    },
+    {
+      "lines": [
+        259,
+        272
+      ],
+      "sha256": "01c10feb9d3b65d471457513f9078ffece87d67f8e630df6e0e6a917478ebedf",
+      "quote": "Chancellors (or Chancellor's designee if any delegation of the Chancellor's authority is made in writing) Have the authority to make exceptions to the University's Travel Policy, as long as the exception is in writing.",
+      "why": "a designee needs a written delegation"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "No listed circumstance; the Chancellor's written authority (lines 588-592) was delegated in writing to the Dean (line 44; lines 259-272), and she signed in advance: business, at the lower business fare.",
+  "answer_key_inputs": {
+    "wish": "business",
+    "federal": false
+  }
+}

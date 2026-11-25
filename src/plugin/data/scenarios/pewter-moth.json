@@ -1,0 +1,146 @@
+{
+  "id": "pewter-moth",
+  "category": "boundary_twin",
+  "overlays": [],
+  "twin_of": "fennel-brook",
+  "twin_fact": "business at 61900 or 62100 cents against coach at 62000 on the same flight",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Business class on the 8 a.m. American flight to Los Angeles on the 15th is showing at about the same price as economy. Can you put me in business?",
+  "trip": {
+    "traveller_name": "Rafael Ortega",
+    "traveller_title": "Assistant Dean of Admissions",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UCLA",
+    "accompanying": "",
+    "companions": [],
+    "origin": "JFK",
+    "destination": "LAX",
+    "depart_date": "2026-12-15",
+    "return_date": "",
+    "booking_date": "2026-12-02",
+    "purpose": "return from a recruiting trip",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "JFK",
+        "destination": "LAX",
+        "date": "2026-12-15",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "aa": {
+            "carrier": "AA",
+            "depart": "08:00",
+            "minutes": [
+              380
+            ]
+          },
+          "dl": {
+            "carrier": "DL",
+            "depart": "10:15",
+            "minutes": [
+              380
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "aa-economy",
+            "flight": "aa",
+            "cabin": "ECONOMY",
+            "fare_cents": 62000
+          },
+          {
+            "slot": "aa-business",
+            "flight": "aa",
+            "cabin": "BUSINESS",
+            "fare_cents": 61900
+          },
+          {
+            "slot": "dl-economy",
+            "flight": "dl",
+            "cabin": "ECONOMY",
+            "fare_cents": 63500
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "aa-business"
+    ],
+    "cabins": [
+      "BUSINESS"
+    ],
+    "reason_codes": [
+      "COACH_MORE_EXPENSIVE",
+      "COST_SAVINGS",
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE",
+      "NOT_NAMED"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES",
+      "TRANSPORTATION_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        570,
+        572
+      ],
+      "sha256": "6f3bd3d0cde5947fdb4e1f893fe49f42e31c00084ce6d81c1f9da619117764b4",
+      "quote": "Use of business or first-class may be authorized under the circumstances listed below.",
+      "why": "business only under a listed circumstance"
+    },
+    {
+      "lines": [
+        574,
+        577
+      ],
+      "sha256": "5398deff61d0f76508743eb1e67f28ad3261b9e41fa012439b8a57f6f1f86da7",
+      "quote": "The use of coach class would be more expensive or time-consuming",
+      "why": "second listed circumstance"
+    },
+    {
+      "lines": [
+        490,
+        492
+      ],
+      "sha256": "a3388e744052a14c2bfd068bb36d68275bc3cdb2b8754d9f098a1d21c33d0bdb",
+      "quote": "Transportation expenses shall be reimbursed based on the most economical mode of transportation and the most commonly traveled route consistent with the authorized purpose of the trip. Any exception must be approved by the Chancellor.",
+      "why": "the most economical fare; exceptions are the Chancellor's"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Business costs 100 cents less than the lowest coach fare on the same flight: coach would be more expensive (lines 574-575, read on the fares), and business is also the most economical fare (lines 490-492).",
+  "answer_key_inputs": {
+    "wish": "business",
+    "federal": false
+  }
+}

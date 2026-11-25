@@ -1,0 +1,55 @@
+_ > nanoagent.plugin.v0001.ManifestConfig:
+id: uc-g28-flight-policy
+name: UC G-28 Travel Regulations Flight Policy
+version: 0.1.0
+status: in-development
+spec: nanoagent.plugin/v0001
+
+runtime > nanoagent.plugin.v0001.RuntimeConfig:
+  type: mcp_stdio
+  command: [uv, run, --frozen, python, -m, plugin]
+
+permissions > nanoagent.plugin.v0001.PermissionsConfig:
+  network > nanoagent.plugin.v0001.NetworkConfig:
+    hosts: []
+  filesystem > nanoagent.plugin.v0001.FilesystemConfig:
+    write: []
+
+# One entry per contract.Tool; its input and output classes are contract.TOOLS's.
+tools > dict[contract.Tool, nanoagent.plugin.v0001.ToolConfig]:
+  booking_requirements:
+    description: Show the trip record's fields with their meanings, the conventions of the simulated flight world (local times, dates, fares, sold-out seats) and the airports it knows
+  get_trip:
+    description: Read a booking request's trip record, by case id - who flies, where and when, why, who pays, papers and notes on file, and any engagement at the destination
+  search_flights:
+    description: List every offer on a route that leaves on one local date, one way or (with a return date) round trip - airline, cabin, fare in cents, whether seats are left, whether it is refundable, each flight's local and UTC times and scheduled minutes, and layovers (simulated schedules and fares)
+  solve_booking:
+    description: The answer key, never given to the agent - the decision the travel regulations require for a booking request, with every accepted offer, cabin, reason, approver and section
+
+# One entry per contract.Task; its input and output classes are contract.TASKS's.
+tasks > dict[contract.Task, nanoagent.plugin.v0001.TaskConfig]:
+  booking-requirements:
+    description: Show the trip record's fields, the flight world's conventions and its airports
+    runner: tool
+    tools: [booking_requirements]
+    reference: null
+    instructions: Call booking_requirements with topic ALL (FIELDS for only the fields and conventions, AIRPORTS for only the airport list) and show what it returns.
+  search-flights:
+    description: Show the flight offers on a route and local date (and return date, for a round trip) for a booking request's case
+    runner: tool
+    tools: [search_flights]
+    reference: null
+    instructions: Call search_flights with the case id, the airport codes to leave from and fly to, the local date to leave and, for a round trip, the date to fly back, and show the offers it returns.
+  book-uc-g28-flight:
+    description: Handle one flight booking request for a public university
+    runner: agent
+    tools: [get_trip, search_flights]
+    reference: solve_booking
+    instructions: |-
+      Handle the traveller's flight booking request in the task input, as the travel regulations of the university allow.
+
+      Call get_trip with the task input's case id to read the trip record, then call search_flights for every route and date your decision needs (give return_date for a round-trip fare). Then call submit with your single decision:
+      - BOOK when the university buys a ticket now, with the offer_id of the offer to buy and its cabin;
+      - REFUSE when the university buys no ticket at all for this trip, with an empty offer_id and cabin NONE;
+      - FLAG_FOR_APPROVAL when the ticket must wait, either for someone's sign-off or because the regulations' words leave the answer open, with the offer_id of the offer to hold and its cabin.
+      Give a reason_code, the approver role and the regulations' section (clause) from their closed lists; use NONE where nothing applies.

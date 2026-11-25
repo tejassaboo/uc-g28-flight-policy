@@ -1,0 +1,148 @@
+{
+  "id": "tansy-mere",
+  "category": "distractor",
+  "overlays": [
+    "upgrade_not_taken",
+    "date_arithmetic"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'm on the red-eye to New York on January 10 for the 9:30 panel the next morning. Just the cheapest seat on that red-eye, please; I can sleep anywhere.",
+  "trip": {
+    "traveller_name": "Dr. Noor Haddad",
+    "traveller_title": "Professor of Public Policy",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UCLA",
+    "accompanying": "",
+    "companions": [],
+    "origin": "LAX",
+    "destination": "JFK",
+    "depart_date": "2027-01-10",
+    "return_date": "2027-01-12",
+    "booking_date": "2026-12-29",
+    "purpose": "panel at a policy forum",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "2027-01-11 09:30",
+    "meeting_timing_documented": true,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": [
+      "Campus file: forum agenda (panel at 2027-01-11 09:30) and the organizer's note that no other slot is open."
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "LAX",
+        "destination": "JFK",
+        "date": "2027-01-10",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "aa": {
+            "carrier": "AA",
+            "depart": "23:00",
+            "minutes": [
+              325
+            ]
+          },
+          "dl": {
+            "carrier": "DL",
+            "depart": "23:15",
+            "minutes": [
+              325
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "aa-economy",
+            "flight": "aa",
+            "cabin": "ECONOMY",
+            "fare_cents": 39800
+          },
+          {
+            "slot": "aa-business",
+            "flight": "aa",
+            "cabin": "BUSINESS",
+            "fare_cents": 141000
+          },
+          {
+            "slot": "dl-economy",
+            "flight": "dl",
+            "cabin": "ECONOMY",
+            "fare_cents": 41200
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "aa-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES",
+      "TRANSPORTATION_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        567,
+        569
+      ],
+      "sha256": "68e704eec4fb65e5c82ba2a6a0f0231da5518bf20d7baf575569a2fbf34c35df",
+      "quote": "Coach class or any discounted class shall be used in the interest of cost-efficiency. This policy applies to all travel (domestic or foreign, or any combination thereof) regardless of the purpose or fund source.",
+      "why": "coach is the rule for every trip, however long"
+    },
+    {
+      "lines": [
+        490,
+        492
+      ],
+      "sha256": "a3388e744052a14c2bfd068bb36d68275bc3cdb2b8754d9f098a1d21c33d0bdb",
+      "quote": "Transportation expenses shall be reimbursed based on the most economical mode of transportation and the most commonly traveled route consistent with the authorized purpose of the trip. Any exception must be approved by the Chancellor.",
+      "why": "the most economical fare; exceptions are the Chancellor's"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        588,
+        590
+      ],
+      "quote": "When a traveler prefers to use a higher class than the one authorized for reimbursement, the traveler must pay the incremental cost of the airfare.",
+      "why": "who pays a self-chosen upgrade; not a way to book one"
+    }
+  ],
+  "design_notes": "The red-eye into a documented early panel would permit business (lines 578-585), but permission is not an obligation and the traveller asks for the cheapest seat: the lowest economy fare (lines 490-492).",
+  "answer_key_inputs": {
+    "wish": "cheapest",
+    "federal": false
+  }
+}

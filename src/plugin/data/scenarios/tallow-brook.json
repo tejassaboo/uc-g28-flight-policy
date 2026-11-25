@@ -1,0 +1,102 @@
+{
+  "id": "tallow-brook",
+  "category": "refusal",
+  "overlays": [
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please book me to Washington Dulles on the 9th for the DOE program review of the Lab's beamline work.",
+  "trip": {
+    "traveller_name": "Dr. Marcus Bell",
+    "traveller_title": "Staff Scientist, Lawrence Berkeley National Laboratory",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "Lawrence Berkeley National Laboratory",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "IAD",
+    "depart_date": "2027-02-09",
+    "return_date": "2027-02-11",
+    "booking_date": "2027-01-26",
+    "purpose": "DOE program review of beamline operations, work under the UC/DOE contract for managing and operating the Laboratory",
+    "fund_source": "the Laboratory's UC/DOE management and operations contract",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "IAD",
+        "date": "2027-02-09",
+        "return_date": "",
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "07:15"
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 39400
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "REFUSE",
+    "offer_slots": [],
+    "cabins": [
+      "NONE"
+    ],
+    "reason_codes": [
+      "OUTSIDE_POLICY_SCOPE"
+    ],
+    "approvers": [
+      "NONE"
+    ],
+    "clauses": [
+      "INTRODUCTION",
+      "POLICY_SUMMARY",
+      "SCOPE"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        104,
+        107
+      ],
+      "sha256": "97d48e8b4ca3a9a2f45b8f0f3db7e9ea982f0c478850b3a2f62d8c20e601437b",
+      "quote": "However, the policy does not apply to work done within the scope of the UC/DOE contract for the management and operations of the Lawrence Berkeley National Laboratory.",
+      "why": "the same scope rule in the policy text"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "G-28 does not apply to travel for work within the scope of the UC/DOE contract for the management and operations of LBNL (lines 25-30, 104-107), so no ticket is bought under it.",
+  "answer_key_inputs": {
+    "wish": "coach",
+    "federal": false,
+    "scope": "lbnl_contract"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "nimbus-reed",
+  "category": "flag",
+  "overlays": [
+    "approval_required",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [
+    "orchid-ridge",
+    "cobalt-sedge"
+  ],
+  "ambiguity_note": "none: the words are clear; the Dean holds no written delegation from the Chancellor, so the written authorization the trip needs is missing and the traveller asked to hold",
+  "request": "Dean Paulsen signed off on business class for my trip to Seoul on February 2. If anything about that isn't settled, please hold the business seat rather than buy anything yet.",
+  "trip": {
+    "traveller_name": "Dr. Ben Okoro",
+    "traveller_title": "Professor of Materials Science",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Riverside",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "ICN",
+    "depart_date": "2027-02-02",
+    "return_date": "2027-02-07",
+    "booking_date": "2027-01-13",
+    "purpose": "keynote at a materials conference",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [
+      {
+        "kind": "CABIN_ABOVE_COACH",
+        "signer_name": "Dean Karin Paulsen",
+        "signer_role": "DEAN",
+        "delegate_name": "",
+        "in_writing": true,
+        "signed_on": "2027-01-11",
+        "covers": "Business class for Dr. Okoro's flight to Seoul on February 2, 2027"
+      }
+    ],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "ICN",
+        "date": "2027-02-02",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "11:00",
+            "minutes": [
+              700
+            ]
+          },
+          "ke": {
+            "carrier": "KE",
+            "depart": "12:30",
+            "minutes": [
+              705
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 113000
+          },
+          {
+            "slot": "ua-business",
+            "flight": "ua",
+            "cabin": "BUSINESS",
+            "fare_cents": 452000
+          },
+          {
+            "slot": "ke-economy",
+            "flight": "ke",
+            "cabin": "ECONOMY",
+            "fare_cents": 109000
+          },
+          {
+            "slot": "ke-business",
+            "flight": "ke",
+            "cabin": "BUSINESS",
+            "fare_cents": 434000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "FLAG_FOR_APPROVAL",
+    "offer_slots": [
+      "ke-business"
+    ],
+    "cabins": [
+      "BUSINESS"
+    ],
+    "reason_codes": [
+      "APPROVAL_REQUIRED"
+    ],
+    "approvers": [
+      "CHANCELLOR",
+      "CHANCELLOR_DESIGNEE"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES",
+      "DEFINITIONS",
+      "RESPONSIBILITIES",
+      "TRANSPORTATION_EXPENSES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        588,
+        592
+      ],
+      "sha256": "f4abfef28d800d7d4332e8022f3a083e6ad80f986e6e820a7c1eb76a96869788",
+      "quote": "In cases other than those described above, a written authorization to use business or first-class shall be obtained in advance from the Chancellor.",
+      "why": "outside the list, only the Chancellor's advance written authorization"
+    },
+    {
+      "lines": [
+        44,
+        44
+      ],
+      "sha256": "d1e4cb66188bc8220adec8cc013a7ed5e60708539d0998813d870b3e7f9f1a02",
+      "quote": "Authority delegated to the Chancellor also may be delegated to other individuals.",
+      "why": "the Chancellor's authority may be delegated"
+    },
+    {
+      "lines": [
+        259,
+        272
+      ],
+      "sha256": "01c10feb9d3b65d471457513f9078ffece87d67f8e630df6e0e6a917478ebedf",
+      "quote": "Chancellors (or Chancellor's designee if any delegation of the Chancellor's authority is made in writing) Have the authority to make exceptions to the University's Travel Policy, as long as the exception is in writing.",
+      "why": "a designee needs a written delegation"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "No listed circumstance; a Dean may authorize business only as the Chancellor's designee under a written delegation (line 44; lines 259-272), and none is on file. Twins: orchid-ridge (written delegation: book business) and cobalt-sedge (no authorization: coach).",
+  "answer_key_inputs": {
+    "wish": "business",
+    "federal": false
+  }
+}

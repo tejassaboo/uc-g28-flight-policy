@@ -1,0 +1,132 @@
+{
+  "id": "saffron-glen",
+  "category": "refusal",
+  "overlays": [
+    "multi_traveller",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "My son needs round-the-clock care, so he's coming with me to the NIH-funded conference in Denver; the Dean has pre-approved it. Please book his ticket on the grant.",
+  "trip": {
+    "traveller_name": "Eli Ortiz",
+    "traveller_title": "dependent son of Dr. Lena Ortiz",
+    "traveller_kind": "DEPENDENT",
+    "campus": "UC San Francisco",
+    "accompanying": "Dr. Lena Ortiz, Associate Professor of Pediatrics",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "DEN",
+    "depart_date": "2027-02-15",
+    "return_date": "2027-02-18",
+    "booking_date": "2027-01-25",
+    "purpose": "accompany his mother to an NIH-funded conference",
+    "fund_source": "NIH R01 grant (no other fund is available for this trip)",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [
+      {
+        "kind": "COMPANION_TRAVEL",
+        "signer_name": "Dean Samuel Whitfield",
+        "signer_role": "DEAN",
+        "delegate_name": "",
+        "in_writing": true,
+        "signed_on": "2027-01-20",
+        "covers": "Eli Ortiz may accompany Dr. Ortiz, who is his caregiver, to the conference"
+      }
+    ],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "DEN",
+        "date": "2027-02-15",
+        "return_date": "",
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "08:00"
+          },
+          "wn": {
+            "carrier": "WN",
+            "depart": "09:30"
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 21800
+          },
+          {
+            "slot": "wn-economy",
+            "flight": "wn",
+            "cabin": "ECONOMY",
+            "fare_cents": 19900
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "REFUSE",
+    "offer_slots": [],
+    "cabins": [
+      "NONE"
+    ],
+    "reason_codes": [
+      "COMPANION_NOT_COVERED",
+      "DEPENDENT_TRAVEL_FEDERAL_FUNDS"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "FREQUENTLY_ASKED_QUESTIONS",
+      "SPOUSE_AND_DEPENDENT_TRAVEL"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        1869,
+        1870
+      ],
+      "sha256": "b81c2ad36e8dbe2a701b54533cf59d99b199acee67441bd967246c43673efaa4",
+      "quote": "The travel expenses of the dependent can't be charged to a federal fund.",
+      "why": "a dependent's travel is never on a federal fund"
+    },
+    {
+      "lines": [
+        1566,
+        1571
+      ],
+      "sha256": "d5cc6e55ba2034bac5dc7705a9f82db42487c208626c74cb01dda8a63b56d0ac",
+      "quote": "may be allowed in limited circumstances when pre-approved by the Chancellor, Executive Vice Chancellor/Provost, Dean, Director, Department Chair, or other senior University officer",
+      "why": "the pre-approval the record holds"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "A dependent's travel may be allowed when pre-approved (lines 1566-1571), but the FAQ is categorical: the travel expenses of the dependent can't be charged to a federal fund (lines 1869-1870), and no other fund is available.",
+  "answer_key_inputs": {
+    "wish": "coach",
+    "federal": true
+  }
+}

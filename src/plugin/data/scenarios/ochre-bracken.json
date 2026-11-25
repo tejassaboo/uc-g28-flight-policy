@@ -1,0 +1,136 @@
+{
+  "id": "ochre-bracken",
+  "category": "hidden_clause",
+  "overlays": [
+    "dearer_option",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please book me the cheapest flight to Atlanta on January 20 for the CDC workshop.",
+  "trip": {
+    "traveller_name": "Dr. Mina Castellanos",
+    "traveller_title": "Associate Professor of Chemistry",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Davis",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "ATL",
+    "depart_date": "2027-01-20",
+    "return_date": "2027-01-22",
+    "booking_date": "2027-01-05",
+    "purpose": "public-health workshop",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "",
+    "unused_tickets": [
+      {
+        "airline": "Delta Air Lines",
+        "value_cents": 39000,
+        "refundable": false,
+        "bought_for": "University trip to Atlanta in November 2026, canceled when the organizer called off the meeting"
+      }
+    ],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "ATL",
+        "date": "2027-01-20",
+        "return_date": "",
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "07:00",
+            "minutes": [
+              290
+            ]
+          },
+          "dl": {
+            "carrier": "DL",
+            "depart": "08:20",
+            "minutes": [
+              290
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 41500
+          },
+          {
+            "slot": "dl-economy",
+            "flight": "dl",
+            "cabin": "ECONOMY",
+            "fare_cents": 43000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "dl-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "UNUSED_TICKET_MUST_BE_USED"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "CANCELED_TRIPS",
+      "CASH_ADVANCES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        404,
+        405
+      ],
+      "sha256": "f6e85884b91363835ab9ec6f9c66cc2626a4b8f546df000fe6c0f1efa6507319",
+      "quote": "A nonrefundable ticket associated with a canceled trip must be used for the employee's next business trip.",
+      "why": "the unused ticket must be used"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        443,
+        449
+      ],
+      "quote": "Travelers who are unable to honor a reservation shall be responsible for canceling the reservation",
+      "why": "about cancelling, not about using an unused ticket"
+    }
+  ],
+  "design_notes": "The rule sits among the cash-advance rules: a nonrefundable ticket from a canceled trip must be used for the employee's next business trip (line 404). So Delta, though its fare is above United's.",
+  "answer_key_inputs": {
+    "wish": "coach",
+    "federal": false
+  }
+}

@@ -1,0 +1,2237 @@
+G-28 Travel Regulations
+Contact: UC Controller
+Email: Accounting-policy@ucop.edu
+TABLE OF CONTENTS
+I. POLICY SUMMARY ............................................................................................... 1
+II. DEFINITIONS ......................................................................................................... 1
+III. POLICY TEXT ......................................................................................................... 3
+IV. COMPLIANCE/RESPONSIBILITIES ...................................................................... 6
+V. PROCEDURES ....................................................................................................... 8
+VI. RELATED INFORMATION ................................................................................... 42
+VII. FREQUENTLY ASKED QUESTIONS .................................................................. 45
+VIII. REVISION HISTORY ............................................................................................ 47
+I. POLICY SUMMARY
+It is the policy of the University to comply with IRS regulations regarding the provision
+and reimbursement of business-related travel, and to conform to the IRS "accountable
+plan" rules.
+Responsible Officer: EVP - Chief Financial Officer
+Responsible Office: UC Controller
+Issuance Date: 1/14/2026
+Effective Date: 7/1/2026
+Scope:
+• Staff and academic employees of the University.
+• Non-employees, including students, visiting scholars,
+prospective employees and independent contractors.
+• This policy does not apply to travel associated with
+work done within the scope of the UC/DOE contract
+for the management and operations of the Lawrence
+Berkeley National Laboratory (LBNL). Travel not
+within the scope of the LBNL contract is covered by
+the provisions of G-28.
+
+II. DEFINITIONS
+Business Purpose: The business purpose of a University traveler may include activities
+that contribute to any one of the University's major functions of teaching, research,
+patient care, or public service, or to any other substantial and bona fide University
+business activity.
+Campus: The campus, Laboratory, UCOP, Agriculture and Natural Resources, or other
+official University location under the jurisdiction of a Chancellor, as defined below.
+Chancellor: The chief executive officer of the campus. For purposes of this Bulletin, the
+authorities and responsibilities assigned to the Chancellor are also assigned to the
+Lawrence Berkeley National Laboratory (LBNL) Director, the Executive Vice President-
+Chief Operating Officer, the Vice President--Agriculture and Natural Resources, and the
+Principal Officers of The Regents, for employees under their respective jurisdictions.
+Authority delegated to the Chancellor also may be delegated to other individuals.
+Domestic Partner: A domestic partner means the individual designated as an
+employee's domestic partner under one of the following methods: (i) registration of the
+partnership with the State of California; (ii) establishment of a same-sex legal union,
+other than marriage, formed in another jurisdiction that is substantially equivalent to a
+State of California-registered domestic partnership; or (iii) filing of a Declaration of
+Domestic Partnership form with the University. See PPSM 2 for additional information.
+Headquarters: The place where the major portion of the traveler's working time is spent
+or the place to which the employee returns during working hours upon completion of
+special outside assignments.
+Lodging: Expenses for overnight sleeping facilities. This does not include
+accommodations on airplanes, trains, buses, or ships, which are included in the cost of
+transportation.
+M&IE Reimbursement Cap: The maximum amount authorized for daily meal and
+incidental expenses established by the University for all travel of less than 30 days in the
+continental United States (CONUS). Travelers may seek reimbursement only for their
+actual expenses up to the cap amount (see Section V.E.2.a.i., Travel - Assignments of
+Less than 30 Days). For purposes of the reimbursement cap, incidental expenses
+include tips and fees for services, e.g., for waiters, baggage handlers, etc.
+Per Diem: The daily subsistence allowance authorized under the federal per diem rates
+for a location of travel. The payment of a per diem does not require supporting receipts.
+Per diems are authorized in these situations: for all foreign travel; travel within Alaska,
+Hawaii, and United States possessions (OCONUS); domestic travel assignments of 30
+days or more; and domestic travel assignments that exceed one year (see Appendix B).
+The incidental expenses portion of the federal per diem rate includes fees and tips given
+to porters, baggage carriers, bellhops, hotel maids, stewards or stewardesses and others
+on ships, and hotel servants in foreign countries; transportation between places of
+lodging or business and places where meals are taken, if suitable meals cannot be
+obtained at the temporary duty site; and mailing costs associated with filing travel
+expense claims and payment of University-sponsored charge card billings. Federal per
+
+diem rates for CONUS1 and OCONUS2 travel do not include taxes on lodging, which
+may be reimbursed separately. Foreign per diem rates include taxes on lodging and
+M&IE.3
+Refer to Section V.E., Subsistence Expenses, for more information on per diems.
+Primary Agreement: An agreement between the University of California and an
+awarded supplier for a specific service or commodity that is the result of a University
+competitive bid process. The primary agreement is established with the supplier
+considered to have the best combination of value and service and who obtains the most
+awarded quality points during the evaluation process. This supplier will be the
+recommended University supplier for the specific service or commodity type (at
+participating University locations) for the life of the agreement.
+Reporting Period: The 45-day period within which a travel expense claim must be
+submitted after the end of a trip. Refer to Section V.I.1., Reporting Period, for more
+information.
+Residence: The primary residence where the traveler lives, regardless of other legal or
+mailing addresses. However, when an employee is required to reside temporarily away
+from their permanent residence because of official travel away from headquarters, such
+residence may still be considered permanent if it is unreasonable to expect the employee
+to move their permanent residence to the temporary job location.
+Travel Expenses: Expenses that are ordinary and necessary to accomplish the official
+business purpose of a trip. Refer to the following sections for a description of travel
+expenses eligible for reimbursement: Section V.D., Transportation Expenses; Section
+V.E., Subsistence Expenses; and Section V.F., Miscellaneous Travel Expenses.
+Travel Status: The period during which a traveler is traveling on official University
+business outside the vicinity of their headquarters or residence.
+III. POLICY TEXT
+A. Introduction
+The policy and regulations contained in this Bulletin shall apply to all official
+University travel, including travel funded under federal grants and contracts.4
+However, the policy does not apply to work done within the scope of the UC/DOE
+contract for the management and operations of the Lawrence Berkeley National
+Laboratory. Travel not within the scope of the LBNL contract is covered by the
+provisions of this policy.
+
+1 CONUS per diems set by the U.S. General Services Administration (GSA).
+2 OCONUS per diems set by the U.S. Department of Defense.
+3 Foreign per diems set by the U.S. Department of State.
+4 Pursuant to Section 200.474 of the Office of Management and Budget's 2 CFR Part 200, costs incurred
+by employees and officers for travel must be considered reasonable and allowable only to the extent that
+such costs do not exceed charges normally allowed by the institution in its regular operations as a result
+of an institutional policy and the amounts claimed under sponsored agreements represent reasonable
+and allocable costs.
+
+This Bulletin includes special rules for non-employees, such as students, visiting
+scholars, independent contractors, etc.
+The terms set forth in an extramural funding agreement govern only when such terms
+are more restrictive than University travel regulations. The campuses and LBNL may
+adopt more restrictive procedures, if desired. In addition, the terms of a collective
+bargaining agreement shall govern when such terms do not conform to the provisions
+of this Bulletin.
+B. Overview
+University business travelers are strongly encouraged to purchase travel services,
+when available, from Preferred Suppliers with whom the University has strategic and
+collaborative sourcing primary agreements. Preferred Suppliers deliver competitive
+value in the range of services required by University travelers. Such Suppliers include
+airlines, car rental agencies, hotels, travel agencies, and online booking providers.
+Although it might be possible to obtain a lower cost from nonparticipating suppliers,
+use of Preferred Suppliers should, on average and over time, reduce the University's
+overall travel costs and provide the best value to the traveler. For more information
+about Connexxus and our preferred suppliers, including airlines, hotels, car rental
+agencies, and travel agencies, see the Connexxus website.
+C. Travel Management Services
+1. Travel Management Program
+The systemwide Travel Management Program, known as Connexxus, is intended
+to generate maximum benefit and value for University travelers and departments.
+The program encompasses all aspects of University travel, including policy
+development, processes, planning, data management, and Preferred Supplier
+services and contracts. After appropriate training and communication, campuses
+should mandate the use of Connexxus in order to realize the potential savings
+achievable under the program (President's June 21, 2009 letters to the
+Chancellors).
+2. UC Travel Council
+The UC Travel Council, sponsored by the Executive Vice President-Chief
+Financial Officer, provides general leadership, direction, and oversight in support
+of the Connexxus program. At least one representative from each campus and the
+LBNL shall have membership on the Travel Council. Campuses may appoint an
+additional Medical Center representative for their location if desired.
+D. Reimbursement Standards
+It is the policy of the University that all official travel shall be properly authorized,
+reported, and reimbursed in accordance with this Bulletin. Under no circumstances
+shall expenses for personal travel be charged to or be temporarily funded by, the
+University, unless otherwise noted in this Bulletin. All travel reimbursement requests
+must be certified by the traveler, as indicated in section V.I.2.c.
+University employees traveling on official business shall observe normally accepted
+standards of propriety in the type and manner of expenses they incur. In addition, it
+is the traveler's responsibility to report their actual travel expenses in a
+
+responsible and ethical manner, in accordance with the regulations set forth in
+this Bulletin.
+The University's travel reimbursement procedures contained in this Bulletin are
+designed to conform to the "accountable plan" rules published by the Internal
+Revenue Service (IRS). Therefore, University reimbursement of an employee's travel
+expenses shall not result in additional taxable income to the employee. Travel
+expenses considered by the IRS to be taxable income to the traveler are not
+reimbursable except for the following:
+• Expenses for travel in excess of one year,
+• Imputed taxable income caused by substantiated expense reports submitted
+after the time limit described in Section V.I.1., subject to campus discretion,
+• Certain travel expenses related to moving a new appointee or a current
+employee (refer to BFB G-13, Policy and Regulations Governing Moving and
+Relocation, for more information), and
+• Travel-related and childcare expenses for a spouse, domestic partner,
+dependent-care provider, and dependents who accompany the employee
+when pre-approved by the Chancellor or other senior University officer (see
+Section V.H.2.f).
+
+IV. C OMPLIANCE/RESPONSIBILITIES
+Function Responsibilities
+Executive Vice President-Chief
+Financial Officer
+Establish and update the policies set forth in this Bulletin.
+Department Heads (or person
+delegated authority by the
+Chancellor, or person officially
+redelegated authority)
+Approve payment for the travel expense claim or electronic equivalent
+submitted by the traveler; ensure that appropriate documentation is provided
+to substantiate the travel expense; ensure that the travel expenditures
+comply with University policy and fund source restrictions.
+Campus Controller's Office or
+Medical Center Controller, where
+appropriate
+Approve the travel expenses, including exceptions, for each campus
+Chancellor, including a spouse or domestic partner, or an Associate of the
+Chancellor. Initiate proceedings for the recovery of any outstanding cash
+advances sixty days after a trip is completed.
+Chancellors • May establish more restrictive procedures for the travel policies
+authorized under this Bulletin.
+• Designate one or more approving Vice Chancellors to approve travel
+expenses incurred by the Vice Chancellors, Deans, and Medical
+Center Directors.
+• Approve travel expenses incurred by the designated Vice Chancellors.
+• May appoint a designee to approve travel expenses incurred by the
+designated Vice Chancellors, provided that the designee does not
+report to the designated Vice Chancellor.
+• Provide written approval for use of private aircraft (including a rented
+aircraft) for official travel after pilot registers the private aircraft with the
+Chancellor and meets all the requirements under Section V.D.2.b.i.
+• Delegate authority to pre-approve reimbursement of travel expenses of
+a spouse, domestic partner, dependent-care provider, or dependents of
+an accompanying parent (employee) or prospective employee.
+Designated Vice Chancellors5 • Review and approve travel expenses incurred by the Vice Chancellors,
+Deans, and Medical Center Directors.
+• In lieu of reviewing and approving each travel expense claim (or
+electronic equivalent), the designated Vice Chancellor may:
+o Appoint a high-level individual on their staff who is
+knowledgeable about the travel regulations to review and
+approve the travel expense claim for policy compliance, and
+o Review and sign a periodic report (produced no less frequently
+than monthly), which details the business purpose for each trip
+taken.
+• May not redelegate this authority to another individual, except when the
+designated Vice Chancellor is not available due to business travel,
+vacation, illness, or other leave.
+
+5 The term "designated Vice Chancellor" includes any other responsible administrator designated by the
+Chancellor.
+
+Function Responsibilities
+• LBNL Director
+• Executive Vice President-
+Business Operations
+• Vice President-Agriculture
+and Natural Resources
+• Principal Officers of The
+Regents
+Assigned the authorities and responsibilities that are assigned to the
+Chancellor for purposes of this Bulletin.
+President-Office of the President Establish procedures similar to the Chancellors for the approval of travel
+expenses incurred by the President, the Executive Vice Presidents, the
+Principal Officers of The Regents, and other Officers within the Office of the
+President.
+Travel Management Office Administer the University's Travel Management Program under the general
+direction of the UC Travel Council.
+UC Travel Council Provide general leadership, direction, and oversight in support of the
+Connexxus program.
+
+Payment
+Approval
+Authority
+Exceptions
+Permitted
+Exception Approval
+Authority Comments
+Chancellors (or
+Chancellor's
+designee if any
+delegation of the
+Chancellor's
+authority is made in
+writing)
+Have the authority to
+make exceptions to
+the University's
+Travel Policy, as
+long as the
+exception is in
+writing.
+Yes Exceptions may be granted
+by the Chancellor or their
+designee when one is
+required due to extenuating
+circumstances.
+Any request for an
+exception must document
+the circumstances and
+need for the exception.
+When an exception has
+been approved, expenses
+will only be reimbursed to
+the extent of actual costs
+incurred, provided such
+costs are deemed to be
+ordinary and necessary
+under the circumstances.
+See Section V.I., Reporting
+Travel Expenses, for more
+information.
+In general, exceptions should not be
+made to the daily M&IE reimbursement
+cap established for travel of less than 30
+days within CONUS (see Appendix B)
+unless necessitated by the business
+requirements of the trip. For example, an
+exception to the daily M&IE
+reimbursement cap may be required for
+athletic team training meals that involve
+specific nutritional requirements.
+Transportation expenses shall be
+reimbursed based on the most
+economical mode of transportation and
+the most commonly traveled route
+consistent with the authorized purpose of
+the trip. An exception to the minimum
+miles per day requirement may be
+approved, however, if a delay is beyond
+the control of the individual, e.g., weather,
+traffic, or physical handicap of the
+traveler. Any exception must be approved
+by the Chancellor.
+V. PROCEDURES
+A. Approval of Travel Expense Claim
+The authority to approve travel expense claims must be documented by a signature
+authorization form on file with the Campus Controller's Office (or the Medical Center
+Controller, where appropriate) or by an electronic signature authorization. The travel
+expense claim should not be approved by a person who reports directly or indirectly
+to the traveler. Persons delegated the authority to approve travel shall not approve
+their own travel. In addition, travelers may not approve the travel of a near relative,
+e.g., spouse or domestic partner, child, parent, etc.
+B. Payment of Travel
+1. Prepaid Expenses and Direct Charges
+Individual travelers are prohibited from charging hotel and hotel-related expenses
+directly to the University. However, campuses may enter into a direct billing
+arrangement with a hotel for the payment of charges on behalf of travelers for
+room and tax charges only. Campuses should ensure that travelers are aware of
+such arrangements. Transportation tickets and conference fees may also be
+charged directly to the University if the proper controls are in place, such as a
+"ghost card" arrangement. Meals and miscellaneous expenses cannot be charged
+or billed directly to the University as these expenses must be paid by the traveler
+
+when they are incurred, and a claim for reimbursement submitted at the
+conclusion of the trip.
+Sections V.E.4., Payment of Group Subsistence Expenses, V.H.1.c., Students,
+and V.H.2.b., Prospective Employees, provide additional information regarding
+prepaid expenses and direct charges incurred by travelers.
+2. Corporate Travel Cards
+Under guidelines established by campuses, corporate travel cards may be issued
+to employees who travel on official University business.1 Any traveler issued such
+a card should use the card to pay for all expenses related to official University
+business travel, including lodging and subsistence, except where the card is not
+accepted. The cardholder will be billed directly for all expenses charged to the
+corporate card. The cardholder is personally responsible for paying all charges on
+the corporate card and for keeping the card current. The University will not
+reimburse or pay late fee charges incurred in connection with the corporate
+card. Corporate travel card payment delinquencies may result in the cancellation
+of the traveler's card or other corrective action.
+Travelers who have been issued a University corporate travel card are required to
+use the card for cash advances, except under the circumstances listed below in
+Section V.B.3.a., Eligibility.
+The corporate travel card is valid only while an individual is employed by the
+University, may be canceled at the discretion of the University, and must be
+relinquished to the employee's department upon termination of employment.
+3. Cash/Non-Cash Advances
+Travelers are required to use their corporate travel card to obtain cash advances
+for expenses incurred in connection with official University business travel if the
+card provides this feature. Reasonable fees charged for obtaining a cash advance
+using the corporate travel card are eligible for reimbursement.
+a. Eligibility
+Travelers who cannot obtain a cash advance through a corporate card may
+request a cash advance from the University, in accordance with the procedures
+established by the campus, under the following circumstances:
+• The traveler is not eligible to participate in the corporate travel card
+program or has not yet been issued a corporate travel card;
+• The campus's card program does not provide such a feature;
+• The traveler has incurred corporate credit card expenses that must be
+paid before a trip is completed;
+• The travel requires special handling, such as foreign travel, group travel
+for athletics, bowl games, student groups, etc.
+
+1 Procurement Services, CFO Division, is responsible for negotiating contracts for campus corporate card
+programs.
+
+b. Issuance of Cash Advances
+Cash advances must be issued within 30 days of when an expense is to be paid
+or incurred in order to satisfy IRS regulations and to meet the University's cash
+management objectives. The amount requested on the Travel Advance Request
+form shall not exceed a reasonable estimate of the out-of-pocket expenses
+needed for the trip.
+Cash advances should not be authorized under the following circumstances:
+• The traveler is 30 days delinquent in submitting a travel expense claim
+for a prior trip;
+• The corporate travel card cannot be used due to the traveler's failure to
+meet the payment terms of the card; or
+• The corporate travel card has been lost. (Lost cards should be reported
+to the corporate credit card company immediately, and arrangements
+made for issuance of a replacement card.)
+A traveler should have only had one outstanding cash advance per trip; each
+advance should be accounted for before another advance is granted. The
+traveler must submit a travel expense claim even if they are not owed any
+additional reimbursement, in order to document the business purpose for
+which the advance was issued.
+Section V.I., Reporting Travel Expenses, contains information on substantiation
+of cash/non-cash advance expenses. Subsections 1.a, b, and d of Section V.G.,
+Intercampus Travel Expenses, provide information on advances issued for
+intercampus assignments. Section V.H.1.a., Visiting Academic Appointees,
+details special requirements related to handling advances for such appointees.
+c. Canceled or Postponed Trips
+A cash advance must be returned immediately if an authorized trip is canceled or
+indefinitely postponed.
+A nonrefundable ticket associated with a canceled trip must be used for the
+employee's next business trip.
+d. Unrecovered Advances
+All cash advances must be accounted for within forty-five days after a trip is
+completed. Unrecovered advances that are determined not to be business-related travel expenses should be reported as income to the traveler, per section
+V.B.3.d.ii. Accounting Manual chapter R-212-2, Receivables Management,
+addresses the legal limitations with respect to the collection of delinquent
+accounts or other indebtedness incurred by employees.
+i. Recovery Procedures
+An employee's written permission must be obtained before an outstanding
+cash advance can be deducted from wages or from any other amounts due
+to the traveler. If the employee's consent cannot be obtained, the campus
+may recover the debt through a collection agency.
+
+ii. Tax Considerations
+Cash Advances. If an employee fails to substantiate expenses and return
+any unused cash advance amounts within 120 days of the end of a trip, the
+University is obligated under IRS regulations to consider such amounts as
+income to the employee. As a result, the amount of unsubstantiated
+expenses and unrecovered advances will be reported through the payroll
+system as additional wages to the employee no later than the first payroll
+period following the end of the 120-day period. The income and applicable
+employment taxes on the additional wages are to be withheld from the
+employee's regular earnings. No refund of such taxes or any
+adjustment to gross income shall be made with respect to any
+substantiation or reimbursement received from the employee after the
+120-day period. (For more information on tax withholding, see Accounting
+Manual chapter D-371-12.1, Disbursements: Accounting for and Tax
+Reporting of Payments Made through the Vendor System.)
+Non-Cash Advances. Travel payments, such as registration fees, airline
+tickets, etc., made to a vendor on behalf of an employee should follow the
+same reporting time frame for substantiation by the employee as outlined in
+section V.I.1 of this bulletin.
+4. Payment of Expenses on Behalf of Others
+University travelers normally shall not be reimbursed for expenses paid on behalf
+of other persons; however, limited exceptions are permitted (see Section V.H.2.f)
+such as in the case of co-travelers who are sharing a room. Exceptions to this
+rule, such as supervised group trips, must be approved in advance. (See Section
+V.E.4., Payment of Group Subsistence Expenses, for more information.)
+5. Cancellation of Reservations
+Travelers who are unable to honor a reservation shall be responsible for canceling
+the reservation in compliance with the cancellation terms established by the hotel,
+airline, etc. The traveler must return any refundable deposits to the University.
+Charges or lost refunds resulting from failure to cancel reservations shall not be
+reimbursed unless the traveler can show that such failure was the result of
+circumstances beyond the traveler's control.
+The traveler shall be responsible for promptly returning for a refund any unused or
+partially used transportation tickets.
+C. Insurance for Travelers
+1. University Travelers
+All University travelers, including employees, medical residents, students, and
+fellows, are covered worldwide, 24 hours a day, for accidents that occur while on
+official travel status. The coverage includes limited accidental medical expense,
+accidental death, accidental dismemberment, paralysis, and permanent total
+disability. The coverage also includes emergency medical evacuation and
+repatriation of remains when the traveler is 100+ miles from their home or
+headquarters. Additional benefits are available for out-of-country travel, including:
+
+• Security evacuation,
+• Out-of-country medical expense,
+• Hospital admission guarantee,
+• Emergency reunion,
+• Loss of personal effects (employees only), and
+• Travel assistance services.
+Refer to the Travel Risk and Insurance website for more information on travel
+insurance coverage for individuals traveling on University business.
+In addition, all University employees are provided with workers' compensation
+coverage for a work-related injury or illness that occurs during a University-approved and funded business trip.
+a. Registration for Travel Outside of California
+Travelers must register all out-of-state and foreign country business trips.
+Booking travel through Connexxus' preferred travel agencies and supported
+online booking tools, with the exception of SWABIZ (Southwest) automatically
+registers travel; otherwise, the traveler must register travel through the UC Away
+travel registration portal before an out-of-state trip occurs.
+Registration is not required for travel within California.
+2. Vehicles
+For information on insurance coverage requirements for employees who use their
+private vehicles on University business, see Section V.D.3.a.iii., Insurance
+Coverage. Sections V.D.3.b.ii., Insurance Coverage, V.D.3.b.iv., Damage to a
+Rental Vehicle, and V.D.3.c.i., University Vehicles, contain information on
+insurance coverage in connection with rental cars and University vehicles.
+o Refer to the Risk Services website for more information on
+automobile and liability insurance coverage for individuals
+traveling on University business.
+Questions should be directed to the local Risk Management office.
+D. Transportation Expenses
+Transportation expenses shall be reimbursed based on the most economical mode of
+transportation and the most commonly traveled route consistent with the authorized
+purpose of the trip. Any exception must be approved by the Chancellor.
+Travel by a group of employees in the same aircraft, automobile, or other modes of
+transportation is discouraged when the employees' responsibilities are such that an
+accident could seriously affect the functioning of the University. Key employees, such
+as the President, Chancellors, Vice Presidents, or a substantial number of employees
+from the same organizational unit or program, should consider this risk when making
+travel arrangements.
+1. General
+
+a. Definition
+Transportation expenses include the following: charges for commercial carrier
+fares; travel agency service fees; car and aircraft rental charges; private car
+mileage allowances; emergency repair to University cars; overnight and day auto
+parking; bridge and road tolls; taxi and public transportation fares; and all other
+charges for transportation services necessary to accomplish the official business
+purpose of the trip.
+b. Transportation Tickets
+Transportation tickets should be procured in advance in order to obtain any
+discounts offered by the carrier or negotiated by the University. Such tickets
+should be purchased through Connexxus. Travelers will not be reimbursed for
+non-cash certificates used for the purchase of transportation tickets, e.g.,
+frequent flyer miles.
+c. Lost Tickets
+Service charges for tickets lost by travelers may be reimbursed, provided such
+occurrences are infrequent. Charges for re-ticketing, schedule changes, etc. are
+reimbursable if incurred for a valid business reason. The reason for the charge
+must be specified on the travel expense claim.
+d. Allowable Mileage Expense
+Mileage shall ordinarily be computed between the traveler's headquarters and
+the common carrier or destination. Expenses for travel between the traveler's
+residence and headquarters (commuting expense) shall not be allowed.
+However, mileage expenses may be allowed between the traveler's residence
+and the common carrier or destination if University business travel originates or
+terminates during a regularly scheduled day off.
+When a traveler is authorized to drive a private vehicle to or from a common
+carrier terminal, mileage may be reimbursed as follows:
+• One round trip, including parking for the duration of the trip; or
+• Two round trips, including short-term parking expenses, when an
+employee is driven to a common carrier.
+Also, if an employee who is not on travel status has a temporary assignment
+away from campus, reimbursement shall be made for mileage expenses incurred
+between the campus and the assignment location, or home and the assignment
+location, whichever is less.
+e. Surface Transportation Used in Lieu of Air Travel
+If advance approval has been obtained, a traveler may use surface
+transportation for personal reasons, even though air travel is the appropriate
+mode of transportation. The cost of meals and lodging, parking, mileage, tolls,
+taxis, and ferries incurred while in transit by surface transportation may be
+
+reimbursed.1 However, such costs shall not exceed the cost of airfare, based on
+the lower of the regular coach fare available for the location of travel from a
+standard commercial air carrier or the campus travel program fare, plus
+transportation costs to and from the terminals.
+f. Indirect or Interrupted Itineraries
+Obtaining advance approval is suggested when a traveler takes an indirect route
+or interrupts travel by a direct route, for other than University business. Any
+resulting additional expenses shall be borne by the traveler. The reimbursement
+of expenses shall be limited to the actual costs incurred or the charges that
+would have been incurred via a usually traveled route, whichever is less. The
+cost comparison should be based on what UC would have paid, which can be
+obtained by a Connexxus-related travel agency prior to or at the time of booking
+the trip. Any resulting excess travel time will not be considered work time and will
+be charged to the appropriate type of leave. The employee shall be responsible
+for accurately reporting of such leave time.
+g. Travel Extended to Save Costs
+Additional expenses associated with travel extended to save costs, e.g., a
+Saturday night stay for domestic travel, may be reimbursed when the cost of
+airfare would be less than the cost of airfare had the traveler not extended the
+trip (provided the expenses were incurred in compliance with this Bulletin). Such
+expenses, which include lodging, car rental, and M&IE (subject to the
+reimbursement caps set forth in Appendix B) incurred within the vicinity of the
+business destination, shall not exceed the amount the University would have
+paid had the traveler not extended the trip.
+2. Air Travel
+a. Commercial Airlines
+Coach Class. Coach class or any discounted class shall be used in the interest
+of cost-efficiency. This policy applies to all travel (domestic or foreign, or any
+combination thereof) regardless of the purpose or fund source.
+Business or First Class. Use of business or first-class may be authorized under
+the circumstances listed below. Documentation of such circumstances must be
+provided on the travel expense claim.
+• Business or first-class is the only service offered between two points;
+• The use of coach class would be more expensive or time-consuming,
+e.g., when, because of scheduling difficulties, traveling by air coach
+would require an unnecessary hotel expense, circuitous routing, or an
+unduly long layover when making connections;
+• An itinerary involves overnight travel without an opportunity for normal
+rest before the commencement of working hours. Campus procedures
+
+1 The reimbursement of M&IE is subject to the 300 mile-per-day rule specified in Section V.D.3.,
+Automobile.
+
+must include required documentation to support the early meeting start
+time and/or that alternative start dates or times are unavailable; or
+• The use of business or first-class travel is necessary to reasonably
+accommodate a disability or medical need of a traveler.
+When a traveler prefers to use a higher class than the one authorized for
+reimbursement, the traveler must pay the incremental cost of the airfare. In
+cases other than those described above, a written authorization to use business
+or first-class shall be obtained in advance from the Chancellor. The traveler shall
+submit such authorization with the travel expense claim.
+Other Ancillary Charges. Campus Chancellors can establish local policy for
+reimbursement at their respective locations of ancillary charges such as checked
+and carry-on baggage fees, early check-in or priority boarding and seat
+selection. Likewise, reimbursement of higher cost airfare such as Economy Plus,
+Extra Comfort, etc., within the economy class can be included in the local policy.
+U.S. Flag Air Carriers. Under the Fly America Act published in Federal Travel
+Regulation §301-10.13 by the General Services Administration (GSA), only U.S.
+air carriers1 shall be used for all travel reimbursed from federal grants and
+contracts, including NIH grants2. However, there are exceptions to using only
+U.S. air carrier services under the Fly America Act, depending on the scenarios
+shown below:
+• Generally, U.S. air carrier services that provide nonstop or direct
+service from the origin to the destination must be used, unless such
+use would extend travel time, including delay at origin, by 24 hours or
+more;
+• Generally, U.S. air carrier services that do not offer nonstop or direct
+service between origin and destination must be used on every portion of
+the route where it provides service unless when compared to using a
+foreign air carrier, such use would:
+o Increase the number of aircraft changes outside the U.S. by two
+or more; or
+o Extend travel time by at least 6 hours or more; or
+o Require a connecting time of 4 hours or more at an overseas
+interchange point.
+• When the costs of transportation are reimbursed in full by a third party,
+such as a foreign government or an international agency, U.S. air
+carriers do not have to be used.
+
+1 Code-sharing agreements with foreign air carriers, whereby American carriers purchase or have the right
+to sell a block of tickets on a foreign carrier, comply with the Fly America Act Regulations. The ticket, or
+documentation for an electronic ticket, must identify the U.S. carrier's designator code and flight number.
+2 See section 7.9.1 "Travel/Employees."
+
+• Open Skies Agreements. "Open Skies Agreements" are bilateral or
+multilateral air transportation agreements to which the U.S. and the
+government of a foreign country are parties. Under the Open Skies
+Agreements, the U.S. government entered into several air transport
+agreements that allow federally funded transportation services for travel
+and cargo movements to use foreign air carriers under certain
+circumstances. The Department of State's website contains a list of
+countries the U.S. government has Open Skies Agreements with,
+including policy information contained in the various Open Skies
+Agreements. Transportation is allowed between a point in the United
+States and any point in a member state or between two points outside
+the U.S. subject to certain restrictions.
+Travelers funded by federal grants and contracts should review Federal
+Travel Regulation §301-10.106 published by the GSA for any City-Pair
+requirements, and §301-10.135 for any Open Skies requirements. The
+GSA issued Guidance on October 6, 2010, for the Amendment of the
+U.S.-EU Open Skies Agreement effective June 24, 2010. Federal
+contractors and grantees who are not U.S. Government employees
+should consult this guidance to determine if they need to be concerned
+about City-Pair contract fares. Contractors and grantees should also
+check with the airline to ensure that the airline is covered by the U.S.-
+EU Open Skies agreement, which may change periodically.
+Reimbursement of travel on a foreign air carrier may be denied in the
+absence of such justification.
+b. Private Aircraft
+i. Approval
+Before a private aircraft (including a rented aircraft) may be used for official
+travel, the pilot must register with and obtain written approval from the
+Chancellor. In addition, the following requirements must be met:
+• The pilot must have a valid private license;
+• The pilot must have logged at least 10 hours of flight time within the
+preceding 90 days as a pilot in command of an aircraft of the same
+make and model as the one to be used on the trip;
+• To carry passengers, the pilot must either have logged a minimum
+of 500 hours of flight time as a licensed private pilot in command of
+an aircraft or possess a valid commercial (or higher type) pilot's
+license issued by the Federal Aviation Administration.
+• A current pilot history form and a certificate of insurance must be on
+file with the campus risk management office; and
+• Evidence must be provided of Aviation Liability Insurance coverage
+with a minimum combined single limit of $1 million, with The
+Regents named as additional insured.
+
+Transportation expenses for a flight carrying passengers shall not be
+reimbursed if the University pilot does not possess the above qualifications.
+For purposes of the foregoing rule, anyone traveling in the aircraft other
+than the pilot is considered to be a passenger.
+ii. Reimbursement Options
+When the pilot has obtained prior approval to use a private aircraft,
+reimbursement shall be made based on the lesser cost of one of the
+following two options:
+• Private Aircraft Option. An amount for mileage using the private
+reimbursement rate per mile shown in Appendix A, plus the cost of
+meals and lodging while in transit. Mileage shall be computed on the
+basis of the shortest air route from origin to destination. The travel
+expense claim must show the aircraft registration number and shall
+be clearly marked "Air Miles." Only the pilot will be reimbursed for
+mileage expenses. Reimbursement shall be made for actual
+landing and parking fees. Reimbursement is not allowed for storage
+or parking fees at the location where the aircraft is normally stored.
+However, parking and transportation costs to and from the place of
+storage may be reimbursed.
+• Commercial Aircraft Option. The cost of the lowest regular coach
+fare available for the location of travel from a standard commercial
+air carrier, plus the cost of transportation to and from the terminals
+and any meals and lodging that would have been allowed had the
+traveler used a commercial airline. The cost of meals and lodging
+while in transit also may be taken into account in determining the
+appropriate reimbursement amount.
+c. Chartered Aircraft
+The actual expenses of chartering an aircraft are allowable; however, prior
+approval must be obtained from the Chancellor.
+3. Automobile
+Travelers may use their private vehicle for business purposes if it is less
+expensive than renting a car, taking a taxi, or using alternative transportation, or if
+it saves time.
+When a person is authorized to travel by automobile (e.g., when an automobile is
+the most economical and practical mode of transportation given the requirements
+of the trip) actual M&IE incurred en route plus the cost of lodging, when
+appropriate, may be reimbursed. However, a minimum of 300 miles a day must be
+driven by the most direct route in order to obtain the M&IE and lodging
+reimbursement. An exception to the minimum miles per day requirement may be
+approved, however, if a delay is beyond the control of the individual, e.g.,
+weather, traffic, or physical handicap of the traveler.
+a. Private Vehicles
+
+The following rules apply to all domestic travel.
+i. Mileage Reimbursement Rates
+When two or more persons on University business share a private vehicle,
+only the driver may claim reimbursement for mileage.
+• Standard Rate
+The standard reimbursement rate per mile is set forth in Appendix A.
+This rate takes into account all actual automobile expenses such as
+fuel and lubrication, towing charges, repairs, replacements, tires,
+depreciation, insurance, etc. Thus, under IRS regulations, travelers
+who claim this rate are not required to substantiate the actual costs
+of operating the vehicle.
+• Rate for Travelers with Physical Disabilities
+A traveler with a physical disability who must use a specially
+equipped or modified automobile may claim reimbursement at the
+standard rate per mile set forth in Appendix A. However, if the
+traveler incurred higher than standard operating costs, the traveler
+may seek reimbursement by submitting a statement with the travel
+expense claim certifying that they incurred higher operating costs.
+The actual fixed and variable costs must be specified in the
+statement.
+The traveler should refer to IRS Form 2106, Employee Business
+Expenses, to obtain additional information on the calculation of
+actual vehicle operating costs. Form 2106 is available on the IRS
+web site.
+The departmental authority that approves the travel is responsible
+for documenting the traveler's need to use such a vehicle.
+ii. Private Vehicle Used in Lieu of Air Travel
+When a traveler's private vehicle is used on University business in lieu of
+available air travel, the traveler shall be reimbursed in accordance with the
+procedures specified in Section V.D.1.e, Surface Transportation Used in
+Lieu of Air Travel. Fuel, routine repairs and associated costs, tires,
+gasoline, or other automobile expense items shall not be allowed when a
+private vehicle is used. Such expenses are included in the mileage
+reimbursement rates set forth in Appendix A.
+iii. Insurance Coverage
+When private vehicles are used on University business, the appropriate
+campus officials are responsible for requiring that employees have
+adequate liability insurance coverage. The minimum prescribed liability
+insurance coverage is as follows: $50,000 for personal injury to, or death
+of, one person; $100,000 for injury to, or death of, two or more persons in
+one accident; and $50,000 for property damage. An employee who
+regularly uses a private vehicle on University business is required to have
+
+and provide upon request satisfactory evidence of liability insurance
+coverage. Such evidence must be provided to the appropriate office before
+the reimbursement of regular use mileage is allowed. Regular use is
+defined as more than four trips per calendar month totaling at least 300
+miles. When a private vehicle operated by an employee on official
+University business is damaged by collision or sustains other accidental
+damage, reimbursement for repairs borne by the employee may be
+authorized up to $500 or the amount of the deductible (co-insurance),
+whichever is less. Expenses that can be recouped from insurance are not
+eligible for reimbursement. The amount reimbursed shall be based on
+receipts submitted by the employee to the individual who authorized the
+travel. The reimbursement may be charged to the department or to
+another appropriate account as designated by the Chancellor.
+b. Rental Cars
+i. Authorization to Rent
+A vehicle may be rented when renting would be more advantageous to the
+University than other means of commercial transportation, such as using a
+taxi. Advance reservations should be made whenever possible and may
+include up to an intermediate-size model, per the terms of UC-negotiated
+rental agreements. Vehicles up to an intermediate-size model should be
+used unless a no-cost upgrade is provided. When the University's rental
+contracts provide for refueling charges at a negotiated rate, this option may
+be selected to purchase fuel in advance. Hand-held or uninstalled GPS
+devices should not be rented unless the traveler is unfamiliar with the
+location of travel. The use of other higher cost upgrades requires
+exceptional approval.
+The traveler is responsible for obtaining the best available rate
+commensurate with the requirements of the trip. The discount negotiated
+with car rental agencies by the University should be requested when
+available. The University's Connexxus website provides the rental
+agency's University identification number, which should be given to the
+agency at the time of rental in order to ensure that the vehicle is covered by
+physical damage insurance.
+ii. Insurance Coverage
+Travelers are expected to use rental agencies with which the University
+has systemwide contracts that include insurance coverage. The following
+rules apply to insurance coverage for rental cars:
+• The cost of full collision coverage for rental cars used in Alaska,
+Hawaii, U.S. possessions (OCONUS), and foreign countries, is
+allowable.
+• On contract rental vehicles used in the continental United States
+(CONUS), charges for additional insurance are not allowable,
+including any charge for a collision damage waiver (CDW).
+
+• Additional charges for insurance coverage will not be reimbursed if a
+non-contract agency is used unless no car rental company in the
+area has such an agreement with the University.
+• It is recommended that employees purchase supplemental
+insurance when renting a vehicle outside the U.S.
+• A vehicle rented from an agency with which the University has an
+agreement is not covered by insurance when it is being used for a
+personal day of travel.
+Some rental car agreements contain special coverage provisions that differ
+from the general coverage rules detailed above. For additional information
+on rental car insurance coverage, see UC Car Rental Insurance
+Information.
+The campus risk management office should be contacted for information
+on campus-specific contracts or insurance coverage.
+iii. Direct Billing
+Vehicle rental charges billed directly to the University can be authorized
+within parameters established by the Campus Controller's office. Any direct
+bill arrangement should only allow for the rental cost and associated tax for
+rentals that are business-related. Rental car charges that are not direct
+billed should be paid with the traveler's corporate travel card (see Section
+V.B.2, Corporate Travel Cards) or their personal credit card.
+iv. Damage to a Rental Vehicle
+A University traveler may be reimbursed for property damage to a rental
+vehicle only if such expenses were incurred on days the vehicle was being
+used for University business purposes. (See Section V.C.2., Vehicles, for
+more information on insurance coverage). The amount reimbursed may be
+charged to the traveler's department, the department sponsoring the
+traveler, or to an account designated by the Chancellor, as appropriate.
+The traveler shall submit with the travel expense claim a brief description of
+the damage to the vehicle, including an explanation of the cause of such
+damage, and either a police report or a report prepared by the rental
+company.
+c. Official Vehicles
+i. University Vehicles
+University vehicles shall be used in accordance with the guidelines
+contained in BFB BUS-46, Use of University Vehicles. For information
+regarding insurance coverage on University vehicles, refer to BFB BUS-81,
+Insurance Programs.
+d. Miscellaneous Automobile-Related Expenses
+Charges for ferries, bridges, tunnels, or toll roads may be claimed by the vehicle
+operator. Reasonable charges for parking while an employee is on travel status
+
+or on University business away from regular duties also will be allowed for the
+following:
+• Day parking on trips away from an employee's headquarters;
+• Day and overnight parking on overnight trips away from an employee's
+headquarters or residence (a claim should not be made if free overnight
+parking is available); and
+• Parking charges incurred when an employee without a location parking
+permit is occasionally required to drive to and from headquarters.
+Travelers should seek out the longer-term parking accommodations at airports or
+common carriers when travel is expected to exceed twenty-four hours.
+Valet parking charges in excess of normal parking charges shall be borne by the
+traveler unless the traveler obtains an exception.
+4. Rail or Bus
+Rail or bus transportation may be used when required by the destination or by
+business necessity. If a traveler's destination is served by a regularly scheduled
+airline, however, the use of rail transportation shall be reimbursed in accordance
+with the procedures specified in Section V.D.1.e., Surface Transportation Used in
+Lieu of Air Travel. This rule does not apply to inter-city rail travel that is equivalent
+to air transportation in total travel time. Reimbursement for the cost of Pullman
+roomette accommodations is allowed. If more expensive accommodations are
+used, the traveler must justify the expense in a written explanation submitted with
+the travel expense claim.
+If accommodations are included in the rail fare, e.g., Pullman roomette
+accommodations, lodging expenses shall not be reimbursed for each night that
+such accommodations are used.
+5. Ship
+When travel by passenger ship is authorized, transportation at the lowest first-class rate is allowed.
+The reimbursement of subsistence expenses while on board a passenger ship
+shall not be allowed if the cost of subsistence is included in the fare for passage
+and stateroom. If the fare does not include subsistence, reimbursement shall be
+based on the traveler's actual daily expenses, subject to the limits set forth in
+Section V.E., Subsistence Expenses. A full explanation of the circumstances that
+necessitated such expenses must be submitted with the travel expense claim.
+6. Other Forms of Transportation
+a. Local Public Transportation, Shuttle Service, and Taxis
+Local public transportation fares (e.g., buses, subway, streetcars) shall be
+allowed. The cost of shuttle service (including airport limousine service, if
+appropriate) to and from an airport or railroad station, plus reasonable tips, is
+allowable to the extent such service is not included in air or rail fares. Taxi fares,
+including tips, shall be allowed when the use of alternative transportation is
+
+impractical or not available. The cost must be reasonable in relation to personal
+car use costs, including parking, tolls, etc. When traveling to and from the airport
+from the home location, travelers should be good stewards of the University's
+resources and be mindful of the costs associated with the transport method
+selected.
+b. Motorcycles
+Motorcycles shall not be authorized for use on official University business, nor
+shall any reimbursement be made for the use of such vehicles except for the
+following situations:
+• University police department employees on motorcycle assignment; and
+• Motorcycles used when automobile transportation is not an available
+option in the foreign location and used consistent with approved policies
+for foreign locations.
+c. Special Conveyances
+Charges for using other types of conveyance (such as a helicopter or boat) shall
+be allowed when the use is beneficial to the University and when the fare for the
+conveyance is not included in the original cost of the common carrier fare. An
+explanation justifying such use must accompany the travel expense claim unless
+the Chancellor has established a blanket authorization for the travel. A copy of
+the authorization shall be attached to the travel expense claim (unless a blanket
+authorization is published in the campus policy and procedures manual).
+7. Sustainable Travel
+In support of the University Policy on Sustainable Practices, University employees
+traveling or supervising staff that travel may consider the following
+a. Travel only when necessary. Avoid unnecessary travel by leveraging remote
+technology such as video and/or phone conferencing.
+b. If travel is necessary, consider the following:
+• Encourage fuel-efficient modes of travel such as public transportation
+(train, bus), carpooling/ridesharing, biking or walking;
+• Plan ahead to avoid peak travel times and leverage the lowest cost as
+well as sustainable modes of travel;
+• When renting a vehicle for travel is required, consider low-emission
+vehicles. Through the UC Central Management program travelers can,
+at select sites, leverage discounted rates for hybrid electric vehicles
+available through the UC rental car agreements;
+• When driving a personally owned vehicle in lieu of renting while on
+business travel, assess the cost to the University. First by comparing
+the mileage reimbursement rate associated with a personally owned
+vehicle to rental car daily rates. Second, by comparing the potential
+savings related to emissions impacts and fuel efficiency by considering
+renting a hybrid electric vehicle;
+
+• Make travel more efficient by combining multiple meetings and events
+wherever possible. Consider one-way rentals with no drop-off fees that
+are available under some of UC's rental agreements;
+• When air travel is required, consider fuel-efficient regional carriers for
+certain routes, book direct flights whenever feasible (balancing
+efficiencies of cost, time and safety), and leveraging other UC preferred
+airlines that disclose emissions by fleet or individual travel. (Available
+via the Concur online platform, and consider the "emissions" airfare
+search feature)
+• Consider accommodation providers which are actively limiting their
+emissions and encouraging other sustainable practices such as water
+and waste reductions, as well as inclusive and responsible labor
+policies.
+• Review available resources on sustainable travel such as the UCSD
+Sustainable Travel Guide.
+E. Subsistence Expenses
+1. General
+a. Definition
+Subsistence expenses incurred while on travel status consist of charges for
+lodging and meals and incidental expenses (M&IE). For the definition of
+incidental expenses, see Section II., Policy Definitions. Expenses reimbursed
+must be ordinary and necessary to accomplish the official business purpose of
+the trip. Subsistence expenses incurred within the vicinity of an employee's
+headquarters or residence shall not be reimbursed. Actual expenses must be
+documented in accordance with Section V.I.2.b., Documentation Requirements
+to be eligible for reimbursement. Regardless of the length of time for business
+travel, the traveler must be at least forty miles from the headquarter location or
+home, whichever is closer, to be reimbursed for an overnight stay.
+b. Entertainment Meals
+Expenses for meals incurred by employees who entertain while on travel status
+are reimbursable in accordance with BFB BUS-79, Expenditures for Business
+Meetings, Entertainment, and Other Occasions.
+2. Travel in Excess of 24 Hours
+a. Domestic Travel - Travel within the United States and Its Possessions
+For purposes of determining the applicability of Sections i, ii, and iii below, an
+official University business trip begins when the traveler leaves their residence or
+headquarters, whichever occurs last, and ends when the traveler returns to their
+residence or headquarters, whichever occurs first.
+i. Travel - Assignments of Less than 30 Days
+CONUS Travel. For travel assignments of less than 30 days within the
+continental United States (CONUS), the reimbursement of daily
+
+subsistence expenses shall be based on the actual amounts incurred for
+lodging and meals and incidental expenses, subject to the maximum per
+day reimbursement cap described below. The M&IE cap for CONUS
+travel under 30 days shall not be treated as a per diem. M&IE
+reimbursement shall be limited to the actual reasonable costs incurred;
+subject to the daily maximum reimbursement cap set forth in Appendix B.
+Departments should remind their travelers that only expenses actually
+incurred are reimbursable. Travelers should be required to submit meal
+receipts if it appears that they are treating the cap as a per diem by
+routinely claiming the full M&IE amount. Lodging expense reimbursements
+are actual up to $333 per night before taxes and mandatory hotel fees and
+must be supported by original itemized receipts, regardless of the amounts
+incurred, and must be reasonable for the locality of travel. When the
+traveler is unable to secure lodging at $333 per night or less, the traveler
+must submit additional documentation such as price comparisons within
+the proximity of the meeting location that supports the higher lodging rate
+incurred. The price comparisons should be performed at the time of
+booking.
+A traveler who is required to attend a conference where the prearranged
+conference lodging rate exceeds the $333 per night cap may stay at the
+conference hotel without exceptional approval.
+OCONUS Travel. Travel within Alaska, Hawaii, and U.S. possessions
+(OCONUS) shall be reimbursed in accordance with the non-foreign locality
+per diem rates published by the Department of Defense (see Appendix B).
+ii. Long-Term Travel - Assignments of 30 Days or More
+The long-term daily expense rate shall be authorized when a traveler can
+reasonably be expected to incur expenses in one location comparable to
+those arising from the use of establishments catering to long-term visitors,
+and when the traveler is expected to be in one location for 30 or more
+consecutive days but not in excess of one year.
+CONUS Travel. For domestic travel assignments of 30 days or more within
+the continental United States, the per diem allowance authorized for
+subsistence expenses is based on an estimate of actual daily expenses
+(see below for information on estimating and computing a daily expense
+rate). Reimbursement of such expenses shall be limited to a daily amount
+of up to 100% of the applicable federal per diem rate (published by the
+General Services Administration) established for travel within CONUS (see
+Appendix B). Actual costs paid for lodging taxes, which are not
+included in CONUS per diem rates, may be reimbursed as a
+miscellaneous expense.
+OCONUS Travel. For travel within Alaska, Hawaii and U. S. possessions
+the actual lodging and subsistence expense incurred shall be reimbursed,
+limited to 100% of the non-foreign locality per diem rates (see Appendix B).
+
+Daily Expense Rate. The daily expense rate is computed by dividing the
+monthly lodging costs (determined by estimating actual expenses) plus an
+appropriate amount for M&IE (not to exceed the amounts specified in
+Appendix B), by the number of days of occupancy in the rental period. The
+following recurring expenses may be considered part of the lodging cost
+when a traveler rents a room, apartment, house, or other lodging on a long-term basis:
+• Rental cost of a furnished dwelling;
+• Utilities;
+• Monthly base telephone charges.
+iii. Indefinite Travel - Assignments that Exceed One Year
+Under the IRS one-year rule, travel away from home that lasts more than
+one year in a single work location is considered indefinite. Any travel
+expenses reimbursed during that period must be treated as taxable income
+subject to withholding for income and employment taxes (i.e., social
+security and Medicare).
+Accordingly, for an employee whose indefinite assignment requires a
+change of residence in order to undertake an assignment, who plans to
+return at the end of the assignment, and who expects to remain in a single
+location for more than one year, subsistence expense reimbursement shall
+be treated as follows:
+• The entire reimbursement, effective as of the first day of the
+traveler's assignment, shall be included in the employee's gross
+income subject to withholding for income and applicable
+employment taxes;
+• The subsistence reimbursement must be paid through the payroll
+system as additional income subject to withholding;
+• The reimbursement for such assignments shall be limited to 2 years.
+An exception may be granted by the Chancellor to extend the
+reimbursement for a longer period of time; and
+• The cost of moving the employee to and from the location of the
+indefinite assignment shall be reimbursed in accordance with
+University moving policies (refer to BFB G-13, Policy and
+Regulations Governing Moving and Relocation).
+To compensate for additional federal and state income taxes and
+employment taxes owed by the employee, the reimbursement rate for
+actual subsistence expenses may be increased up to 150% of the per
+diem rates authorized for domestic travel of 30 days or more (see Section
+E.2.a.ii. above).
+A separate calculation of the amount of the increase must be made for
+each employee, taking into account each employee's additional federal and
+state income tax liability and liability for employment taxes. The formula
+
+provided by the IRS for grossing up payments to cover an employee's tax
+liability should be used to calculate the increase (see Appendix C for
+examples based on the IRS Tax Gross Up Formula).
+Under IRS regulations, the following situations also are considered
+indefinite assignments:
+• Indefinite Assignment Ends Prematurely
+An indefinite assignment that is realistically expected to last more
+than one year shall be considered indefinite regardless of whether it
+actually exceeds one year. Thus, any amounts withheld in
+connection with the employee's travel expense reimbursements
+would not be refundable if the assignment ends prematurely.
+• Temporary Assignment Extended
+If a temporary assignment is realistically expected to last for one
+year or less, but at some later date is extended to exceed one year,
+then the assignment shall be treated as temporary until the date the
+employee's realistic expectations change. Thus, travel expense
+reimbursements would not be taxable for the period of the
+assignment that was expected to be temporary. Travel expenses
+reimbursed thereafter must be included in the employee's income
+subject to withholding.
+• Indefinite Assignment Interrupted by Trips to Former Residence or
+to Headquarters
+An indefinite assignment that is interrupted by occasional trips to the
+employee's former residence or headquarters shall be subject to the
+one-year rule. Such return trips do not change the tax status of an
+indefinite assignment.
+b. Foreign Travel
+Under IRS regulations, foreign travel expenses are subject to a special allocation
+rule that is used to disallow certain nonbusiness travel expenses. The disallowed
+expenses are treated as taxable income to the employee, and are computed as
+follows:
+Number of nonbusiness days divided by total number of business and
+nonbusiness days and then multiplied by total travel expenses.
+See Section VII., Frequently Asked Questions, for the four situations where the
+special allocation rule does not apply to nonbusiness foreign travel expenses.
+i. Travel - Assignments of Less Than 30 Days
+Foreign travel shall be reimbursed in accordance with the Federal
+Maximum Travel Per Diem Allowances for Foreign Areas published by the
+Department of State (see Appendix B). (Refer to Section c, Adjustment of
+Per Diem Rates, below, for information on prorating per diems). An official
+University business trip begins when the traveler leaves their residence or
+headquarters, whichever occurs last, and ends when the traveler returns to
+
+their residence or headquarters, whichever occurs first. Travelers should
+only claim actual travel expenses (e.g., subsistence and lodging) up to the
+per diem rate.
+If actual expenses that are greater than the per diem are claimed due to
+special or unusual circumstances, the traveler must document such
+circumstances by submitting a written explanation with the travel expense
+claim. The amount reimbursed, however, may not exceed 300% of the
+applicable federal rate established for the location of travel. The
+reimbursement of actual expenses must be supported by receipts, as
+specified in Section V.I.2.b., Documentation Requirements.
+The following are some examples of special or unusual circumstances that
+warrant reimbursement of actual expenses:
+• A traveler is required to attend a meeting or conference where
+meals and lodging must be obtained at a prearranged place, and
+lodging consumes all or most of the applicable maximum per diem
+allowance;
+• The travel is to an area where the per diem is normally adequate,
+but subsistence costs have temporarily increased because of a
+special event or function, e.g., a national or international sports
+event; or
+• Due to the situation described above, affordable lodging is not
+available within a reasonable commuting distance of the employee's
+meeting or conference, and transportation costs to commute to and
+from the less expensive lodging facility consume most or all of the
+savings achieved from occupying less expensive lodging.
+ii. Long-Term Travel - Assignments of 30 Days or More
+The per diem allowance authorized for long-term travel is actual costs up
+to 100% of the applicable federal per diem rate (see Appendix B). The
+traveler is expected to seek long-term accommodations when staying in
+one location for 30 or more consecutive days but less than one year. See
+Section V.E.2.a.ii., Long-Term Travel - Assignments of 30 Days or More,
+above, for information on estimating and computing a daily lodging rate.
+iii. Indefinite Travel - Assignments that Exceed One Year
+The rules for domestic indefinite travel set forth in Section V.E.2.a.iii.,
+Indefinite Travel - Assignments that Exceed One Year, above, also apply to
+the reimbursement of travel expenses incurred in connection with indefinite
+foreign assignments of one year or more, with the following exceptions:
+• To compensate for additional federal and state income taxes and
+employment taxes owed by the employee, the reimbursement rate
+for actual subsistence expenses may be increased by up to 150%
+of the applicable federal per diem rate authorized for long-term
+travel (see Section ii, Long Term Travel, above).
+
+• The amount of the increase, if any, calculated for each employee
+must take into account the effect of the annual foreign earned
+income exclusion that may be available to the employee.
+c. Adjustment of Per Diem Rates
+Travelers may not request reimbursement of actual expenses for one portion of
+a trip and per diem for the remainder. The method selected must be used for the
+entire trip. However, a per diem may be used for M&IE and actual costs used for
+lodging. The request for reimbursement of such lodging expenses must be
+supported by receipts. See Section V.E.2.b.i., Travel - Assignments of Less
+Than 30 Days, above, if the traveler is claiming actual expenses due to special
+or unusual circumstances.
+i. Adjustment for Multiple Locations
+The method provided in Appendix D may be used to determine travel
+expenses when a trip is reimbursable under more than one per diem rate.
+This method may not be used if an alternative method is contractually
+mandated by the funding source.
+ii. Adjustment for Partial Days
+The reimbursement of subsistence expenses shall be calculated in
+multiples of the applicable federal per diem rate based on the total number
+of hours between the time of arrival at the foreign or OCONUS location and
+the time of departure for the return trip to the traveler's headquarters or
+residence (see Section V.E.2.b.i., Travel - Assignments of Less than 30
+Days, for the definition of when a travel assignment begins and ends).
+For partial days, hours should be rounded to the nearest quarter day as
+follows: 3 hours up to 9 hours equals 1/4 day; 9 hours up to 15 hours
+equals 1/2 day; 15 hours up to 21 hours equals 3/4 day; and 21 hours up to
+24 hours equals 1 day.
+An alternative method of prorating partial days may be used provided the
+method is reasonable and consistently applied.
+iii. Adjustment for Subsistence or Lodging Provided Without Charge
+When subsistence or lodging expenses are paid directly by the University,
+are reimbursed as entertainment expenses, or are otherwise furnished to
+the traveler without charge, the per diem rate authorized for foreign (or for
+OCONUS) travel must be reduced correspondingly by the amounts
+specified in Appendix B, Section 301 of the Federal Travel Regulation.
+When lodging is provided without charge, only the M&IE portion of the per
+diem will be reimbursed. An alternative method may be used to reduce the
+M&IE rate provided the method is reasonable and consistently applied.
+Situations that may require an adjustment include the following:
+• Meals are furnished as part of official University entertainment,
+• Meal or lodging expenses are included in the registration fees,
+
+• Group expenses are billed directly to the University, or
+• Complimentary accommodations are extended (generally to a
+conference leader/coordinator and assistants) by a hotel or motel
+complex for block patronage of guest rooms.
+Refer to Section 4, Payment of Group Subsistence Expenses, below, for
+more information on claiming group expenses.
+d. Use of Non-Commercial Facilities
+When non-commercial facilities such as cabins, house trailers, vans, field
+camping equipment, or other such facilities are used, the traveler shall be
+reimbursed a daily amount based on an estimate of actual expenses up to 100%
+of the applicable federal per diem rate for the appropriate geographic area (see
+Appendix B). (See Section V.E.2.a.ii., Long-Term Travel - Assignments of 30
+Days or More, above, for information on computing the daily expense rate).
+e. Lodging with a Friend or Relative
+When a traveler lodges with a friend or relative while on official business for the
+University, a non-cash gift, such as flowers, groceries, or a restaurant meal, may
+be provided to the host. The actual cost of such a gift may be reimbursed up to
+$75. Under IRS regulations, a receipt must be provided for gifts costing $25 or
+more. Only one gift per stay may be provided to a host.
+3. Travel of Less than 24 Hours
+When the entire length of a trip is less than 24 hours, M&IE shall not be
+reimbursed unless the travel includes an "overnight stay" as supported by a
+lodging receipt.1 If the traveler is unable to provide a receipt, they must include a
+statement with the travel expense claim explaining why a receipt is not available
+(e.g., the traveler lodged with a friend or relative, stayed overnight at the airport,
+or took alternative transportation that required the traveler to be away overnight).
+An exception to the overnight-stay requirement may be allowed when a traveler
+incurs a meal expense in connection with a business meeting (e.g., a working
+lunch scheduled as an integral part of a meeting or conference). The business
+purpose of the meal must be explained on the travel expense claim or
+substantiated by other documentation (e.g., an agenda), which should be
+attached to the claim. Reimbursement for the cost of the traveler's meal is allowed
+up to the maximum amounts set forth in BUS-79.
+For a trip of less than 24 hours that includes an overnight stay, reimbursement
+shall be authorized as follows:
+a. CONUS Travel
+The actual cost of lodging and M&IE is subject to the daily maximum amount set
+forth in Appendix B for M&IE incurred on travel of less than 30 days. The
+maximum amount for a single day shall be authorized for the entire trip, even if
+
+1 The overnight-stay requirement does not apply to meal reimbursements authorized under BUS-79,
+Expenditures for Business Meetings, Entertainment, and Other Occasions.
+
+the trip takes place over two consecutive days. The traveler must be at least
+forty miles from the headquarter location or home, whichever is closer, to be
+reimbursed for an overnight stay.
+b. Foreign and OCONUS Travel
+The actual cost of lodging is not to exceed the applicable federal per diem rate
+(see Appendix B). For continuous travel of 21 hours or more, one full per diem
+should be authorized for M&IE. The per diem must be prorated for travel of less
+than 21 hours, in accordance with Section V.E.2.c.ii.; however, reimbursement
+may be authorized only if the travel involves an overnight stay. A lodging receipt
+must be provided or a statement explaining why a receipt is not available, even if
+the traveler claims the per diem method of reimbursement.
+Appendix E provides additional information on the reimbursement of M&IE
+expenses for travel of less than 24 hours.
+4. Payment of Group Subsistence Expenses
+The University may negotiate agreements with restaurants, hotels, and similar
+establishments to furnish subsistence to a group or groups of University
+employees when it is to the University's advantage. Under such an agreement,
+the vendor may be paid either by the group leader or by billing the University.
+Reimbursement of such expenses may be claimed by group travelers as follows:
+o Group leaders who pay all or part of the group's expenses may be
+reimbursed by submitting a claim for the actual expenses incurred. The
+claim must be accompanied by the vendor's invoice/receipt showing
+payment in full.
+o Members of a group who have some portion of their subsistence expenses
+paid by the group leader may claim reimbursement for the remainder of
+their subsistence expenses.
+5. California City and County Transient Occupancy Taxes Exemption
+In a limited number of California cities and counties, University employees
+traveling on official business are granted an exemption from the payment of
+occupancy taxes imposed by these cities or counties on the transient rental of
+rooms. Travelers should identify themselves as University employees and claim
+exemption from the tax when checking in. The traveler may be required to
+complete an exemption certificate. For additional information regarding the
+exemption and a list of cities and counties that grant an exemption, see
+Accounting Manual chapter T-182-75, Taxes: Transient Occupancy Taxes.
+F. Miscellaneous Travel Expenses
+Miscellaneous expenses are reimbursable when they are ordinary and necessary to
+accomplish the official business purpose of a trip. The travel expense claim must
+include an explanation of why such expenditures are being claimed.
+Allowable miscellaneous expenses include the following:
+• Business office expenses such as word processing services; equipment
+
+rentals; fax and computer expenses; copy services; overnight
+delivery/postage; purchase of materials and supplies, when normal purchasing
+procedures cannot be followed; rental of a room or other facility for the
+transaction of official business; local and long-distance telephone calls
+(including one reasonably brief, non-emergency, personal call home per day);
+and laundering, cleaning, or pressing of clothing (if a trip exceeds six days).
+• Special fees for foreign travel, including the actual cost of obtaining a passport,
+visa, tourist card, and necessary photographs; cost of certificates of birth,
+health, identity, and related affidavits; charges for required inoculations and
+medical evacuation insurance; currency conversion and check cashing fees;
+the cost of traveler's checks; costs related to hiring guides, translators, and
+local labor; and the cost of full collision insurance on automobiles rented in
+foreign countries (see Section V.D.3.b.ii. for more information on insurance
+coverage).
+• Registration fees for attendance at conferences, conventions, or meetings of
+professional or learned societies.
+Actual costs for lodging taxes (not included in CONUS per diem rates). (See Section
+V.E.2.a.ii., Long-Term Travel - Assignment of 30 Days or More).
+• Charges for checking and storing baggage necessary for the business
+purpose of a trip. Excess baggage charges are also allowable; however, a
+justification for carrying excess baggage must be provided on the travel
+expense claim.
+• The occasional use of a one-day airline or airport membership may be
+approved, provided there is a significant business purpose of the use of the
+membership, such as a planned meeting or conference call. The cost of the
+membership is reimbursable as a miscellaneous travel expense.1
+• Other ordinary and necessary expenses not included in the above categories.
+G. Intercampus Travel Expenses
+The following procedures shall apply to the administration of travel for intercampus
+travelers and for visitors from outside the University when the cost of the travel will be
+paid by the funding campus (i.e., the host campus):
+1. Funding Campus Responsibilities
+a. Travel Funded by a Single Campus
+i. Funding Campus
+The funding campus (i.e., the host campus) shall be responsible for issuing
+cash/non-cash advances if applicable, accepting and approving the travel
+expense claim, and reimbursing amounts due to the traveler.
+b. Home Campus
+
+1 Effective February 1, 2009.
+
+Intercampus travelers may use their home campus staff and travel agencies to
+make reservations and ticket purchases. Such travelers also may use their
+corporate cards to make ticket purchases.
+c. Travel Funded by Two or More Campuses
+i. Designated Funding Campus
+Travel funded by two or more campuses shall be handled by only one
+location, which shall be mutually agreed to by the campus departments
+involved. The designated funding campus shall be responsible for
+administering all aspects of the travel, which includes issuing cash/non-cash advances, if applicable, and approval and reimbursement of travel
+expenses on behalf of the other campus (es). The procedures outlined
+above in Section V.G.1.a.ii., Home Campus, also are applicable here.
+The agreement to fund travel in this manner shall be initiated by the
+designated funding campus and shall be in writing with a copy provided to
+each campus accounting office stating either the maximum dollar amount
+or the percentage of the total cost to be charged to each campus.
+ii. Final Settlement
+After final settlement of multi-campus funded travel has been made, the
+designated funding campus accounting office shall prepare the appropriate
+journals to distribute the travel expenses between the campuses. A copy of
+the travel expense claim should be attached to the journals and forwarded
+to the other funding campuses as documentation of the expense
+reimbursement.
+The copy of the travel expense claim shall include the date and check
+number (or transaction identification number) of the reimbursement. This
+information will be used by the other campus accounting office(s) to
+prepare a journal to charge the appropriate account/fund and credit the
+designated funding campus control account.
+d. Missing Original Receipts
+Reimbursement of travel expenses for which the original receipts have been lost
+or are not available must be treated in accordance with the procedures set forth
+in Section V.I.2.b, Documentation Requirements. If such expenses are to be
+reimbursed, the funding campus department must verify with the traveler's
+home campus department that no expense reimbursement has been
+authorized that duplicates the expenses to be charged to the funding
+campus.
+e. Outstanding Cash Advances
+If an intercampus traveler does not return an outstanding cash advance within
+120 days (see Section V.B.3.d., Unrecovered Advances), the following
+procedures shall apply:
+• The funding campus accounting office shall charge the funding campus
+department for the amount of the advance plus the employer's share of
+
+employment taxes. The accounting office shall notify the funding
+department of the amount of the expenses.
+• The funding campus accounting office shall send a written authorization
+to the home campus accounting office with instructions to report the
+advance as additional income to the traveler and to schedule the
+appropriate federal and state income tax and employment tax
+withholding.
+For travel funded by more than one campus, the amount of the charge
+plus the employer's share of employment taxes shall be prorated and
+distributed to each campus in accordance with the original agreement.
+• The home campus payroll office shall add the amount of the advance to
+the employee's Form W-2 as income and schedule the appropriate
+amount of federal and state income tax and employment tax
+withholding.
+2. Home Campus Responsibilities
+Home campus departments and the home campus/medical center controller's
+office must inform their personnel of the following rules:
+• Tickets purchased for intercampus travelers shall not be reimbursed by the
+home campus if another campus is paying for the travel.
+• Cash advances must not be issued to intercampus travelers if the
+expenses are to be reimbursed by another campus.
+• The traveler must refund an advance to the home campus if the campus
+issues a travel advance for travel to be funded by another campus.
+Campuses may use a modified version of the foregoing procedures provided the
+method used is based on sound internal controls, eliminates duplicative efforts,
+and results in improved cost-effectiveness.
+H. Special Travel Situations
+1. University Travelers
+Travelers in this category include visiting academic appointees, faculty members
+on sabbatical leave, students, and post-docs and other non-degree candidates.
+Travel expenses for these travelers must be paid, reimbursed, and reported in
+accordance with the provisions of this Bulletin.
+a. Visiting Academic Appointees
+i. General
+An academic appointee with a Visiting title who is employed full-time for at
+least one quarter may be reimbursed for travel and related expenses
+incurred by reason of their appointment. Academic Personnel Manual
+Section 230, Visiting Appointments, contains information concerning
+allowable expenses, limitations, funding, and approval authority.
+b. Authorized Advances
+
+The amount of any authorized advance may not exceed the actual cost of
+transportation (which may be prepaid) plus 75% of the anticipated allowable
+subsistence and miscellaneous expenses.
+c. Return Travel
+After completion of the term of appointment, reimbursement may be made for
+return travel to the point of origin or another destination, whichever is shorter.
+d. Faculty Member on Sabbatical Leave
+Travel expenses incurred by faculty members on sabbatical leave are
+reimbursable if the travel is undertaken to perform study or research that cannot
+be done elsewhere. At the discretion of the department, a faculty member may
+be reimbursed for additional lodging expenses incurred at the sabbatical
+location, less any income received by the individual for renting out their primary
+residence.
+Sabbatical travel expenses are not reimbursable if the travel is for a personal,
+recreational, or educational purpose that has no direct relationship to the
+individual's area of study.
+A faculty member who is on sabbatical leave of less than one year is considered
+to be temporarily away from home and therefore may be reimbursed for
+reasonable travel expenses incurred at the temporary location, including meals
+and lodging (see Section V.E.2.a.ii., Long-Term Travel - Assignments of 30 Days
+or More, for more information on temporary travel).
+Any sabbatical travel expenses allocable to a spouse or domestic partner or
+dependent(s) are considered taxable; accordingly, such expenses may not be
+reimbursed (see Section V.H.2.f., Spousal Travel).
+e. Students
+A student may be reimbursed for travel expenses when there is a direct
+connection between the expense and the business purposes of the University.
+Departments may also reimburse students for degree-related educational travel
+expenses, i.e., to attend a conference or visit a field site or laboratory facility.1
+The business purpose of the travel must be substantiated on the travel expense
+claim, or other substantiating documentation must be provided, such as a copy
+of the meeting/conference program. Travel will be considered to have a
+University business purpose if travel:
+• Directly supports a faculty member's project or research program, or
+• Is an integral part of the student's degree work, or
+
+1 Travel funded under a scholarship or fellowship is subject to the tax reporting rules set forth in
+Accounting Manual Chapter T-182-77, Taxes: Taxation of Scholarship and Fellowship Grants and
+Educational Assistance.
+
+• Is required for attendance at student-oriented meetings, student
+government events, University athletic events by student athletes, and
+the like, or
+• Enables the student to attend a conference to present research findings
+for the University or to act in some other capacity on behalf of the
+University.
+Transportation expenses for group travelers may be billed directly to the
+University, in accordance with Section V.E.4., Payment of Group Subsistence
+Expenses. Travel arrangements should be made through the campus-designated travel agency.
+Student athletes who participate in off-site athletic events are also subject to
+NCAA rules and regulations governing travel.
+f. Postdocs and Other Non-Degree Candidates
+Postdoctoral fellows may be reimbursed for travel expenses if there is a
+University business-related reason for the travel, e.g., the individual is required to
+present a paper, deliver a speech or lecture, serve on a panel, etc. as an official
+representative of the University. The department should substantiate the
+University business purpose on the travel expense claim or provide other
+documentation, such as a copy of the meeting/conference program.1
+Such individuals may also be reimbursed for travel related to their training, e.g.,
+to visit a field site or an off-campus laboratory. The department must certify that
+the travel directly supports faculty research or other scholarly programs.
+2. Non-University Travelers
+Travelers in this category include prospective employees, independent
+contractors and consultants, inbound travelers hired by the University for a
+temporary assignment at a campus or the LBNL, foreign visiting scholars,
+spouses/domestic partners, and other dependents and dependent-care providers.
+a. General Regulations
+Allowable travel expenses for non-University travelers are subject to the
+provisions of this Bulletin. A travel expense claim must be submitted in
+accordance with the requirements set forth in Section V.I., Reporting Travel
+Expenses. Such reimbursements shall be tax-coded as specified in Accounting
+Manual chapter D-371-12.1, Disbursements: Accounting For and Tax Reporting
+of Payments Made through the Vendor System.
+Travel expenses incurred by non-University travelers shall not be reimbursed
+from a University fund source unless the travel has been approved in advance
+by the inviting department.
+b. Prospective Employees
+i. Authorization
+
+1 See Footnote 9.
+
+The University may reimburse the actual travel expenses related to
+interviewing prospective employees when such expenses are necessary to
+acquire key personnel for employment at the University. Authorization shall
+be obtained before any commitment to reimburse travel expenses is made
+to the prospective employee. Reimbursement of allowable expenses is not
+taxable if the expenses are properly substantiated. In addition, at the
+Chancellor's discretion, actual travel expenses and dependent care
+expenses may be reimbursed for spouses/domestic partners, dependents
+and dependent-care providers who accompany candidates for faculty or
+high-level administrative positions (including Manager and Senior
+Professional positions) on final interviews.
+ii. Allowable Expenses
+Actual transportation expenses shall not exceed one round-trip coach
+airfare between the prospective employee's current residence and the
+interview location for each round of interviews. Subsistence and non-personal miscellaneous expenses also may be reimbursed. Transportation
+and lodging expenses for such individuals may be paid directly by the
+University. Such travel arrangements should be made by the department
+through the campus' designated travel agency.
+c. Independent Contractors and Consultants
+Reasonable travel expenses incurred by University-retained independent
+contractors or consultants are reimbursable in accordance with this Bulletin.
+Such reimbursements are not taxable, provided the amounts claimed are
+properly substantiated. Unsubstantiated amounts must be reported as income to
+the contractor, on a Form 1099 (see Accounting Manual chapter D-371-12.1,
+Disbursements: Accounting for and Tax Reporting of Payments Made through
+the Vendor System).
+d. Inbound Travel - Temporary Assignments
+Individuals (including employees, independent contractors, and consultants)
+hired by the University for temporary assignments that do not last more than one
+year may be reimbursed for travel expenses, including meals and lodging. Such
+individuals must incur lodging expenses that duplicate the expenses of a
+permanent residence in another location and satisfy one of the following
+criteria:
+• The traveler has a member or members of their family currently residing
+at the permanent home; or
+• The traveler intends to return to the vicinity in which their claimed
+residence is located.
+The reimbursement for lodging shall be reduced by any amount received by the
+traveler for renting out their primary residence.
+Inbound travel is subject to the provisions for outbound travelers outlined in
+Section V.E.2., Travel in Excess of 24 Hours. Inbound travel in excess of one
+
+year is subject to the provisions contained in Section V.E.2.a.iii., Indefinite Travel
+- Assignments That Exceed One Year.
+e. Foreign Visiting Scholars
+A foreign visiting scholar who is an employee of another entity (e.g., a foreign
+university) may be reimbursed for substantiated travel expenses. Such amounts
+are excludable from the individual's income, are not reported as compensation,
+and are exempt from withholding and payment of employment taxes.
+A foreign visiting scholar who is an independent contractor may be reimbursed
+for travel expenses provided the expenses are properly substantiated, and the
+amount of the reimbursement does not exceed the substantiated expenses. If
+these requirements are met, such payments are not subject to withholding or
+reporting.
+Payments to foreign visitors, including advances for airfare, cash advances, and
+reimbursements for travel expenses, may be restricted by the visitor's visa status
+or other requirements established by the Department of Homeland Security. In
+most cases, additional documentation must be provided by the visitor in
+advance of reimbursement. Refer to Accounting Manual chapter, T-182-27,
+Taxes: Federal Taxation of Aliens, for more information.
+f. Spouse, domestic partner, dependent, and dependent-care provider travel
+i. Reimbursement of expenses for bona fide University business travel
+purpose
+The travel expenses of a spouse/domestic partners who accompanies a
+University business traveler (e.g., the President, Provost, Senior Vice
+President, Vice Presidents, Chancellors, Laboratory Directors, Principal
+Officers of The Regents, or other employees as approved by the
+Chancellor) are reimbursable under this Bulletin, provided it can be
+established that the spouse or domestic partner's presence serves a bona
+fide University business purpose.
+Under IRS regulations, the travel expenses of a spouse or domestic
+partner are not taxable, provided it can be established that their presence
+serves a bona fide business purpose. A spouse or domestic partner who
+attends a function is considered to have a business purpose if they have a
+significant role in the proceedings or makes an important contribution to
+the success of an event. Generally, protocol or tradition dictates when the
+participation of a high-level official's spouse or domestic partner is required
+at official University functions, such as alumni gatherings, fund-raising or
+ceremonial activities, certain athletic events (see below), and community
+events. Documentation should be provided with the travel expense claim to
+show that the spouse or domestic partner's attendance at the function
+meets the above conditions (e.g., an event or meeting agenda, or a letter of
+invitation requesting that the spouse or domestic partner attend the
+meeting or event).
+If a spouse or domestic partner has no significant role in the proceedings or
+performs only incidental duties of a social or clerical nature, attendance
+
+does not constitute a bona fide business purpose. Such expenses are
+taxable to the employee and, therefore, may not be reimbursed under this
+policy.
+In accordance with the Policy on Associate of the President/Chancellor, an
+Associate may be reimbursed for expenses related to the use of a personal
+automobile for University business purposes at the basic mileage rate
+specified in Appendix A.
+ii. Reimbursement for travel expenses of a spouse, domestic partner,
+dependents, or dependent-care provider
+Reimbursement of travel expenses, including dependent care expenses for
+a spouse, domestic partner, dependent-care provider and dependents who
+accompany an employee or candidate for employment on bona fide
+University business travel may be allowed in limited circumstances when
+pre-approved by the Chancellor, Executive Vice Chancellor/Provost, Dean,
+Director, Department Chair, or other senior University officer, as designed.
+See Section VII., Frequently Asked Questions, for examples of limited
+circumstances that might be allowed. Reimbursement of expenses related
+to dependent care provided outside of normal working hours while an
+employee or candidate for employment is traveling on bona fide University
+business may be allowed in limited circumstances when pre-approved by
+the Chancellor, Executive Vice Chancellor/Provost, Dean, Director,
+Department Chair, or other senior University officers as designated.
+Reimbursable expenses that do not have a clear University business
+purpose are taxable. Reimbursements under this policy for dependent(s)
+travel expenses and/or dependent(s) care are taxable.
+Funding. Spouse, domestic partner, dependent-care provider and dependent
+travel expenses may be charged to allowable funds containing no restrictions on
+the use of funding for these purposes. For travel charged to a contract or grant
+fund, the traveler should check with the contract or grant sponsor whether these
+travel expenses are permitted under any special provisions of the contract or
+grant. Allowable funds controlled by the University may be used to fund spouse,
+domestic partner, dependent-care provider and dependent travel, but only within
+the restrictions, if any, governing the use of the fund and within the policy set
+forth in this Bulletin. See Section VII. Frequently Asked Questions for more
+details.
+g. Athletic Travel - Spouse or Domestic Partner and Other Family Members
+Travel by a spouse or domestic partner who accompanies an athletic director (or
+assistant director or head coach) to sporting events such as bowl games and
+tournaments is presumed to have a bona fide University business purpose (see
+Section f, Spouse or domestic partner Travel, above) in situations where the
+NCAA or potential donors expect that certain high-ranking members of the
+athletic department, and their spouse or domestic partner, will participate in
+events associated with these athletic activities. The travel expenses of a spouse
+incurred in the pursuit of such activities may be reimbursed, provided
+documentation, such as an NCAA event agenda, is provided to substantiate the
+
+business purpose of the travel. Such amounts are not taxable or subject to
+reporting.
+Travel expenses incurred by other family members generally do not satisfy the
+bona fide University business purpose test and therefore are not reimbursable;
+however, see Section VI.F.ii and the FAQs in Section VII for special
+circumstances where such expenses might be reimbursed but still treated as
+taxable.
+Refer to Section f above for information on funding sources for spouse or
+domestic partner travel.
+I. Reporting Travel Expenses
+A travel expense claim (Form U85 or an equivalent, or an electronic version) shall be
+used to account for all travel advances and expenses incurred in connection with
+official University travel. When properly completed and approved, this form is used to
+reimburse the traveler for any additional amounts due. A travel expense claim must
+be processed even if no reimbursement is due to the traveler.
+1. Reporting Period
+The travel expense claim must be submitted to the disbursements/travel
+accounting office (or equivalent office on campus) within a reasonable amount of
+time not to exceed 45 days after the end of a trip unless there is recurrent local
+travel, in which case claims may be aggregated and submitted monthly. [If a
+Travel Card is used, campuses have the discretion to require a shorter time frame
+for submission of the travel expense claim]. When a trip lasts more than 90 days,
+the traveler must submit a quarterly report of expenditures to the
+disbursements/travel accounting office. Travel reimbursement requests submitted
+after 45 days are left to the discretion of the campus, considering the facts and
+circumstances, whether the reimbursement will be made and if any reporting as
+taxable income will be required. See section II.B.1 of Accounting Manual Chapter
+D-371-12.1, for the proper reporting of taxable travel reimbursements to both
+employees and nonemployees.
+2. Completion of a travel expense claim
+The total amount of all expenses and advances pertaining to a particular trip must
+be accounted for when submitting a travel expense claim. Except for trips that
+require quarterly reporting, all expenditures for a trip should be reported on one
+travel expense claim. Supplemental claims may be submitted if necessary, but
+must be clearly marked "Supplemental" and must identify the main travel claim
+submitted in connection with the travel.
+a. Substantiation of Expenses
+Substantiation must include the following:
+• The date and time of departure from and return to the traveler's
+headquarters or residence. When any personal leave is taken while on
+official travel status, the number of personal days must be specified on
+the travel expense claim and/or the expenses associated with such
+personal days of travel. Note that any personal expenses incurred on a
+
+trip will not be reimbursed by the University. Mandatory charges
+imposed by the hotel, such as valet parking or a "resort fee" should be
+explained on the travel reimbursement request.
+• The origin and destination of the trip and the route taken. Travel within a
+local area also should be indicated; continuous travel between major
+points, such as from city to city, should be shown separately. Any
+substantial deviation from the distance shown in a standard highway
+mileage guide must be explained.
+• The purpose of the travel or the nature of the business benefit derived
+as a result of the travel.
+• The amount of each expense of $75 or more, listed by date and
+location.
+In order to adequately determine the business purpose of the trip, campus
+procedures must require documentation that justifies each day on travel status.
+Examples of adequate documentation include:
+• When meetings are held with individuals, documentation that specifies
+meeting dates, times, locations, general meeting topics, attendees and
+organizational affiliation;
+• Agendas, brochures, or event announcements for conferences and
+professional events;
+• When the meeting is confidential in nature, travelers should provide as
+much information as possible to justify the business purpose; and
+• Complex travel itineraries, such as a research project that involved
+extended travel with multiple destinations, should include
+documentation such as a brief narrative, as to why the traveler needed
+to go to each location.
+Claims for reimbursement of expenses paid for others shall be submitted by the
+group leader and must include the names of persons on whose behalf expenses
+were incurred, an itemization of the expenses, and other pertinent supporting
+documentation. (For additional information on group expenses, see Sections
+V.E.2.c.iii., Adjustment for Subsistence or Lodging Provided without Charge, and
+V.E.4., Payment of Group Subsistence Expenses). It is required that the traveler
+seeking reimbursement includes a written "business purpose" for the travel along
+with the other supporting documentation.
+b. Documentation Requirements
+i. Receipts
+The original of the following receipts must be submitted with the travel
+expense claim:
+• Receipts for all airline expenses.
+• Receipts for all lodging expenses incurred for domestic travel,
+except where per diems are authorized for lodging expenses (i.e.,
+
+long-term travel, use of non-commercial facilities, etc.). Since hotel
+receipts may include charges that are not reimbursable, the traveler
+shall not be reimbursed for lodging expenses unless the receipt
+presented by the traveler contains itemized charges for the room,
+e.g., taxes, telephone, etc.
+• Receipts that support the reimbursement claim for long-term foreign
+lodging that is charged to a federal fund source (whether reimbursed
+as a per diem or actual) should be kept on file within the department
+and retained for such periods as required by either the sponsor's
+retention policy or UC retention policy.
+• Receipts for all rental car expenses.
+• Receipts for meal expenses of $75 or more.
+• Receipts for local transportation of $75 or more.
+• Receipts for each miscellaneous expense of $75 or more.
+• Receipts for all private aircraft landing and parking expenses.
+• Receipts for all extraordinary items, such as repair of accidental car
+damage, supported by appropriate justification.
+• Receipts for gifts provided to a host costing $25 or more.
+• An agenda, itemized receipt, or other supporting documentation for
+all registration fees.
+• Any reimbursable item not specified above costing $75 or more.
+Electronic Receipts. Electronic receipts are acceptable, provided that the
+detail contained in an electronic receipt is equivalent to the level of detail
+contained in an acceptable paper record. For example, an electronic
+receipt must show the name of the payee, the amount of the charge, the
+transaction date, and the form of payment. When required to ensure
+adequate documentation of the costs incurred, the traveler is responsible
+for providing additional detail, e.g., a receipt with itemized hotel charges.
+E-mailed or faxed documentation provided by an airline or travel agency for
+electronic ticketing expenses for airfare is acceptable for substantiating
+such expenses. A copy of the faxed itinerary and receipt or a copy of the e-mail itinerary and receipt printed locally should be attached to the Travel
+expense claim.
+Travel Packages Purchased from Internet Vendors. Travel "packages"
+offered by Internet vendors typically do not include itemized expenses.
+Therefore, no business-related travel should be booked through such
+vendors unless the traveler has confirmed that each aspect of the package
+will be separately itemized (e.g., itemized hotel charges, airfare, car rental,
+etc.) to assure appropriate documentation for reimbursement.
+ii. Missing Original Receipts
+
+When original receipts are required but cannot be obtained or have been
+lost and all measures to obtain a duplicate receipt have been exhausted, a
+statement should be provided explaining why such receipts are not being
+submitted with the travel expense claim. The statement must include a
+certification that the amount shown is the amount actually paid and that the
+traveler has not and will not seek reimbursement from any other source.
+iii. Agenda
+Depending upon the nature of the trip, an agenda associated with the
+business reason for the trip should be provided as part of the substantiating
+documentation.
+c. Certification of Travel Expenses
+The traveler must either sign or provide an electronic equivalent on the travel
+expense claim certifying that the amounts claimed are a true statement of the
+expenses incurred on official University business and that the original of all
+required receipts has been submitted, whether scanned or faxed. Internal
+departmental expense claim forms are not an acceptable alternative for obtaining
+the traveler's signature on the travel expense claim (or electronic equivalent)
+unless approved as an exception to this policy. The traveler's signature or
+electronic submission acts as certification of the following:
+• The University is not being charged for any expenses already
+reimbursed by a third-party entity directly to the traveler, and
+• Any expenses charged to the University that are reimbursed by a third-party entity will be returned to the University by the traveler.
+Submission of the travel expense claim under a traveler's electronic
+authorization will be considered certification that the traveler incurred the
+expenses being claimed. In accordance with IRS regulations, an electronic
+signature must:
+• Identify the traveler who is submitting the electronic form;
+• Authenticate and verify the submission; and
+• Be the final entry in the submission.
+3. Return of Excess Advance Amounts
+If the amount of an advance exceeds the reimbursable expenses, payment for the
+amount due shall be submitted with the travel expense claim. The check must be
+made payable to "UC Regents."
+VI. RELATED INFORMATION
+Academic Personnel Manual
+• Section 190 - Appendix D, Policy Governing Travel to Scholarly Meetings and Field
+Research Travel
+• Section 230-20.h., Travel Expenses for Appointees to Visiting Titles
+
+• Section 540, Recruitment: Travel Expenses
+• Section 570, Recruitment: Travel Expenses for Short-term Appointees on
+Extramurally Funded Projects
+• Section 740, Benefits and Privileges: Leaves of Absence/Sabbatical Leaves
+Accounting Manual
+• D-371-12.1, Disbursements: Accounting for and Tax Reporting of Payments Made
+through the Vendor System
+• E-821, Loaned Automobiles Provided by a Third Party
+• P-196-11, Payroll: Accounting for and Tax Reporting of Mandatory Deductions and
+Insurance Benefit Contributions
+• R-212-2, Receivables Management
+• T-182-75, Transient Occupancy Taxes
+• T-182-27, Taxes: Federal Taxation of Aliens
+• T-182-77, Taxes: Taxation of Scholarship and Fellowship Grants and Educational
+Assistance
+Business and Finance Bulletins
+• BUS-43, Materiel Management
+• BUS-46, Use of University Vehicles
+• BUS-63, Insurance Requirements and Certificates of Insurance
+• BUS-79, Expenditures for Business Meetings, Entertainment, and Other Occasions
+• BUS-81, Insurance Programs
+• G-13, Policy and Regulations Governing Moving and Relocation
+• U.S. General Services Administration Website, Privately Owned Vehicle (POV) Mileage
+Reimbursement Rates Webpage.
+• Regent action specifying that travel expenses incurred by Regents for attending Board
+or Committee meetings or in the performance of other University business be
+reimbursed in conformance with the University Policy and Regulations Governing
+Travel, October 15, 1982.
+• Regents Policy 7709, Senior Management Group Automobile Allowance.
+• President's letter to Vice President--Financial and Business Management delegating
+authority for establishing and publishing travel policies, December 1, 1982 (DA0755).
+• Senior Vice President--Administration's letter to University Controller delegating
+authority for establishing and publishing implementing procedures and regulations, May
+23, 1991.
+• Presidential Policy on Associate of the President/Chancellor, July 1, 1995.
+• President's letters to Chancellors, June 22, 2009.
+
+Per Diem Rates
+• Maximum Travel Per Diem Allowances for Foreign Areas, Section 925, Supplement
+to the Standardized Regulations, (Government Civilians, Foreign Areas) U.S. State
+Department.
+• Prescribed Maximum Per Diem Rates for CONUS, GSA Office of Government wide
+Policy.
+• Official Department of Defense Overseas/OCONUS Per Diem Rates, Per Diem,
+Travel and Transportation Allowance Committee.
+Internal Revenue Service (IRS)
+• Internal Revenue Code Section 62 Adjusted Gross Income Defined
+• Internal Revenue Code Section 152(c) and 152(d) Definition of Dependent
+• Internal Revenue Code Section 274 Disallowance of Certain Entertainment, etc.,
+Expenses
+• Treasury Regulation Section 1.62-2, Reimbursements and Other Expense
+Allowance Arrangements
+• Treasury Regulation Section 1.274-5, Substantiation Requirements
+• Treasury Regulation Section 1.274-5T, Substantiation Requirements (Temporary)
+• IRS Revenue Ruling 2003-106, 2003-2 CB 936, 10/20/2003, Adjusted Gross
+Income-Expense Reimbursement Arrangements-Accountable Plan
+• IRS Revenue Ruling 2012-25, 2012-37 IRB 337, Gross Income-Wage
+Recharacterization-Reimbursement Arrangements
+• IRS Revenue Procedure 97-22, 1997-13 IRB, Electronic Record Retention Rules
+• IRS Revenue Procedure 98-25, 1998-1 CB 689, Recordkeeping requirements-
+Automatic Data Processing (ADP) System Requirements
+• IRS Revenue Procedure 2010-51, 2010-51 IRB 883, Business use of auto-
+application of optional standard mileage rates for 2011
+• IRS Revenue Procedure 2019-46 Business Use of An Automobile
+• IRS Notice 2022-03, 12/17/2021
+• IRS Publication 463, Travel, Entertainment, Gift, and Car Expenses
+Other
+• UC Travel Management Services (May 11, 2006)
+• Federal Travel Regulation, Chapter 301
+• NIH - Fly America/Open Skies policy (see section 7.9.1 "Travel/Employees")
+• GSA Bulletin FTR 11-02, October 06, 2010
+• Code of Federal Regulations (CFR sections 200.474 and 200.432)
+
+VII. FREQUENTLY ASKED QUESTIONS
+Dependent Care Expenses and Dependent Travel Expenses
+What are the types of limited circumstances that reimbursement might occur?
+Examples of the type of circumstances that a Chancellor might determine a
+reimbursement are appropriate include:
+1. Two UC employees with joint dependent care responsibilities are on University
+business (e.g., conference, meeting, training, etc.);
+2. An employee on University travel status has a dependent who requires 24-hour
+care;
+3. Prospective faculty on the final interview needs to bring their dependent(s) to the
+interview.
+How are state funds defined?
+"State funds" include funds in the following fund group codes:
+• 401 - General Funds (fund numbers 199XX, excluding UCGF)
+• 40411 - State Specific Funds (fund numbers 18000-18069)
+• 41412 - State Special Funds (fund numbers 18070-18199)
+• 40421 - State Contracts, Grants, and Cooperative Agreements (fund numbers
+designated by campus)
+• 1003 - Plant Funds State Appropriations (fund numbers 00800-00999)
+Campuses should consult with their respective budget offices to determine the funds
+that fall within the fund groups mentioned above.
+Note that approximately 45% of the Systemwide Assessment Fund (Fund 69085) is
+from state funds.
+What expenses are covered under a federal fund source?
+Dependent care costs can only be charged to federal funds if they are above and
+beyond regular dependent care that directly results from travel to a conference for the
+federal award and are temporary during the travel period. This is subject to the
+circumstances where such expenses can be reimbursed as determined by the
+Campus Chancellor. The travel expenses of the dependent can't be charged to a
+federal fund.
+How is "conference" defined in the Uniform Guidance?
+Conference is defined in UG Section 200.432: "a meeting, retreat, seminar,
+symposium, workshop or event whose primary purpose is the dissemination of
+technical information beyond the non-Federal entity and is necessary and reasonable
+for successful performance under the Federal award.
+How is a dependent defined for purposes of charging federal fund source?
+Internal Revenue Code Section 152(c) defines "dependent" as either a qualifying
+child or a qualifying relative.
+
+1. Foreign Travel Related qualifying child is an individual-
+A. Who has a relationship with the taxpayer as-
+I. A child of the taxpayer or a descendant of the taxpayer's child, or
+II. A sibling or stepsibling of the taxpayer or descendant of the taxpayer's
+sibling or stepsibling,
+B. Who has the same principal housing residence as the taxpayer for more than
+6 months in a calendar tax year,
+C. Who is-
+I. Under 19 years of age, or
+II. Is a student under 24 years of age,
+D. Who received more than 50% of support from the taxpayer for the calendar tax
+year, and
+E. Who has not filed a joint return with the individual's spouse (other than for a
+claim of refund). I.R.C. § 152(c).
+2. Qualifying relative is an individual-
+A. Who is related to the taxpayer as-
+I. A child or a descendant of a child,
+II. A brother, sister, stepbrother, or stepsister,
+III. The father or mother, or an ancestor of either,
+IV. A stepfather or stepmother,
+V. A son or daughter of a brother or sister of the taxpayer,
+VI. A brother or sister of the father or mother of the taxpayer,
+VII. A son-in-law, daughter-in-law, father-in-law, mother-in-law, brother-in-law, or sister-in-law, or
+VIII. An individual who has the same principal housing residence as the
+taxpayer for the taxpayer's calendar tax year,
+B. Whose gross income for the calendar tax year is less than the personal
+exemption under I.R.C. § 151(d),
+C. Who received more than 50% of support from the taxpayer for the calendar tax
+year, and
+D. Who is not the taxpayer's qualifying child during any time of the calendar tax
+year. I.R.C. § 152(d).
+
+Foreign Travel Questions:
+• How will it be determined that a trip will be primarily for personal reasons?
+In accordance with IRS regulations, the presumption is that if the time spent on
+personal activities exceeds 50% of the total time, the trip will be treated as primarily
+personal unless there are other factors that would cause the trip to be treated as
+primarily business.
+• What are the four situations where the special allocation formula for foreign travel
+(see section V.E. 2.b) does not apply to nonbusiness expenses incurred in foreign
+travel?
+Even if you did not spend your entire time on business activities, your trip is
+considered entirely for business if you meet at least one of the following four
+exceptions:
+Exception 1: No Substantial Control. A trip is considered entirely for business if
+you did not have substantial control over the arranging of the trip. The fact that
+you control the timing of the trip does not, by itself, mean you have substantial
+control over the arranging of the trip. You do not have substantial control if you
+are: a). an employee who was reimbursed or paid a travel expense allowance;
+and b). are not related to your employer; and c). are not a managing executive
+who has the authority and responsibility, without being subject to veto by another,
+to decide on the need for business travel.
+Exception 2: Travel Outside the United States for No More than One Week. A trip
+is considered entirely for business if you were outside the United States for a
+week or less, combining business and nonbusiness activities. A week means
+seven consecutive days; in counting the days, the day you left the United States is
+not counted, but the day that you return to the United States is counted.
+Exception 3: Less than 25% of Time is Spent on Personal Activities. A trip is
+considered entirely for business if: a). You were outside the United States for
+more than one week, and b). You spent less than 25% of the total time you were
+outside the United States on nonbusiness activities. For this purpose, count both
+the day your trip began and the day the trip ended.
+Exception 4: Vacation is Not a Major Consideration. A trip is considered entirely
+for business if you can establish that a personal vacation was not a major
+consideration, even if you have substantial control over the arranging of the trip.
+VIII. REVISION HISTORY
+8/27/26: Effective July 1, 2026, change in mileage reimbursement rate in accordance
+with IRS Announcement 2026-11. Updated contact information.
+1/14/26: Effective January 1, 2026, change in mileage reimbursement rate in accordance
+with IRS Notice 2026-10. Also, slightly revised lodging and M&IE reimbursement caps
+language for clarity purposes only (no changes made to these caps).
+
+1/13/25: Effective January 1, 2025, change in mileage reimbursement rate in accordance
+with IRS Notice 2025-5. Also, updated link to the privately owned vehicle mileage
+reimbursement rates (previous link was no longer valid).
+10/15/2024: Increased the maximum daily meals and incidental reimbursement for
+CONUS travel under 30 days to $92 based on the highest per diem rate available for all
+UC locations as published by US General Services Administration for Fiscal 2025.
+3/20/2024: Change in lodging reimbursement rate to reflect the highest rate available for
+all UC locations as published by U.S. General Service Administration for January 2024.
+2/12/2024: Effective January 1, 2024, change in mileage reimbursement rate in
+accordance with IRS Notice 2024-08. Also, technical updates to Insurance for University
+Travelers (Section V.C.1) and Appendices A and B.
+9/13/2023: Effective September 13, 2023, SB 447 repealed Government Code 11139.8
+(AB 1887) which restricted the use of state funds for travel to states that passed laws
+that authorized discrimination based on sex, sexual orientation, gender identity or gender
+expression, and prohibited the University from requiring travel to such states.
+Accordingly, this Policy has been amended (with an effective date of September 13) to
+remove a provision that had referenced the state-mandated travel restrictions (which
+were effective January 1, 2017 through September 12, 2023).
+7/1/2022: Increased the maximum daily meals and incidental reimbursement for CONUS
+travel under 30 days to $79 based on the highest per diem rate available for all UC
+locations as published by US General Services Administration for Fiscal 2023.
+1/31/2022: Change in mileage reimbursement rate in accordance with IRS Notice 2022-
+03.
+1/31/2021: Change in mileage reimbursement rate in accordance with IRS Notice 2021-
+02.
+8/1/2020: Revised to incorporate recommendations from Internal Audit regarding
+business and first-class travel and documentation of travel business purpose; addition of
+sustainable travel suggestions; gender-neutral references; and IRS business mileage
+rate effective 1/1/20. Clarified that CONUS and OCONUS federal per diems do not
+include taxes on lodging, while foreign per diems includes taxes on lodging and M&IE.
+Changed the foreign per diem website in Appendix B from the Department of Defense's
+to the Department of State's. Changed fund source to allow state and federal funds,
+subject to restrictions noted.
+7/1/2019: Delegation to Chancellor or other University official to reimburse, in limited
+circumstances, spouse/domestic partner, dependent-care provider, and dependent travel
+expense or dependent-care expenses related to employee's or employment candidate's
+University travel.
+1/31/2019: Change in mileage reimbursement rate in accordance with IRS Notice 2019-2.
+4/30/2018: Change in mileage reimbursement rate in accordance with IRS Notice 2018-3.
+10/15/2017: Change in mileage reimbursement rate in accordance with IRS Notice 2016-
+79; revised language concerning payment of travel reimbursed by third parties; revised
+language on direct bill of rental cars; and direct billing of rental cars. Clarified ancillary
+
+charges for airfare and base and economy fares. Provided a definition of state funds and
+referenced state law AB 1887. Revised the maximum daily meals and incidental
+reimbursement for CONUS travel under 30 days to $62 and instituted $275 dollar limit on
+daily lodging reimbursement in CONUS under 30 days.
+This Policy was remediated to meet Web Content Accessibility Guidelines (WCAG) 2.0.
+3/1/2016: Change in mileage reimbursement rate to correlate with IRS Notice 2016-1.
+Reformatted to the new policy template. Increase in domestic daily meals and incidental
+reimbursement rate to $74 per day in accordance with IRS Notice 2015-63.
+4/13/2015: Change in mileage reimbursement rate to correlate with IRS Notice 2014-79
+& 2014-114; reduce time period for a traveler to substantiate business travel to forty-five
+days from sixty-days; receipts for long-term foreign lodging should be retained at the
+campus department level to reflect outcome of NSF audit; and consistent use of the term
+"spouse and domestic partner".
+1/28/2014: Change in mileage reimbursement rate for business use of a private
+automobile and travel reimbursements for international and domestic travel as requested
+by Bureau of State Auditor.
+4/1/2013: Change in mileage reimbursement rate to conform to IRS notices; lodging
+within U.S. should be reasonable for location of travel; recommend that travelers be cost-conscious when traveling to the airport or parking at the airport; business purpose
+requirement stated in travel expense claim; specified that traveler must be forty miles or
+more from the headquarters or home, whichever is closer, before overnight lodging is
+reimbursed.
+3/30/2012: Reformatted policy into the new template; increase to $71 per day for meals
+and incidental expense reimbursement rate within continental U.S.
+7/1/2011: Minor technical changes
+5/7/2010: Information on the "Open Skies Agreement;" guidance on prepaid expenses
+and direct billing arrangements, and refueling and GPS devices in rental cars.
+Elimination of the rule limiting reimbursement of long-term subsistence expenses to 55%
+of the federal per diem and allowing 100% of the per diem for location of travel.
+4/9/2008: Update to indicate that there is no exception to the daily meals and incidental
+reimbursement cap for travel less than thirty days within the continental U.S, and that the
+daily meals and incidental rate is not meant to be a per-diem. Travelers are encouraged
+to purchase travel services through preferred suppliers, and prospective employees can
+be reimbursed for one round- trip coach airfare for each round of interviews.
+9/12/2007: Revised
+10/1/2006: Revised
+5/1/2005: Revised
+1/1/2003: Revised
+8/6/2001: Revised
+
+12/15/2000: New section on special travel situations added; ethics statement regarding
+traveler's responsibility with respect to reporting travel expenses; insurance requirements
+for use of private automobile on University business, and
+10/21/1997: Revised
+8/29/1997: Revised
+12/15/1995: Revised
+8/1/1994: Revised
+7/1/1992: Revised
+6/15/1989: First Published
+
+IX. APPENDIX
+APPENDIX A: MILEAGE REIMBURSEMENT RATES FOR PRIVATE VEHICLES AND
+AIRCRAFT
+The following mileage reimbursement rates shall be used to reimburse travelers who use
+a private automobile or aircraft on official University business:
+Per Mile
+A. Automobiles--employee-owned/procured (including vans)
+• Standard Rate for business-related travel is 76¢†.
+• Standard Rate for travel in connection with a move or relocation is 23.5¢†.
+B. Automobiles loaned to the University for assignment to employees (including vans) is
+32.5¢†. Refer to Accounting Manual chapter E-821, Loaned Automobiles Provided by
+a Third Party.
+(Standard mileage rate of 76.0 cents per mile, less 35.0 cents per mile depreciation
+component published by IRS Notice 2026-10 and Announcement 2026-11 and in
+accordance with Revenue Procedure 2019-46, Section 4.04)
+C. Aircraft (based on the rate published by the General Services Administration) is
+$1.78. †
+Note: The above rates may not apply to University employees covered under a collective
+bargaining agreement.†Effective July 1, 2026
+APPENDIX B: LODGING AND M&IE REIMBURSEMENT CAPS
+The following chart summarizes the applicable reimbursement methods and the
+maximum rates authorized for lodging and meal and incidental expenses (M&IE)
+incurred while on travel status:
+
+APPENDIX C: IRS TAX GROSS-UP FORMULA
+Under the IRS one-year rule, travel expense reimbursements for assignments that
+exceed one year must be treated as taxable income. Thus, to compensate for additional
+federal and state income and applicable employment taxes owed by an employee, the
+reimbursement rate may be increased up to 150% of the applicable federal per diem rate
+authorized for the location of travel (see Section V.E.1.).
+Following are two examples of the gross-up procedure for a trip of more than one year.
+In both examples, the daily reimbursement rate is based on 100% of the CONUS
+Maximum Per Diem rate of $166 for the X area.
+
+1 Travel within the continental United States.
+2 For CONUS travel under 30 days use rates herein, except for travel paid under federal grants and
+contracts. CONUS meal rate for travel under 30 days effective October 1, 2024.
+For travel paid under federal grants and contracts, a lower per diem rate may apply. For federal rates,
+please refer to the GSA website at https://www.gsa.gov/travel/plan-book/per-diem-rates, and search for
+the specific travel destination to determine maximum per diem reimbursement allowed for each specific
+trip.
+3 Actual lodging expenses for location of travel up to $333 per night supported by a receipt are
+reimbursable effective January 1, 2024.
+4 Regardless of funding source, for travel within Alaska, Hawaii, Puerto Rico, the Northern Mariana
+Islands, and possessions of the United States use the Department of Defense OCONUS per diem rate.
+Please refer to the Defense Travel Management Office website at https://www.travel.dod.mil/Travel -
+Transportation-Rates/Per-Diem/Per-Diem-Rate-Lookup/, and search for the specific travel destination to
+determine maximum per diem reimbursement allowed for each specific trip.
+5 Regardless of funding source, for foreign travel use the Department of State per diem rate. Please refer
+to the DoS website at https://allowances.state.gov/web920/per_diem.asp?, and search for the specific
+travel destination to determine the maximum per diem reimbursement allowed for each specific trip.
+6 Use per diem rate for appropriate geographic area (applies to CONUS, OCONUS , and foreign areas).
+Less Than 30 days 30 Days or More In Excess of One
+Year
+CONUS:1
+Daily M&IE and
+Lodging
+M&IE: Up to $922
+Lodging: Actual
+costs for the location
+of travel up to $333
+per night3
+Actual up to 100%
+of combined Per
+Diem
+Per Diem (up to
+150% of 30-day Per
+Diem)
+OCONUS4
+Daily M&IE and
+Lodging
+Actual up to 100%
+of combined Per
+Diem
+Actual up to 100%
+of combined Per
+Diem
+Per Diem (up to
+150% of 30-day Per
+Diem)
+Foreign5
+Daily M&IE and
+Lodging
+Actual up to 100%
+of combined Per
+Diem
+Actual up to 100%
+of combined Per
+Diem
+Per Diem (up to
+150% of 30-day Per
+Diem)
+Non-Commercial
+Facility Daily
+Expenses6
+Actual up to 100%
+of combined Per
+Diem
+Actual up to 100%
+of combined Per
+Diem
+Per Diem (up to
+150% of 30-day Per
+Diem)
+
+Example 1: Salary Subject to Social Security Tax
+This example is based on the following assumptions:
+• 15% federal income tax rate plus 5.1% California income tax rate [6% less 15%
+Federal tax benefit]
+• 1.45% Medicare rate
+• 6.2% Social Security rate
+The Gross-Up Formula is applied to the $166 daily reimbursement rate as follows, where
+W equals Gross-Up Amount
+W = $
+229.76 or 138% of the daily reimbursement rate
+Example 2: Salary Exceeds Social Security Wage Base
+This example is based on the following assumptions:
+• 28% federal income tax rate plus 6.7% California income tax rate [9.3% less 28%
+federal tax benefit]
+• 1.45% Medicare rate
+The Gross-Up Formula is applied to the $166 daily reimbursement rate as follows, where
+W equals Gross-Up Amount
+W = $
+259.98 or 157% of the daily reimbursement rate1
+APPENDIX D: PRORATING PER DIEMS FOR TRAVEL INVOLVING MULTIPLE
+LOCATIONS
+The following method may be used to prorate a per diem(s) when a trip is reimbursable
+under more than one per diem rate.
+The first leg of a trip shall begin upon the traveler's arrival at the first business stop and
+shall end upon their departure for the next travel location; the last leg shall begin upon
+the traveler's departure from the previous travel location and shall end upon their
+departure for the return trip to headquarters. The time element charged to each per
+1 The maximum amount reimbursable in this situation would be $249.00 (150%) unless the Chancellor
+grants an exception to the policy.
+
+diem location is prorated based on the number of hours spent at each travel location.
+For partial days, hours should be rounded to the nearest quarter day.
+Example: A trip that involved three locations with three different per diem rates took a
+total of 237 hours, excluding air travel time from headquarters to the first business
+location and the traveler's return from the last travel location to headquarters. The time
+spent at each location was as follows: 53 hours, 145 hours, and 39 hours. The
+reimbursable amount of the per diem for each location is calculated as follows:
+Hours Per
+Location
+Quarter
+Days
+Location Per
+Diem Rate
+Reimbursable
+Amount
+Location 1 53 2 1⁄4 140 $315.00
+Location 2 145 6 152 $912.00
+Location 3 39 1 3⁄4 168 $294.00
+TOTAL 237 $1,521.00
+
+APPENDIX E: TRAVEL OF LESS THAN 24 HOURS M&IE REIMBURSEMENTS
+The IRS Taxable Fringe Benefit Guide ("IRS Guide") states that in order for the
+reimbursement of meals and incidental expenses (M&IE) to be excludable from a
+traveler's income, the individual must be "away from home" in the pursuit of business on
+a temporary basis. Merely working overtime or at a great distance from an employee's
+residence does not create excludable reimbursements for travel expenses if the
+employee returns home without spending the night or stopping for substantial "sleep or
+rest."
+Section V.E.3. prohibits the reimbursement of meal expenses for travel of less than 24
+hours unless the traveler is away from their home overnight as supported by a lodging
+receipt or other evidence explaining why the traveler was unable to obtain a receipt.
+The following examples from the IRS Guide illustrate the application of the "overnight
+rule":
+Example 1: A consulting engineer works with clients in a three-state area by making
+one-day trips to each client. They frequently leave home at 6:30 a.m. and do not return
+until midnight. During the day, the traveler stops in a rest area and closes their eyes for
+20 minutes to refresh them self for the drive. They cannot deduct the cost of their meals
+on these trips because they are not away from home long enough to obtain substantial
+sleep or rest.
+Example 2: An employee is required to travel from Milwaukee to Madison to work on a
+Project. The employee leaves home at 11:00 a.m. on Monday, with plans to return
+home the same day. They are unable to complete the project on Monday, so the
+employee spends the night in Madison. After completing the project the next day, they
+return to Milwaukee by 10:30 a.m. Even though the employee had not planned to spend
+the night and is gone for less than 24 hours they have met the "away from home" rule
+because the employee spent the night away from their tax home on business.
+Example 3: An employee is required to travel from Dallas to Houston to work for the
+day. The employee leaves home at 6:30 A.M. and returns that night at 10:00 P.M. On
+the trip home the employee stops for dinner and rests in the car for two hours. Even
+though the employee has been away from home for substantially longer than their
+normal workday, the employee is not considered to be in travel status. Courts have
+ruled that stopping for a meal or a rest in a car does not meet the substantial "sleep or
+rest" rule.
+Example 4: A government agency supplies office equipment to all agencies within the
+state. An employee drives a tractor-trailer with equipment from the warehouse in
+Sacramento to an agency in San Diego. After 10 hours the driver stops and rents a
+room at a rest stop for a four-hour nap before completing the round trip. Since the driver
+rented a room in order to sleep, they are considered to have met the "sleep and rest"
+rule. Reimbursements for meals and lodging are not taxable to the employee.

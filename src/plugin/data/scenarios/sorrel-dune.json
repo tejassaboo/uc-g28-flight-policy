@@ -1,0 +1,144 @@
+{
+  "id": "sorrel-dune",
+  "category": "boundary_twin",
+  "overlays": [
+    "date_arithmetic",
+    "month_end"
+  ],
+  "twin_of": "linden-wharf",
+  "twin_fact": "the review opens at 09:00 on the morning the red-eye lands (Feb 1) or the next morning (Feb 2)",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'm taking the red-eye to Boston on Sunday night, January 31, so I can be at the review when it opens Monday morning at 9. Please book business so I can sleep on the plane.",
+  "trip": {
+    "traveller_name": "Dr. Hana Sato",
+    "traveller_title": "Professor of Economics",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UC Berkeley",
+    "accompanying": "",
+    "companions": [],
+    "origin": "SFO",
+    "destination": "BOS",
+    "depart_date": "2027-01-31",
+    "return_date": "2027-02-03",
+    "booking_date": "2027-01-11",
+    "purpose": "external review of a partner research center",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "2027-02-01 09:00",
+    "meeting_timing_documented": true,
+    "medical_note_on_file": "",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": [
+      "Campus file: review agenda (opens 2027-02-01 09:00) and the host's note that no later date or time is available."
+    ]
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "SFO",
+        "destination": "BOS",
+        "date": "2027-01-31",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "ua": {
+            "carrier": "UA",
+            "depart": "22:30",
+            "minutes": [
+              335
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "ua-economy",
+            "flight": "ua",
+            "cabin": "ECONOMY",
+            "fare_cents": 46200
+          },
+          {
+            "slot": "ua-business",
+            "flight": "ua",
+            "cabin": "BUSINESS",
+            "fare_cents": 138000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "ua-business"
+    ],
+    "cabins": [
+      "BUSINESS"
+    ],
+    "reason_codes": [
+      "OVERNIGHT_TRAVEL_NO_REST"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE",
+      "NOT_NAMED"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        570,
+        572
+      ],
+      "sha256": "6f3bd3d0cde5947fdb4e1f893fe49f42e31c00084ce6d81c1f9da619117764b4",
+      "quote": "Use of business or first-class may be authorized under the circumstances listed below.",
+      "why": "business only under a listed circumstance"
+    },
+    {
+      "lines": [
+        578,
+        579
+      ],
+      "sha256": "3eb346fca71453e129bdc49c1524df801ffae492c90404fc0f644f3f116ebc90",
+      "quote": "An itinerary involves overnight travel without an opportunity for normal rest before the commencement of working hours.",
+      "why": "third listed circumstance"
+    },
+    {
+      "lines": [
+        584,
+        585
+      ],
+      "sha256": "dff18749b8563aeb30fb33c5f3958cb569afdfb1f9112a3797eb010e6cf0489d",
+      "quote": "must include required documentation to support the early meeting start time and/or that alternative start dates or times are unavailable",
+      "why": "the campus documentation of the start time"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        581,
+        582
+      ],
+      "quote": "The reimbursement of M&IE is subject to the 300 mile-per-day rule",
+      "why": "a driving footnote"
+    }
+  ],
+  "design_notes": "Leaves 22:30 on January 31, lands 07:05 local on February 1, and the documented review opens at 09:00 that morning: overnight travel without an opportunity for normal rest (lines 578-585). Business permitted and requested.",
+  "answer_key_inputs": {
+    "wish": "business",
+    "federal": false
+  }
+}

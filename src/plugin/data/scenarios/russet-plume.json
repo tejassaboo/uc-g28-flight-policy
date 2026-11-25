@@ -1,0 +1,140 @@
+{
+  "id": "russet-plume",
+  "category": "easy",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "My doctor's note is on file: after my back surgery I have to be able to lie flat on long flights. Please book me business to New York on the 14th.",
+  "trip": {
+    "traveller_name": "Owen Park",
+    "traveller_title": "Director of Development",
+    "traveller_kind": "EMPLOYEE",
+    "campus": "UCLA",
+    "accompanying": "",
+    "companions": [],
+    "origin": "LAX",
+    "destination": "JFK",
+    "depart_date": "2026-12-14",
+    "return_date": "2026-12-17",
+    "booking_date": "2026-12-03",
+    "purpose": "donor meetings",
+    "fund_source": "campus general funds",
+    "sponsor_travel_terms": "",
+    "union_contract_terms": "",
+    "open_skies_covers_route": false,
+    "authorizations": [],
+    "meeting_starts_local": "",
+    "meeting_timing_documented": false,
+    "medical_note_on_file": "Physician's letter of 2026-11-20: after lumbar surgery Mr. Park must be able to lie flat on any flight longer than three hours, until March 2027.",
+    "unused_tickets": [],
+    "campus_local_policy": "",
+    "interview_round": 0,
+    "interview_is_final": false,
+    "tickets_bought_this_round": 0,
+    "other_notes": []
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "LAX",
+        "destination": "JFK",
+        "date": "2026-12-14",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "aa": {
+            "carrier": "AA",
+            "depart": "07:00",
+            "minutes": [
+              325
+            ]
+          },
+          "dl": {
+            "carrier": "DL",
+            "depart": "08:30",
+            "minutes": [
+              325
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "aa-economy",
+            "flight": "aa",
+            "cabin": "ECONOMY",
+            "fare_cents": 38000
+          },
+          {
+            "slot": "aa-business",
+            "flight": "aa",
+            "cabin": "BUSINESS",
+            "fare_cents": 152000
+          },
+          {
+            "slot": "dl-economy",
+            "flight": "dl",
+            "cabin": "ECONOMY",
+            "fare_cents": 36500
+          },
+          {
+            "slot": "dl-business",
+            "flight": "dl",
+            "cabin": "BUSINESS",
+            "fare_cents": 149000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "dl-business"
+    ],
+    "cabins": [
+      "BUSINESS"
+    ],
+    "reason_codes": [
+      "MEDICAL_NEED"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE",
+      "NOT_NAMED"
+    ],
+    "clauses": [
+      "AIR_TRAVEL",
+      "COMMERCIAL_AIRLINES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        570,
+        572
+      ],
+      "sha256": "6f3bd3d0cde5947fdb4e1f893fe49f42e31c00084ce6d81c1f9da619117764b4",
+      "quote": "Use of business or first-class may be authorized under the circumstances listed below.",
+      "why": "business only under a listed circumstance"
+    },
+    {
+      "lines": [
+        586,
+        587
+      ],
+      "sha256": "0907ba0826d1ba22465458c2094f63c01e0f74494dac8ace0c1f34a3631d0021",
+      "quote": "The use of business or first-class travel is necessary to reasonably accommodate a disability or medical need of a traveler.",
+      "why": "fourth listed circumstance"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The fourth listed circumstance (lines 586-587), documented by the physician's letter: business, at the lower business fare.",
+  "answer_key_inputs": {
+    "wish": "business",
+    "federal": false
+  }
+}

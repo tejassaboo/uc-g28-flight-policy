@@ -1,0 +1,16 @@
+{
+  "id": "uc-g28-flight-policy",
+  "name": "UC G-28 Travel Regulations Flight Policy",
+  "slug": "uc-g28",
+  "title": "University of California Business and Finance Bulletin G-28, Travel Regulations (issued 1/14/2026, effective 7/1/2026)",
+  "frozen_file": "uc-g28-expense-audit_policy.txt",
+  "sha256": "392efd49968fb250fb5715f96d434196fb6a0a1133615008b6cc19c65519b5b5",
+  "raw_pdf_sha256": "76e41572b9cabcc72a6537bb33dddff7dcc18a007c76f2f17bdca9b800629613",
+  "words": 20315,
+  "lines": 2237,
+  "source": "University of California Office of the President, BFB G-28 Travel Regulations (policy.ucop.edu); the exact URL is not recorded in the originals index, the pinned raw copy is pilot_work/originals/uc-g28-expense-audit/bfb-g-28.pdf",
+  "frozen_on": "2026-11-24",
+  "scenario_count": 32,
+  "currency": "USD",
+  "background_offers": 2
+}
