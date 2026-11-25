@@ -225,7 +225,7 @@ def chancellor_authority(trip):
             granted += [Approver.CHANCELLOR_DESIGNEE, Approver.CHANCELLOR]
             notes.append("line 44 and lines 259-265: signed by the Chancellor's written delegate")
         else:
-            pending += [Approver.CHANCELLOR, Approver.CHANCELLOR_DESIGNEE]
+            pending.append(Approver.CHANCELLOR)  # no written delegation, so no designee: the signer is not one
             notes.append("lines 588-592 and 259-265: the signer holds no written delegation from the Chancellor")
     return granted, pending, refused, "; ".join(notes)
 
@@ -251,7 +251,12 @@ def solve(trip, offers, hidden):
     if trip.traveller_kind == TravellerKind.DEPENDENT:
         if not federal:
             raise ValueError("a dependent's travel on other funds is not modelled")
-        return refuse([ReasonCode.DEPENDENT_TRAVEL_FEDERAL_FUNDS, ReasonCode.COMPANION_NOT_COVERED], CLAIM,
+        # A refusal relies on no sign-off. The companion pre-approval on file (lines 1566-1571: "Dean, Director,
+        # Department Chair, or other senior University officer") goes unused, so its role is accepted beside NONE.
+        unused = [Approver.SENIOR_UNIVERSITY_OFFICER, Approver.DEPARTMENT_HEAD] if paper(
+            trip, PaperKind.COMPANION_TRAVEL) else []
+        return refuse([ReasonCode.DEPENDENT_TRAVEL_FEDERAL_FUNDS, ReasonCode.COMPANION_NOT_COVERED],
+                      [Approver.NONE, *unused],
                       [Clause.FREQUENTLY_ASKED_QUESTIONS, Clause.SPOUSE_AND_DEPENDENT_TRAVEL],
                       "Lines 1869-1870: the travel expenses of the dependent can't be charged to a federal "
                       "fund; the pre-approval of lines 1566-1571 does not change the fund rule.")
@@ -318,12 +323,13 @@ def business(trip, offers, bookable, federal, hidden):
     if not premium:
         raise ValueError("a business request with no business offer is not modelled")
     sponsor = hidden.get("sponsor", "none")
+    granted, pending, refused, notes = chancellor_authority(trip)
     if sponsor == "more_restrictive":  # lines 120-121: the sponsor's stricter terms govern
+        # A business sign-off on file goes unused by the economy booking: its role is accepted beside NONE.
         return coach(economy, federal, [ReasonCode.SPONSOR_TERMS_MORE_RESTRICTIVE, ReasonCode.UPGRADE_NOT_ELIGIBLE,
                                         ReasonCode.LOWEST_FARE],
-                     [*AIR, Clause.INTRODUCTION], CLAIM,
+                     [*AIR, Clause.INTRODUCTION], (*CLAIM, *granted),
                      "Lines 120-121: the award's terms are more restrictive than G-28, so they govern: economy.")
-    granted, pending, refused, notes = chancellor_authority(trip)
     bases = []
     if hidden.get("union_business_over_minutes"):  # lines 122-124: the bargaining agreement governs
         limit = hidden["union_business_over_minutes"]
@@ -369,8 +375,11 @@ def business(trip, offers, bookable, federal, hidden):
                       [*LOWEST, Clause.RESPONSIBILITIES, Clause.DEFINITIONS],
                       f"No listed circumstance; {notes}. The traveller asked to hold the seat until it is settled.")
     if refused:
+        # The Chancellor's delegation on file goes unused by the economy booking, so CHANCELLOR is accepted beside
+        # NONE; the self-approving signer's role (CHANCELLOR_DESIGNEE) is what the case tests, so it is not.
+        delegated = [Approver.CHANCELLOR] if paper(trip, PaperKind.DELEGATION) else []
         return coach(economy, federal, [*refused, ReasonCode.NO_LISTED_CIRCUMSTANCE, ReasonCode.UPGRADE_NOT_ELIGIBLE],
-                     [Clause.CLAIM_APPROVAL, *AIR], CLAIM, f"No listed circumstance; {notes}; so coach.")
+                     [Clause.CLAIM_APPROVAL, *AIR], (*CLAIM, *delegated), f"No listed circumstance; {notes}; so coach.")
     extra = [ReasonCode.SPONSOR_TERMS_DO_NOT_GOVERN] if sponsor == "less_restrictive" else []
     clauses = [*AIR, Clause.INTRODUCTION] if sponsor == "less_restrictive" else LOWEST
     if federal:
@@ -435,6 +444,7 @@ def candidate(trip, offers, wish):
                and offer.return_segments]
     if not economy:
         raise ValueError("a candidate's trip needs round-trip economy offers")
+    # The booking relies on the inviting department's advance approval on file, so not NONE.
     return answer(Decision.BOOK, cheapest(economy), [ReasonCode.LOWEST_FARE],
-                  [Approver.INVITING_DEPARTMENT, *CLAIM], clauses,
+                  [Approver.INVITING_DEPARTMENT, Approver.DEPARTMENT_HEAD], clauses,
                   "Lines 1462-1464 and 1482-1484: approved in advance; one round-trip coach fare for this round.")

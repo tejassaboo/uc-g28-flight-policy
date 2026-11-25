@@ -197,7 +197,7 @@ BACKGROUND = 2  # background offers on a plain coach case's own search
 def scenario(id, category, request, trip_, searches, exp, must_keep, *, overlays=(), twin_of="", twin_fact="",
              flag_twins=(), ambiguity="none", distractors=(), notes="", hidden=None):
     # A case buys one ticket: a round-trip fare where a search pins one, else the one-way flight out. The
-    # trip record gives a return_date only for a round-trip fare ("empty when no return is booked here"), so
+    # trip record gives a return_date only for a round-trip fare ("empty for a one-way ticket"), so
     # the agent is never sent to search for a return the world does not hold.
     if not any(search_["return_date"] for search_ in searches):
         trip_ = {**trip_, "return_date": ""}
@@ -320,7 +320,7 @@ scenario(
         "ua": flight("UA", "08:05", back={"depart": "16:20"}), "aa": flight("AA", "10:40", back={"depart": "13:15"})},
         [("ua-economy", "ua", "ECONOMY", 52000), ("aa-economy", "aa", "ECONOMY", 48400),
          ("aa-business", "aa", "BUSINESS", 160000)], return_date="2027-01-20")],
-    expected("BOOK", ["aa-economy"], ["ECONOMY"], ["LOWEST_FARE"], ["INVITING_DEPARTMENT", *CLAIM],
+    expected("BOOK", ["aa-economy"], ["ECONOMY"], ["LOWEST_FARE"], ["DEPARTMENT_HEAD", "INVITING_DEPARTMENT"],
              ["NON_UNIVERSITY_TRAVELERS", "PROSPECTIVE_EMPLOYEES"]),
     ["non_university", "candidate_cap"], hidden=coach_hidden(), overlays=["outside_air_section"],
     notes="A prospective employee approved in advance by the inviting department (lines 1462-1464): one round-trip "
@@ -452,7 +452,7 @@ scenario(
     [search("SEA", "SFO", "2027-01-25", {
         "as": flight("AS", "07:30", back={"depart": "18:10"}), "ua": flight("UA", "09:05", back={"depart": "17:25"})},
         [("as-economy", "as", "ECONOMY", 31800), ("ua-economy", "ua", "ECONOMY", 33400)], return_date="2027-01-29")],
-    expected("BOOK", ["as-economy"], ["ECONOMY"], ["LOWEST_FARE"], ["INVITING_DEPARTMENT", *CLAIM],
+    expected("BOOK", ["as-economy"], ["ECONOMY"], ["LOWEST_FARE"], ["DEPARTMENT_HEAD", "INVITING_DEPARTMENT"],
              ["NON_UNIVERSITY_TRAVELERS", "PROSPECTIVE_EMPLOYEES"]),
     ["non_university", "candidate_cap"], hidden=coach_hidden(), overlays=["outside_air_section"],
     twin_of="slate-fern", twin_fact="round trips already bought for this interview round: 0 or 1",
@@ -514,7 +514,8 @@ scenario(
             [("af-economy", "af", "ECONOMY", 89000), ("af-business", "af", "BUSINESS", 380000),
              ("aa-economy", "aa", "ECONOMY", 93000), ("aa-business", "aa", "BUSINESS", 402000)], background=0)],
     expected("BOOK", ["af-economy"], ["ECONOMY"], ["LOWEST_FARE", "SPONSOR_TERMS_MORE_RESTRICTIVE",
-                                                   "UPGRADE_NOT_ELIGIBLE"], CLAIM, [*AIR, "INTRODUCTION"]),
+                                                   "UPGRADE_NOT_ELIGIBLE"], [*CLAIM, "CHANCELLOR"],
+             [*AIR, "INTRODUCTION"]),
     ["extramural", "chancellor", "coach"], hidden={"wish": "business", "federal": False,
                                                   "sponsor": "more_restrictive"},
     overlays=["upgrade_not_taken", "outside_air_section"], twin_of="tidal-orchid",
@@ -563,7 +564,8 @@ scenario(
                                            "Business class for Dean Lindqvist's flight to Tokyo on January 19, 2027")]),
     tokyo(),
     expected("BOOK", ["jl-economy"], ["ECONOMY"], ["APPROVER_NOT_AUTHORIZED", "NO_LISTED_CIRCUMSTANCE", "SELF_APPROVAL",
-                                                   "UPGRADE_NOT_ELIGIBLE"], CLAIM, ["CLAIM_APPROVAL", *AIR]),
+                                                   "UPGRADE_NOT_ELIGIBLE"], [*CLAIM, "CHANCELLOR"],
+             ["CLAIM_APPROVAL", *AIR]),
     ["own_travel", "chancellor", "coach"], hidden={"wish": "business", "federal": False},
     overlays=["outside_air_section"], twin_of="orchid-ridge",
     twin_fact="the Dean signs for a professor's trip (orchid-ridge) or for her own (here)",
@@ -728,7 +730,8 @@ scenario(
                                "Eli Ortiz may accompany Dr. Ortiz, who is his caregiver, to the conference")]),
     [search("SFO", "DEN", "2027-02-15", {"ua": flight("UA", "08:00"), "wn": flight("WN", "09:30")},
             [("ua-economy", "ua", "ECONOMY", 21800), ("wn-economy", "wn", "ECONOMY", 19900)])],
-    expected("REFUSE", [], ["NONE"], ["COMPANION_NOT_COVERED", "DEPENDENT_TRAVEL_FEDERAL_FUNDS"], CLAIM,
+    expected("REFUSE", [], ["NONE"], ["COMPANION_NOT_COVERED", "DEPENDENT_TRAVEL_FEDERAL_FUNDS"],
+             ["DEPARTMENT_HEAD", "NONE", "SENIOR_UNIVERSITY_OFFICER"],
              ["FREQUENTLY_ASKED_QUESTIONS", "SPOUSE_AND_DEPENDENT_TRAVEL"]),
     ["faq_dependent", "dependent_preapproval"], hidden={"wish": "coach", "federal": True},
     overlays=["multi_traveller", "outside_air_section"],
@@ -828,8 +831,7 @@ scenario(
     [search("SFO", "ICN", "2027-02-02", {"ua": flight("UA", "11:00", [700]), "ke": flight("KE", "12:30", [705])},
             [("ua-economy", "ua", "ECONOMY", 113000), ("ua-business", "ua", "BUSINESS", 452000),
              ("ke-economy", "ke", "ECONOMY", 109000), ("ke-business", "ke", "BUSINESS", 434000)], background=0)],
-    expected("FLAG_FOR_APPROVAL", ["ke-business"], ["BUSINESS"], ["APPROVAL_REQUIRED"],
-             ["CHANCELLOR", "CHANCELLOR_DESIGNEE"], [*LOWEST, "DEFINITIONS", "RESPONSIBILITIES"]),
+    expected("FLAG_FOR_APPROVAL", ["ke-business"], ["BUSINESS"], ["APPROVAL_REQUIRED"], ["CHANCELLOR"], [*LOWEST, "DEFINITIONS", "RESPONSIBILITIES"]),
     ["chancellor", "delegation", "designee"], hidden={"wish": "business", "federal": False},
     overlays=["approval_required", "outside_air_section"], flag_twins=["orchid-ridge", "cobalt-sedge"],
     ambiguity="none: the words are clear; the Dean holds no written delegation from the Chancellor, so the written "

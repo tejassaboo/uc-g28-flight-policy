@@ -101,6 +101,14 @@ class ReasonCode(Enum):
     DEPENDENT_TRAVEL_FEDERAL_FUNDS = "DEPENDENT_TRAVEL_FEDERAL_FUNDS"
     PRIVATE_AIRCRAFT_NOT_APPROVED = "PRIVATE_AIRCRAFT_NOT_APPROVED"
     TRAVEL_PACKAGE_NOT_ITEMIZED = "TRAVEL_PACKAGE_NOT_ITEMIZED"
+    # Decoys: codes for rules of other handbooks that this one lacks, so the list hints at none of its own rules.
+    WEEKEND_TRAVEL_HOME = "WEEKEND_TRAVEL_HOME"
+    WEEKEND_TRIP_NOT_EARNED = "WEEKEND_TRIP_NOT_EARNED"
+    NEXT_OF_KIN_TRAVEL = "NEXT_OF_KIN_TRAVEL"
+    CREATIVE_TICKETING = "CREATIVE_TICKETING"
+    DENIED_BOARDING_NOT_ALLOWED = "DENIED_BOARDING_NOT_ALLOWED"
+    DOUBLE_BOOKING_PROHIBITED = "DOUBLE_BOOKING_PROHIBITED"
+    SAME_CLASS_AS_CUSTOMER = "SAME_CLASS_AS_CUSTOMER"
 
 
 class TripType(Enum):
@@ -311,7 +319,7 @@ class Trip(Output):
     origin: Annotated[Airport, "Where the trip's flight leaves from"]
     destination: Annotated[Airport, "Where the trip's flight goes"]
     depart_date: Annotated[str, "The day to leave, YYYY-MM-DD: the local date at the origin airport"]
-    return_date: Annotated[str, "The day to come back, YYYY-MM-DD; empty when no return is booked here"]
+    return_date: Annotated[str, "For a round-trip ticket, the day to fly back, YYYY-MM-DD, local at the destination; empty for a one-way ticket"]
     booking_date: Annotated[str, "Today in this world, the day the ticket is bought, YYYY-MM-DD"]
     purpose: Annotated[str, "Why the trip is made, in plain words"]
     fund_source: Annotated[str, "The account or award that pays for the airfare"]
