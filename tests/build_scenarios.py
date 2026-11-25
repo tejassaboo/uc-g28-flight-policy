@@ -834,7 +834,8 @@ scenario(
     [search("SFO", "ICN", "2027-02-02", {"ua": flight("UA", "11:00", [700]), "ke": flight("KE", "12:30", [705])},
             [("ua-economy", "ua", "ECONOMY", 113000), ("ua-business", "ua", "BUSINESS", 452000),
              ("ke-economy", "ke", "ECONOMY", 109000), ("ke-business", "ke", "BUSINESS", 434000)], background=0)],
-    expected("FLAG_FOR_APPROVAL", ["ke-business"], ["BUSINESS"], ["APPROVAL_REQUIRED"], ["CHANCELLOR"], [*LOWEST, "DEFINITIONS", "RESPONSIBILITIES"]),
+    expected("FLAG_FOR_APPROVAL", ["ke-business"], ["BUSINESS"], ["APPROVAL_REQUIRED", "APPROVER_NOT_AUTHORIZED"],
+             ["CHANCELLOR"], [*LOWEST, "DEFINITIONS", "RESPONSIBILITIES"]),
     ["chancellor", "delegation", "designee"], hidden={"wish": "business", "federal": False},
     overlays=["approval_required", "outside_air_section"], flag_twins=["orchid-ridge", "cobalt-sedge"],
     ambiguity="none: the words are clear; the Dean holds no written delegation from the Chancellor, so the written "

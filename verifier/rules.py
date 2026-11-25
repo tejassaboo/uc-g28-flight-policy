@@ -375,7 +375,10 @@ def business(trip, offers, bookable, federal, hidden):
                       "start is neither clearly overnight travel without rest nor clearly not.",
                       phrase=PHRASE_OVERNIGHT)
     if pending:
-        return answer(Decision.FLAG_FOR_APPROVAL, cheapest(premium), [ReasonCode.APPROVAL_REQUIRED], pending,
+        # The signer holds no written delegation (chancellor_authority), so APPROVER_NOT_AUTHORIZED names the reason
+        # the Chancellor's sign-off is awaited, beside APPROVAL_REQUIRED (validation w1v3, nimbus-reed).
+        return answer(Decision.FLAG_FOR_APPROVAL, cheapest(premium),
+                      [ReasonCode.APPROVAL_REQUIRED, ReasonCode.APPROVER_NOT_AUTHORIZED], pending,
                       [*LOWEST, Clause.RESPONSIBILITIES, Clause.DEFINITIONS],
                       f"No listed circumstance; {notes}. The traveller asked to hold the seat until it is settled.")
     if refused:

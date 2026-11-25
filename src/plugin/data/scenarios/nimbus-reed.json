@@ -114,7 +114,8 @@
       "BUSINESS"
     ],
     "reason_codes": [
-      "APPROVAL_REQUIRED"
+      "APPROVAL_REQUIRED",
+      "APPROVER_NOT_AUTHORIZED"
     ],
     "approvers": [
       "CHANCELLOR"
