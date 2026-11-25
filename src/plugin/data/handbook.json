@@ -8,7 +8,7 @@
   "raw_pdf_sha256": "76e41572b9cabcc72a6537bb33dddff7dcc18a007c76f2f17bdca9b800629613",
   "words": 20315,
   "lines": 2237,
-  "source": "University of California Office of the President, BFB G-28 Travel Regulations (policy.ucop.edu); the exact URL is not recorded in the originals index, the pinned raw copy is pilot_work/originals/uc-g28-expense-audit/bfb-g-28.pdf",
+  "source": "https://policy.ucop.edu/doc/3420365/BFB-G-28; byte-identical to the pinned raw PDF (sha256 checked 2026-11-25); University of California Office of the President, BFB G-28 Travel Regulations",
   "frozen_on": "2026-11-24",
   "scenario_count": 32,
   "currency": "USD",
