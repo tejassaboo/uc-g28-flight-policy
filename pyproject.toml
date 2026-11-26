@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nanoagent-uc-g28-flight-policy"
-version = "0.1.0"
+version = "0.1.1"
 description = "Book one flight under the University of California's verbatim G-28 travel regulations: a NanoAgent plugin"
 requires-python = ">=3.12"
 dependencies = ["mcp>=1.27,<2", "slimconfig"]
